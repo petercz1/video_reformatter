@@ -49,7 +49,7 @@ function get_codecs($fileinfo)
     $results = simplexml_load_string($results);
     $ns = $results->getNamespaces();
    echo $ns[''];
-    $results->registerXPathNamespace('ns', );
+    $results->registerXPathNamespace('ns', $ns['']);
     $audio_codec = $results->xpath("//ns:track[@type='Audio']/ns:Format");
     $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
     $codecs['filename'] = $fileinfo->getFilename();
