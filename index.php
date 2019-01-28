@@ -49,7 +49,7 @@ function get_codecs($fileinfo)
     $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
     echo ($audio_codec[0][0]) . PHP_EOL;
     echo ($video_codec[0][0]) . PHP_EOL;
-    return
+    return $codecs;
 }
 
 get_files($files);
