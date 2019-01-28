@@ -30,6 +30,7 @@ function get_files($files)
 function process_video($fileinfo)
 {
     $same_file = false;
+    $same_video = false;
     $codecs = get_codecs($fileinfo);
     $old_file_name = escapeshellarg($fileinfo->getPathname());
     echo php_EOL . 'PROCESSING ' . $old_file_name . PHP_EOL;
