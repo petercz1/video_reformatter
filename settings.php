@@ -16,3 +16,4 @@ $file_types = ['webm', 'mp4', 'avi', 'mkv'];
 $delete_on_conversion = false;
 
 // use debug.log?
+$debug = true;
