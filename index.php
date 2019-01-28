@@ -3,7 +3,7 @@ namespace chipbug\php_video_reformatter;
 
 require('settings.php');
 
-require('debug.php');
+if($debug)require('debug.php');
 
 function get_files($files)
 {
