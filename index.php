@@ -1,6 +1,7 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
+// 
 require('debug.php');
 
 //$files = '/media/pc/Transcend';
