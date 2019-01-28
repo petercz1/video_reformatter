@@ -44,3 +44,5 @@
 [28-Jan-2019 21:05:18 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 34
 [28-Jan-2019 21:05:18 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 34
 [28-Jan-2019 21:05:18 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 57
+[28-Jan-2019 21:05:55 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 63
+[28-Jan-2019 21:05:55 Asia/Hong_Kong] PHP Warning:  unlink('/media/dellserver/data/videos/series/temp/temp2/South Park.S09E02.Die Hippie, Die.avi'): No such file or directory in /home/pc/data/bin/utilities/video_reformatter/index.php on line 64
