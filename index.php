@@ -40,14 +40,14 @@ function process_video($fileinfo)
         $same_file = true;
     }
     if ($codecs['video']<> 'avc') {
-        echo 'video not avc, ';
+        echo 'video not avc...';
         $video_setting = "-c:v libx264";
     } else {
         $video_setting = "-c:v copy";
         $same_video = true;
     }
     if ($codecs['audio']<> 'aac') {
-        echo 'audio not aac, ';
+        echo 'audio not aac...';
         $audio_setting = "-c:a aac";
     } else {
         $audio_setting = "-c:a copy";
