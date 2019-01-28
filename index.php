@@ -30,6 +30,10 @@ function get_files($files)
     }
 }
 
+function FunctionName(Type $var = null)
+{
+    # code...
+}
 function get_codecs($fileinfo)
 {
     $video = escapeshellarg($fileinfo->getPathName());
