@@ -92,3 +92,32 @@ Stack trace:
 #1 /home/pc/data/bin/utilities/video_reformatter/index.php(57): chipbug\php_video_reformatter\get_files('/media/pc/Trans...')
 #2 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/index.php on line 12
+[28-Jan-2019 15:15:40 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:40 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:40 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:40 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:40 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:40 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:40 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:40 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:40 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:41 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:41 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:41 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:41 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:41 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 15:15:42 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getFile in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
