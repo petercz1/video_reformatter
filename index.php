@@ -27,7 +27,6 @@ function get_files($files)
     }
 }
 
-
 function process_video($fileinfo)
 {
     $same_file = false;
