@@ -2,3 +2,4 @@
 [28-Jan-2019 21:33:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: delete_on_conversion in /home/pc/data/bin/utilities/video_reformatter/index.php on line 68
 [28-Jan-2019 21:33:58 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 39
 [28-Jan-2019 21:34:02 Asia/Hong_Kong] PHP Notice:  Undefined variable: delete_on_conversion in /home/pc/data/bin/utilities/video_reformatter/index.php on line 68
+[28-Jan-2019 21:34:05 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 39
