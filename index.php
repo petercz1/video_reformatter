@@ -1,9 +1,10 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
-// uncomment this if you want to see debugging in debug.log
+// uncomment this if you want to see debugging in ./debug.log
 require('debug.php');
 
+// settings
 //$files = '/media/pc/Transcend';
 $files = '/media/dellserver/data/videos/series/temp';
 
