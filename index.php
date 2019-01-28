@@ -30,9 +30,10 @@ function get_files($files)
     }
 }
 
-function process_video(Type $var = null)
+function process_video($fileinfo)
 {
     # code...
+
 }
 function get_codecs($fileinfo)
 {
