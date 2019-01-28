@@ -1,18 +1,11 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
-require ('settings')
+require ('settings.php');
+
 // uncomment this if you want to see debugging in ./debug.log
 require('debug.php');
 
-// SETTINGS
-// location of your media
-//$files = '/media/pc/Transcend';
-$files = '/media/dellserver/data/videos/series/temp';
-
-// delete original file after conversion - set to 'true'
-// WARNING - you are responsible for making sure you have enough space available!
-$delete_on_conversion = false;
 
 function get_files($files)
 {
