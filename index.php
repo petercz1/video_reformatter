@@ -39,7 +39,7 @@ function process_video($fileinfo)
     }
     if ($codecs['video']<> 'avc') {
         echo 'converting for avc' . PHP_EOL;
-        $video
+        $video_setting = "-c"
     }
     if ($codecs['audio']<> 'aac') {
         echo 'converting for aac' . PHP_EOL;
