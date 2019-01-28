@@ -21,15 +21,8 @@ function get_files($files)
         $ext = strtolower(pathinfo($fileinfo->getPathname(), PATHINFO_EXTENSION));
         // select video containers to process: mkv/mp4/avi/webm
         if (in_array($ext, $filetypes)){
-            
-        }
-        switch ($ext) {
-            case 'mkv':
-            case 'mp4':
-            case 'avi':
-            case 'webm':
             process_video($fileinfo);
-            break;
+
         }
     }
 }
