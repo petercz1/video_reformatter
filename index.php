@@ -39,7 +39,7 @@ function process_video($fileinfo)
 	$results = simplexml_load_string($results);
 	$results->registerXPathNamespace('ns', 'https://mediaarea.net/mediainfo');
     $audio = $results->xpath("//ns:track[@type='Audio']/ns:Format");
-    var_dump($audio);
+    print_R($audio);
 }
 
 get_files($files);
