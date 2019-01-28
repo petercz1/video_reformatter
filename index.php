@@ -62,7 +62,6 @@ function process_video($fileinfo)
         unlink(escapeshellarg($fileinfo->getPathname()));
     }
     print_r($results);
-
 }
 
 
