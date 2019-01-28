@@ -3,6 +3,7 @@ namespace chipbug\php_video_reformatter;
 
 // SETTINGS
 // location of your media
+// $files = 
 //$files = '/media/pc/Transcend';
 $files = '/media/dellserver/data/videos/series/temp';
 
