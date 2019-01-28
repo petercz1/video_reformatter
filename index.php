@@ -61,7 +61,7 @@ function process_video($fileinfo)
         //print_r($results);
     }
     if ((!($same_video && $same_audio && $same_file && $delete_on_conversion) {
-        unlink(escapeshellarg($fileinfo->getPathname());
+        unlink(escapeshellarg($fileinfo->getPathname()))
     }
 }
 
