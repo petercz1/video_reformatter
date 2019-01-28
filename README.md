@@ -10,4 +10,4 @@ I've done a (little) bit of research and the state of my knowledge is as follows
 
 2) the video and audio format inside is also important.
 
-So the 
+So as I understand it the most common
