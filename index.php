@@ -22,7 +22,7 @@ function get_files($files)
         $ext = strtolower(pathinfo($fileinfo->getPathname(), PATHINFO_EXTENSION));
         // select video containers to process: mkv/mp4/avi/webm
         if (in_array($ext, $file_types)) {
-            //process_video($fileinfo);
+            process_video($fileinfo);
         }
     }
 }
@@ -56,7 +56,6 @@ function process_video($fileinfo)
 
 function get_codecs($fileinfo)
 {
-    echo 'getting codecs';
     $video = escapeshellarg($fileinfo->getPathName());
     //echo $video . PHP_EOL;
     $cmd = 'mediainfo --Output=XML ' . $video;
