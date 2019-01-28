@@ -55,7 +55,7 @@ function get_codecs($fileinfo)
     $codecs['filename'] = $fileinfo->getFilename();
     $codecs['container'] =  strtolower(pathinfo($fileinfo->getPathname(), PATHINFO_EXTENSION));
     $codecs['video'] =  strtolower($video_codec[0][0]->__toString());
-    $codecs['audio'] = ($audio_codec[0][0]->__toString());
+    $codecs['audio'] = strtolower($audio_codec[0][0]->__toString());
     return $codecs;
 }
 
