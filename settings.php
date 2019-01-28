@@ -1,5 +1,5 @@
 <?php 
-namespace chipbug\testing;
+namespace chipbug\php_;
 
 error_reporting(E_ALL);
 ini_set('log_errors', 1);
