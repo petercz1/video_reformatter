@@ -59,7 +59,11 @@ function process_video($fileinfo)
         $results = shell_exec($cmd);
         //unlink(escapeshellarg($fileinfo->getPathname()));
     }
+    if (!($same_video && $same_audio && $same_file)) {
+        
+    }
     print_r($results);
+
 }
 
 
