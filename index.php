@@ -49,9 +49,9 @@ function process_video($fileinfo)
     }else{
         $audio_setting = "-c:a copy";
     }
-    $cmd = "ffmpeg -i $codecs['filename'] $video_setting $audio_setting out.$extension_setting";
+    $cmd = "ffmpeg -i $codecs['filename'] $video_setting $audio_setting ";
 
-    
+
 
     # code...
 }
