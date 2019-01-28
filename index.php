@@ -54,7 +54,7 @@ function process_video($fileinfo)
         $same_audio = true;
     }
     echo PHP_EOL . 'NEW FILE NAME: ' . $new_file_name;
-    if (!($same_video || $same_audio || $same_file)) {
+    if (!($same_video && $same_audio && $same_file)) {
         $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $new_file_name";
         echo $cmd;
         $results = shell_exec($cmd);
