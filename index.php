@@ -32,6 +32,12 @@ function process_video($fileinfo)
     if($codecs['container']<> 'mp4'){
         echo 'converting for mp4' . PHP_EOL;
     }
+    if($codecs['video']<> 'mp4'){
+        echo 'converting for mp4' . PHP_EOL;
+    }
+    if($codecs['container']<> 'mp4'){
+        echo 'converting for mp4' . PHP_EOL;
+    }
     # code...
 }
 
