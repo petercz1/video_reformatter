@@ -32,3 +32,4 @@ Stack trace:
 [28-Jan-2019 23:17:34 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
 [28-Jan-2019 23:17:36 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
 [28-Jan-2019 23:18:06 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
+[28-Jan-2019 23:18:44 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
