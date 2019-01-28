@@ -53,14 +53,14 @@ function process_video($fileinfo)
         $audio_setting = "-c:a copy";
         $same_audio = true;
     }
-    $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $new_file_name";
     echo $cmd;
     if (!($same_video && $same_audio && $same_file)) {
+        $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $new_file_name";
         echo 'running...';
         $results = shell_exec($cmd);
     }
     print_r($results);
-    
+
 }
 
 function get_codecs($fileinfo)
