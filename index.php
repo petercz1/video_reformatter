@@ -32,10 +32,10 @@ function process_video($fileinfo)
     if($codecs['container']<> 'mp4'){
         echo 'converting for mp4' . PHP_EOL;
     }
-    if($codecs['video']<> 'AVC'){
+    if($codecs['video']<> 'avc'){
         echo 'converting for AVC' . PHP_EOL;
     }
-    if($codecs['audio']<> 'AAC'){
+    if($codecs['audio']<> 'aac'){
         echo 'converting for AAC' . PHP_EOL;
     }
     # code...
