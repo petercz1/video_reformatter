@@ -30,6 +30,7 @@ function get_files($files)
     }
 }
 
+
 function process_video($fileinfo)
 {
     $video = escapeshellarg($fileinfo->getPathName());
