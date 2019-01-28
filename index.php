@@ -9,7 +9,7 @@ if ($debug) {
 
 function get_files($files)
 {
-    echo 'getting files';
+    echo 'get_files';
     global $file_types;
     foreach (new \DirectoryIterator($files) as $fileinfo) {
         // skip dot files
@@ -30,6 +30,7 @@ function get_files($files)
 
 function process_video($fileinfo)
 {
+    echo 'process_video';
     $same_file = false;
     $same_video = false;
     $same_audio = false;
