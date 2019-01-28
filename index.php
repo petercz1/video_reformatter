@@ -48,8 +48,8 @@ function get_codecs($fileinfo)
     $results = shell_exec($cmd);
     $results = simplexml_load_string($results);
     $ns = $results->getNamespaces();
-   echo $ns['']);
-    $results->registerXPathNamespace('ns', 'https://mediaarea.net/mediainfo');
+   echo $ns[''];
+    $results->registerXPathNamespace('ns', );
     $audio_codec = $results->xpath("//ns:track[@type='Audio']/ns:Format");
     $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
     $codecs['filename'] = $fileinfo->getFilename();
