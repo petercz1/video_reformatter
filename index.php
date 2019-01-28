@@ -48,8 +48,8 @@ function get_codecs($fileinfo)
     $results->registerXPathNamespace('ns', 'https://mediaarea.net/mediainfo');
     $audio_codec = $results->xpath("//ns:track[@type='Audio']/ns:Format");
     $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
-    $codecs[] = ($audio_codec[0][0]) . PHP_EOL;
     $codecs[] =  ($video_codec[0][0]) . PHP_EOL;
+    $codecs[] = ($audio_codec[0][0]) . PHP_EOL;
     print_r($codecs);
     return $codecs;
 }
