@@ -24,7 +24,9 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 * mediainfo
 * php 7.x
 
-copy the files into  a directory of your choice.
+## installation
+
+* copy the files into  a directory of your choice.
 
 
 
