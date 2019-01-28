@@ -196,3 +196,13 @@ Stack trace:
 #3 /home/pc/data/bin/utilities/video_reformatter/index.php(62): chipbug\php_video_reformatter\get_files('/media/dellserv...')
 #4 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/index.php on line 57
+[28-Jan-2019 15:42:17 Asia/Hong_Kong] PHP Warning:  Use of undefined constant in - assumed 'in' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 23
+[28-Jan-2019 15:42:17 Asia/Hong_Kong] PHP Warning:  Use of undefined constant in - assumed 'in' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 23
+[28-Jan-2019 15:42:17 Asia/Hong_Kong] PHP Warning:  Use of undefined constant in - assumed 'in' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 23
+[28-Jan-2019 15:42:17 Asia/Hong_Kong] PHP Warning:  Use of undefined constant in - assumed 'in' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 23
+[28-Jan-2019 15:42:17 Asia/Hong_Kong] PHP Warning:  Use of undefined constant in - assumed 'in' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 23
+[28-Jan-2019 15:42:21 Asia/Hong_Kong] PHP Warning:  in_array() expects at least 2 parameters, 0 given in /home/pc/data/bin/utilities/video_reformatter/index.php on line 23
+[28-Jan-2019 15:42:21 Asia/Hong_Kong] PHP Warning:  in_array() expects at least 2 parameters, 0 given in /home/pc/data/bin/utilities/video_reformatter/index.php on line 23
+[28-Jan-2019 15:42:21 Asia/Hong_Kong] PHP Warning:  in_array() expects at least 2 parameters, 0 given in /home/pc/data/bin/utilities/video_reformatter/index.php on line 23
+[28-Jan-2019 15:42:21 Asia/Hong_Kong] PHP Warning:  in_array() expects at least 2 parameters, 0 given in /home/pc/data/bin/utilities/video_reformatter/index.php on line 23
+[28-Jan-2019 15:42:21 Asia/Hong_Kong] PHP Warning:  in_array() expects at least 2 parameters, 0 given in /home/pc/data/bin/utilities/video_reformatter/index.php on line 23
