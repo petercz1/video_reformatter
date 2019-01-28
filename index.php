@@ -39,13 +39,14 @@ function process_video($fileinfo)
         $same_file = true;
     }
     if ($codecs['video']<> 'avc') {
-        echo 'vinot avc, ';
+        echo 'video not avc, ';
         $video_setting = "-c:v libx264";
     } else {
         $video_setting = "-c:v copy";
         $same_video = true;
     }
     if ($codecs['audio']<> 'aac') {
+        echo 'video not avc, ';
         $audio_setting = "-c:a aac";
     } else {
         $audio_setting = "-c:a copy";
