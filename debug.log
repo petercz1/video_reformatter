@@ -42,3 +42,5 @@
 [28-Jan-2019 19:03:55 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 54
 [28-Jan-2019 19:03:55 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_audio in /home/pc/data/bin/utilities/video_reformatter/index.php on line 54
 [28-Jan-2019 19:03:55 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_file in /home/pc/data/bin/utilities/video_reformatter/index.php on line 54
+[28-Jan-2019 19:07:11 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 59
+[28-Jan-2019 19:07:11 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_audio in /home/pc/data/bin/utilities/video_reformatter/index.php on line 59
