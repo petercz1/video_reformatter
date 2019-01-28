@@ -47,7 +47,7 @@ function process_video($fileinfo)
         echo 'converting for aac' . PHP_EOL;
         $audio_setting = "";
     }else{
-        
+        $audio_setting = "-c"
     }
     //$cmd = "ffmpeg -i $codecs['filename'] $video_setting $audio_setting out.$extension_setting";
 
