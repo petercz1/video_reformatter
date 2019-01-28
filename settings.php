@@ -6,7 +6,7 @@ namespace chipbug\php_video_reformatter;
 // $files = '/yourmedia/videos';
 
 //$files = '/media/pc/Transcend';
-$files = '/media/dellserver/data/videos/series/temp/temp';
+$files = '/media/dellserver/data/videos/series/temp/temp3';
 
 // filetypes to scan for
 $file_types = ['webm', 'mp4', 'avi', 'mkv'];

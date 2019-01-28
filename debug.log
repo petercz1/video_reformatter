@@ -122,3 +122,9 @@ Stack trace:
 [28-Jan-2019 21:28:14 Asia/Hong_Kong] PHP Notice:  Undefined variable: delete_on_conversion in /home/pc/data/bin/utilities/video_reformatter/index.php on line 66
 [28-Jan-2019 21:28:14 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 37
 [28-Jan-2019 21:28:18 Asia/Hong_Kong] PHP Notice:  Undefined variable: delete_on_conversion in /home/pc/data/bin/utilities/video_reformatter/index.php on line 66
+[28-Jan-2019 21:29:08 Asia/Hong_Kong] PHP Fatal error:  Uncaught UnexpectedValueException: DirectoryIterator::__construct(/media/dellserver/data/videos/series/temp/temp): failed to open dir: No such file or directory in /home/pc/data/bin/utilities/video_reformatter/index.php:13
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/index.php(13): DirectoryIterator->__construct('/media/dellserv...')
+#1 /home/pc/data/bin/utilities/video_reformatter/index.php(90): chipbug\php_video_reformatter\get_files('/media/dellserv...')
+#2 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/index.php on line 13
