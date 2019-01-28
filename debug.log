@@ -61,3 +61,7 @@ Stack trace:
 [28-Jan-2019 18:14:52 Asia/Hong_Kong] PHP Notice:  Undefined variable: results in /home/pc/data/bin/utilities/video_reformatter/index.php on line 62
 [28-Jan-2019 18:14:52 Asia/Hong_Kong] PHP Notice:  Undefined variable: cmd in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
 [28-Jan-2019 18:14:52 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 57
+[28-Jan-2019 18:18:06 Asia/Hong_Kong] PHP Warning:  unlink('/media/dellserver/data/videos/series/temp/temp2/South Park.S09E02.Die Hippie, Die.avi'): No such file or directory in /home/pc/data/bin/utilities/video_reformatter/index.php on line 60
+[28-Jan-2019 18:18:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: cmd in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
+[28-Jan-2019 18:18:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_file in /home/pc/data/bin/utilities/video_reformatter/index.php on line 57
+[28-Jan-2019 18:18:11 Asia/Hong_Kong] PHP Warning:  unlink('/media/dellserver/data/videos/series/temp/temp2/S11E07 The Geology Methodology.mkv'): No such file or directory in /home/pc/data/bin/utilities/video_reformatter/index.php on line 60
