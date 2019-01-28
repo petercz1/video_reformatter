@@ -21,3 +21,12 @@
 [28-Jan-2019 21:50:11 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
 [28-Jan-2019 21:50:11 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
 [28-Jan-2019 21:53:40 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
+[28-Jan-2019 21:54:09 Asia/Hong_Kong] PHP Notice:  Undefined variable: files in /home/pc/data/bin/utilities/video_reformatter/index.php on line 94
+[28-Jan-2019 21:54:09 Asia/Hong_Kong] PHP Fatal error:  Uncaught RuntimeException: Directory name must not be empty. in /home/pc/data/bin/utilities/video_reformatter/index.php:14
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/index.php(14): DirectoryIterator->__construct('')
+#1 /home/pc/data/bin/utilities/video_reformatter/index.php(94): chipbug\php_video_reformatter\get_files(NULL)
+#2 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/index.php on line 14
+[28-Jan-2019 21:54:11 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
+[28-Jan-2019 23:17:34 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
