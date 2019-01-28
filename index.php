@@ -45,7 +45,8 @@ function get_codecs($fileinfo)
 	$results = simplexml_load_string($results);
 	$results->registerXPathNamespace('ns', 'https://mediaarea.net/mediainfo');
     $audio_codec = $results->xpath("//ns:track[@type='Audio']/ns:Format");
-    $video_codec = $results->xpath("//ns:track[@type='Audio']/ns:Format");
+    $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
+    echo ($audio[0][0]) . PHP_EOL;
     echo ($audio[0][0]) . PHP_EOL;
 
 }
