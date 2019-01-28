@@ -5,8 +5,11 @@ namespace chipbug\php_video_reformatter;
 require('debug.php');
 
 // settings
+// location of your media
 //$files = '/media/pc/Transcend';
 $files = '/media/dellserver/data/videos/series/temp';
+// delete original file after conversion
+
 
 function get_files($files)
 {
