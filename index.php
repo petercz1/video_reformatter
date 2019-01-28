@@ -30,7 +30,7 @@ function get_files($files)
     }
 }
 
-function FunctionName(Type $var = null)
+function process_video(Type $var = null)
 {
     # code...
 }
