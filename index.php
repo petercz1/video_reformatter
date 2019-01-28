@@ -30,7 +30,6 @@ function get_files($files)
 function process_video($fileinfo)
 {
     $codecs = get_codecs($fileinfo);
-    print_r($codecs);
     $old_file_name = escapeshellarg($fileinfo->getPathname());
     if ($codecs['container']<> 'mp4') {
         echo 'converting for mp4' . PHP_EOL;
