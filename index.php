@@ -41,7 +41,7 @@ function process_video($fileinfo)
         echo 'converting for avc' . PHP_EOL;
         $video_setting = "-c:v libx264";
     }else{
-        $vid
+        $video_setting = "-c"
     }
     if ($codecs['audio']<> 'aac') {
         echo 'converting for aac' . PHP_EOL;
