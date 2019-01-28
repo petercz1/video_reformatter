@@ -74,3 +74,8 @@ Stack trace:
 #0 /home/pc/data/bin/utilities/video_reformatter/index.php(56): chipbug\php_video_reformatter\get_files('/media/dellserv...')
 #1 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/index.php on line 12
+[28-Jan-2019 14:36:33 Asia/Hong_Kong] PHP Fatal error:  Uncaught Error: Class 'chipbug\php_video_reformatter\DirectoryIterator' not found in /home/pc/data/bin/utilities/video_reformatter/index.php:12
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/index.php(57): chipbug\php_video_reformatter\get_files('/media/dellserv...')
+#1 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/index.php on line 12
