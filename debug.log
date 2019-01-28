@@ -49,3 +49,11 @@ Stack trace:
 [28-Jan-2019 18:13:48 Asia/Hong_Kong] PHP Notice:  Undefined variable: results in /home/pc/data/bin/utilities/video_reformatter/index.php on line 62
 [28-Jan-2019 18:13:48 Asia/Hong_Kong] PHP Notice:  Undefined variable: cmd in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
 [28-Jan-2019 18:13:48 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 57
+[28-Jan-2019 18:14:28 Asia/Hong_Kong] PHP Warning:  unlink() expects at least 1 parameter, 0 given in /home/pc/data/bin/utilities/video_reformatter/index.php on line 60
+[28-Jan-2019 18:14:28 Asia/Hong_Kong] PHP Notice:  Undefined variable: cmd in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
+[28-Jan-2019 18:14:28 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_file in /home/pc/data/bin/utilities/video_reformatter/index.php on line 57
+[28-Jan-2019 18:14:30 Asia/Hong_Kong] PHP Warning:  unlink() expects at least 1 parameter, 0 given in /home/pc/data/bin/utilities/video_reformatter/index.php on line 60
+[28-Jan-2019 18:14:30 Asia/Hong_Kong] PHP Notice:  Undefined variable: cmd in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
+[28-Jan-2019 18:14:30 Asia/Hong_Kong] PHP Notice:  Undefined variable: results in /home/pc/data/bin/utilities/video_reformatter/index.php on line 62
+[28-Jan-2019 18:14:30 Asia/Hong_Kong] PHP Notice:  Undefined variable: cmd in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
+[28-Jan-2019 18:14:30 Asia/Hong_Kong] PHP Notice:  Undefined variable: results in /home/pc/data/bin/utilities/video_reformatter/index.php on line 62
