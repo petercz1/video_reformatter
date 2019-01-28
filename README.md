@@ -20,4 +20,4 @@ Hence I wrote the following to recursively find all my video files on my usb, th
 
 ## installation
 
-this is built on a
+this is built on a linux box (Ubuntu )
