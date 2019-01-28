@@ -1,7 +1,7 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
-require('settings.php');
+require('debug.php');
 
 //$files = '/media/pc/Transcend';
 $files = '/media/dellserver/data/videos/series/temp';
