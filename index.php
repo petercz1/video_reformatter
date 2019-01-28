@@ -2,7 +2,7 @@
 namespace chipbug\php_video_reformatter;
 
 require('settings.php');
-echo $file_types
+print_R() $file_types;
 
 // uncomment this if you want to see debugging in ./debug.log
 require('debug.php');
