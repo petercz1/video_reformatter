@@ -51,8 +51,6 @@ function process_video($fileinfo)
     }
     $cmd = "ffmpeg -i {$codecs['filename']} $video_setting $audio_setting $new_file_name";
     echo $cmd;
-
-
     # code...
 }
 
