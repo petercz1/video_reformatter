@@ -10,7 +10,7 @@ require('debug.php');
 $files = '/media/dellserver/data/videos/series/temp';
 // delete original file after conversion
 // WARNING - you are responsible for making sure you have enough space available!
-$delete
+$delete_on_conversion = false;
 
 function get_files($files)
 {
