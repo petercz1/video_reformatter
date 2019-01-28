@@ -8,7 +8,7 @@ require('debug.php');
 
 function get_files($files)
 {
-    global $filetypes;
+    global $file_types;
     foreach (new \DirectoryIterator($files) as $fileinfo) {
         // skip dot files
         if ($fileinfo->isDot()) {
