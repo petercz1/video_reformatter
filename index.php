@@ -32,21 +32,18 @@ function process_video($fileinfo)
     $codecs = get_codecs($fileinfo);
     $old_file_name = escapeshellarg($fileinfo->getPathname());
     if ($codecs['container']<> 'mp4') {
-        echo 'converting for mp4' . PHP_EOL;
         $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($codecs['container']) . '.mp4');
     } else {
         $new_file_name = escapeshellarg($fileinfo->getPathname());
         $same_file = true;
     }
     if ($codecs['video']<> 'avc') {
-        echo 'converting for avc' . PHP_EOL;
         $video_setting = "-c:v libx264";
     }else{
         $video_setting = "-c:v copy";
         $same_video = true;
     }
     if ($codecs['audio']<> 'aac') {
-        echo 'converting for aac' . PHP_EOL;
         $audio_setting = "-c:a aac";
     }else{
         $audio_setting = "-c:a copy";
