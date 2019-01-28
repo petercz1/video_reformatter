@@ -39,13 +39,13 @@ function process_video($fileinfo)
     }
     if ($codecs['video']<> 'avc') {
         $video_setting = "-c:v libx264";
-    }else{
+    } else {
         $video_setting = "-c:v copy";
         $same_video = true;
     }
     if ($codecs['audio']<> 'aac') {
         $audio_setting = "-c:a aac";
-    }else{
+    } else {
         $audio_setting = "-c:a copy";
         $same_audio = true;
     }
@@ -54,7 +54,7 @@ function process_video($fileinfo)
         $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $new_file_name";
         $results = shell_exec($cmd);
     }
-    if ((!($same_video || $same_audio || $same_file )&& $delete_on_conversion)) {
+    if ((!($same_video || $same_audio || $same_file)&& $delete_on_conversion)) {
         unlink(escapeshellarg($fileinfo->getPathname()));
     }
     print_r($results);
