@@ -51,7 +51,7 @@ function get_codecs($fileinfo)
     $audio_codec = $results->xpath("//ns:track[@type='Audio']/ns:Format");
     $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
     $codecs['filename'] = $fileinfo->getFilename();  
-    $codecs['ext'] =  strtolower(pathinfo($fileinfo->getPathname(), PATHINFO_EXTENSION));  
+    $codecs['container'] =  strtolower(pathinfo($fileinfo->getPathname(), PATHINFO_EXTENSION));  
     $codecs['video'] =  ($video_codec[0][0]->__toString());
     $codecs['audio'] = ($audio_codec[0][0]->__toString());
     return $codecs;
