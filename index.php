@@ -1,7 +1,7 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
-// uncomment this if you want to 
+// uncomment this if you want 
 require('debug.php');
 
 //$files = '/media/pc/Transcend';
