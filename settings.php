@@ -1,5 +1,5 @@
 <?php 
-namespace chipbug\php_;
+namespace chipbug\php_video_reformatter;
 
 error_reporting(E_ALL);
 ini_set('log_errors', 1);
