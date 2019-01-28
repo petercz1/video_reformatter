@@ -31,7 +31,8 @@ function process_video($fileinfo)
 {
     $codecs = get_codecs($fileinfo);
     $old_file_name = escapeshellarg($fileinfo->getPathname());
-    echo 'PROCESSING ' . $old_file_name . PHP_EOL;
+    echo 'PROCESSING ' . 
+    echo $old_file_name . PHP_EOL;
     if ($codecs['container']<> 'mp4') {
         $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($codecs['container']) . '.mp4');
     } else {
@@ -50,7 +51,6 @@ function process_video($fileinfo)
         $audio_setting = "-c:a copy";
         $same_audio = true;
     }
-    echo 'NEW FILE'
     // if 
     if (!($same_video || $same_audio || $same_file)) {
         $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $new_file_name";
@@ -62,7 +62,6 @@ function process_video($fileinfo)
         unlink(escapeshellarg($fileinfo->getPathname()));
     }
 }
-
 
 function get_codecs($fileinfo)
 {
