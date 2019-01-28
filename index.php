@@ -37,6 +37,7 @@ function process_video($fileinfo)
         $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($codecs['container']) . '.mp4');
     } else {
         $new_file_name = escapeshellarg($fileinfo->getPathname());
+        $same
     }
     if ($codecs['video']<> 'avc') {
         echo 'converting for avc' . PHP_EOL;
