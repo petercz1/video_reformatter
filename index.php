@@ -56,11 +56,11 @@ function process_video($fileinfo)
     $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $new_file_name";
     echo $cmd;
     if (!($same_video && $same_audio && $same_file)) {
+        echo 'running'
         $results = shell_exec($cmd);
     }
     print_r($results);
 }
-
 
 function get_codecs($fileinfo)
 {
