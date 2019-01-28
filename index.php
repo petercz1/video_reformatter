@@ -22,7 +22,6 @@ function get_files($files)
         // select video containers to process: mkv/mp4/avi/webm
         if (in_array($ext, $file_types)){
             process_video($fileinfo);
-
         }
     }
 }
