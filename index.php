@@ -34,7 +34,7 @@ function process_video($fileinfo)
     $old_file_name = escapeshellarg($fileinfo->getFilename());
     if ($codecs['container']<> 'mp4') {
         echo 'converting for mp4' . PHP_EOL;
-        $new_file_name = $fileinfo->getBasename($codecs['container']) . '.mp4';
+        $new_file_name = escapeshellarg($fileinfo->getBasename($codecs['container']) . '.mp4';
     } else {
         $new_file_name = $fileinfo->getFilename();
     }
@@ -50,7 +50,7 @@ function process_video($fileinfo)
     }else{
         $audio_setting = "-c:a copy";
     }
-    $cmd = "ffmpeg -i $old $video_setting $audio_setting $new_file_name";
+    $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $new_file_name";
     echo $cmd;
     # code...
 }
