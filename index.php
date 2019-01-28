@@ -52,7 +52,7 @@ function process_video($fileinfo)
     }
     $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $new_file_name";
     echo $cmd;
-    $results = shell_exec()
+    $results = shell_exec($cmd);
     # code...
 }
 
