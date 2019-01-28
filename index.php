@@ -33,9 +33,10 @@ function get_files($files)
 
 function process_video($fileinfo)
 {
-    $codecs = get_codecs();
+    $codecs = get_codecs($fileinfo);
     # code...
 }
+
 function get_codecs($fileinfo)
 {
     $video = escapeshellarg($fileinfo->getPathName());
