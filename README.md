@@ -1,4 +1,3 @@
-new repo for video_reformatter
 
 # a php video reformatter
 
@@ -24,4 +23,5 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * ffmpeg
 * mediainfo
-* php 7.
+* php 7.x
+
