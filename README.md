@@ -13,3 +13,4 @@ I've done a (little) bit of research and the state of my knowledge is as follows
 So as I understand it the most widely playable formats for TV usb seem to be as follows:
 
 * container: mp4
+* video
