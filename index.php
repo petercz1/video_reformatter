@@ -9,7 +9,7 @@ require('debug.php');
 //$files = '/media/pc/Transcend';
 $files = '/media/dellserver/data/videos/series/temp';
 // delete original file after conversion
-
+// WARNING - you are responsible for making sure you have enough space
 
 function get_files($files)
 {
