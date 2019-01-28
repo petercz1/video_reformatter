@@ -9,7 +9,7 @@ $files = '/media/dellserver/data/videos/series/temp';
 function get_files($files)
 {
     global $filetypes;
-    foreach (new DirectoryIterator($files) as $fileinfo) {
+    foreach (new \DirectoryIterator($files) as $fileinfo) {
         // skip dot files
         if ($fileinfo->isDot()) {
             continue;
