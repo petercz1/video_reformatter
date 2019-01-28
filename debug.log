@@ -53,3 +53,4 @@ Stack trace:
 [28-Jan-2019 23:49:31 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
 [28-Jan-2019 23:54:39 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
 [28-Jan-2019 23:55:53 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
+[29-Jan-2019 00:00:52 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 40
