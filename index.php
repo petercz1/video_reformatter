@@ -50,10 +50,12 @@ function process_video($fileinfo)
         $same_audio = true;
     }
     echo $cmd;
+    // 
     if (!($same_video || $same_audio || $same_file)) {
         $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $new_file_name";
         $results = shell_exec($cmd);
     }
+
     if ((!($same_video || $same_audio || $same_file)&& $delete_on_conversion)) {
         unlink(escapeshellarg($fileinfo->getPathname()));
     }
