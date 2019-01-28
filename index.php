@@ -36,7 +36,7 @@ function process_video($fileinfo)
         echo 'file not mp4...';
         $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($codecs['container']) . 'mp4');
     } else {
-        $new_file_name = escapeshellarg($fileinfo->getPath());
+        $new_file_name = escapeshellarg($fileinfo->getPath(). 'new.mp4');
         $same_file = true;
     }
     if ($codecs['video']<> 'avc') {
@@ -64,6 +64,7 @@ function process_video($fileinfo)
         unlink(escapeshellarg($fileinfo->getPathname()));
     }
 }
+
 
 function get_codecs($fileinfo)
 {
