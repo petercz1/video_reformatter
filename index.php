@@ -33,9 +33,8 @@ function get_files($files)
 
 function process_video($fileinfo)
 {
-$codecs = get_codecs();
+    $codecs = get_codecs();
     # code...
-
 }
 function get_codecs($fileinfo)
 {
@@ -43,8 +42,8 @@ function get_codecs($fileinfo)
     //echo $video . PHP_EOL;
     $cmd = 'mediainfo --Output=XML ' . $video;
     $results = shell_exec($cmd);
-	$results = simplexml_load_string($results);
-	$results->registerXPathNamespace('ns', 'https://mediaarea.net/mediainfo');
+    $results = simplexml_load_string($results);
+    $results->registerXPathNamespace('ns', 'https://mediaarea.net/mediainfo');
     $audio_codec = $results->xpath("//ns:track[@type='Audio']/ns:Format");
     $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
     $codecs[] = ($audio_codec[0][0]) . PHP_EOL;
