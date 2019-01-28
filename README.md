@@ -30,4 +30,3 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 * adjust settings in settings.php
 * run with `php index.php`
 * watch for problems in debug.log
-
