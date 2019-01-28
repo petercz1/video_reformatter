@@ -155,3 +155,9 @@ Stack trace:
 #3 /home/pc/data/bin/utilities/video_reformatter/index.php(61): chipbug\php_video_reformatter\get_files('/media/dellserv...')
 #4 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
+[28-Jan-2019 15:35:45 Asia/Hong_Kong] PHP Notice:  Undefined offset: 0 in /home/pc/data/bin/utilities/video_reformatter/index.php on line 50
+[28-Jan-2019 15:35:45 Asia/Hong_Kong] PHP Notice:  Undefined offset: 0 in /home/pc/data/bin/utilities/video_reformatter/index.php on line 50
+[28-Jan-2019 15:35:45 Asia/Hong_Kong] PHP Notice:  Undefined offset: 0 in /home/pc/data/bin/utilities/video_reformatter/index.php on line 50
+[28-Jan-2019 15:35:50 Asia/Hong_Kong] PHP Notice:  Undefined offset: 0 in /home/pc/data/bin/utilities/video_reformatter/index.php on line 50
+[28-Jan-2019 15:35:50 Asia/Hong_Kong] PHP Notice:  Undefined offset: 0 in /home/pc/data/bin/utilities/video_reformatter/index.php on line 50
+[28-Jan-2019 15:35:50 Asia/Hong_Kong] PHP Notice:  Undefined offset: 0 in /home/pc/data/bin/utilities/video_reformatter/index.php on line 50
