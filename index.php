@@ -57,7 +57,7 @@ function process_video($fileinfo)
     if (!($same_video && $same_audio && $same_file)) {
         $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $new_file_name";
         $results = shell_exec($cmd);
-        unlink(escapeshellarg($fileinfo->getPathname()));
+        //unlink(escapeshellarg($fileinfo->getPathname()));
     }
     print_r($results);
 }
