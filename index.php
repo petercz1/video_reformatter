@@ -66,7 +66,7 @@ function process_video($fileinfo)
         //print_r($results);
     }
     if ( $delete_on_conversion) {
-        echo 'deleting: ' . 
+        echo 'deleting: ' . escapeshellarg($fileinfo->getPathname());
         unlink(escapeshellarg($fileinfo->getPathname()));
     }
 }
