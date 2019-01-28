@@ -27,6 +27,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 ## installation
 
 * copy the files into  a directory of your choice.
+
 * run with 'php index.php'
 * watch for problems in debug.log
 
