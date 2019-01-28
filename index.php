@@ -57,7 +57,7 @@ function process_video($fileinfo)
 
 function get_codecs($fileinfo)
 {
-    echo ''
+    echo 'getting codecs';
     $video = escapeshellarg($fileinfo->getPathName());
     //echo $video . PHP_EOL;
     $cmd = 'mediainfo --Output=XML ' . $video;
