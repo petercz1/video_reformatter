@@ -8,3 +8,9 @@
 [28-Jan-2019 16:52:27 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 58
 [28-Jan-2019 16:52:27 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_file in /home/pc/data/bin/utilities/video_reformatter/index.php on line 58
 [28-Jan-2019 16:53:28 Asia/Hong_Kong] PHP Notice:  Undefined variable: results in /home/pc/data/bin/utilities/video_reformatter/index.php on line 62
+[28-Jan-2019 16:55:32 Asia/Hong_Kong] PHP Notice:  Undefined variable: cmd in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
+[28-Jan-2019 16:55:32 Asia/Hong_Kong] PHP Notice:  Undefined variable: results in /home/pc/data/bin/utilities/video_reformatter/index.php on line 62
+[28-Jan-2019 16:55:32 Asia/Hong_Kong] PHP Notice:  Undefined variable: cmd in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
+[28-Jan-2019 16:55:32 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 57
+[28-Jan-2019 16:55:32 Asia/Hong_Kong] PHP Notice:  Undefined variable: cmd in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
+[28-Jan-2019 16:55:32 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_file in /home/pc/data/bin/utilities/video_reformatter/index.php on line 57
