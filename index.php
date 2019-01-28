@@ -31,7 +31,7 @@ function process_video($fileinfo)
     print_r($codecs);
     if($codecs['container']<> 'mp4'){
         echo 'converting for mp4' . PHP_EOL;
-
+$
     }
     if($codecs['video']<> 'avc'){
         echo 'converting for avc' . PHP_EOL;
@@ -39,7 +39,7 @@ function process_video($fileinfo)
     if($codecs['audio']<> 'aac'){
         echo 'converting for aac' . PHP_EOL;
     }
-    $cmd = "ffmpeg -i $codecs['filename'] $video_setting $audio_setting out.$";
+    $cmd = "ffmpeg -i $codecs['filename'] $video_setting $audio_setting out.$extension_setting";
 
     # code...
 }
