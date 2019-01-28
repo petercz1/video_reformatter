@@ -30,7 +30,6 @@ function process_video($fileinfo)
 {
     $codecs = get_codecs($fileinfo);
     print_r($codecs);
-
     # code...
 }
 
