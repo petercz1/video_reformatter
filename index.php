@@ -31,7 +31,7 @@ function process_video($fileinfo)
 {
     $codecs = get_codecs($fileinfo);
     $old_file_name = escapeshellarg($fileinfo->getPathname());
-    echo 'PROCESSING ' . $old_file_name . PHP_EOL;
+    echo php_EOL . 'PROCESSING ' . $old_file_name . PHP_EOL;
     if ($codecs['container']<> 'mp4') {
         echo 'file not mp4, ';
         $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($codecs['container']) . 'mp4');
