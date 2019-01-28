@@ -18,3 +18,5 @@ So as I understand it the most widely playable formats for TV usb seem to be as 
 
 Hence I wrote the following to recursively find all my video files on my usb, then check the contents for both video and audioo formats, then run ffmpeg to convert where necessary.
 
+## installation
+
