@@ -33,7 +33,7 @@ function get_files($files)
 
 function process_video($fileinfo)
 {
-$codecs = get
+$codecs = get_codecs();
     # code...
 
 }
