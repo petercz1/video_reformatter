@@ -38,6 +38,7 @@ function process_video($fileinfo)
     if($codecs['audio']<> 'aac'){
         echo 'converting for AAC' . PHP_EOL;
     }
+    
     # code...
 }
 
