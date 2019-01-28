@@ -48,7 +48,7 @@ function process_video($fileinfo)
     }
     if ($codecs['audio']<> 'aac') {
         echo 'converting for aac' . PHP_EOL;
-        $audio_setting = "-c:a libfdk_aac";
+        $audio_setting = "-c:a aac";
     }else{
         $audio_setting = "-c:a copy";
         $same_audio = true;
