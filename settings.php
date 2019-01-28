@@ -15,4 +15,4 @@ $file_types = ['webm', 'mp4', 'avi', 'mkv'];
 // WARNING - you are responsible for making sure you have enough space available!
 $delete_on_conversion = false;
 
-// use debug.log
+// use debug.log?
