@@ -30,7 +30,7 @@ function process_video($fileinfo)
     $codecs = get_codecs($fileinfo);
     print_r($codecs);
     if($codecs['container']<> 'mp4'){
-        echo 'converting for AVC' . PHP_EOL;
+        echo 'converting for mp4' . PHP_EOL;
     }
     # code...
 }
