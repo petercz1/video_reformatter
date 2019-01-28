@@ -39,6 +39,7 @@ function process_video($fileinfo)
         $same_file = true;
     }
     if ($codecs['video']<> 'avc') {
+        echo
         $video_setting = "-c:v libx264";
     } else {
         $video_setting = "-c:v copy";
