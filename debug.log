@@ -64,3 +64,51 @@ Stack trace:
 [28-Jan-2019 21:09:30 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_file in /home/pc/data/bin/utilities/video_reformatter/index.php on line 57
 [28-Jan-2019 21:09:34 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_file in /home/pc/data/bin/utilities/video_reformatter/index.php on line 63
 [28-Jan-2019 21:09:34 Asia/Hong_Kong] PHP Notice:  Undefined variable: delete_on_conversion in /home/pc/data/bin/utilities/video_reformatter/index.php on line 63
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 33
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 35
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 36
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 38
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 43
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 50
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 58
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 64
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: delete_on_conversion in /home/pc/data/bin/utilities/video_reformatter/index.php on line 64
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 33
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 35
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 36
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 38
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 43
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 50
+[28-Jan-2019 21:24:06 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 58
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 64
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: delete_on_conversion in /home/pc/data/bin/utilities/video_reformatter/index.php on line 64
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 33
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 35
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 36
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 38
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 43
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 50
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 58
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 64
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: delete_on_conversion in /home/pc/data/bin/utilities/video_reformatter/index.php on line 64
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 33
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 35
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 36
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 38
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 43
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 50
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 58
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 64
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: delete_on_conversion in /home/pc/data/bin/utilities/video_reformatter/index.php on line 64
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 33
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 35
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 36
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 38
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 43
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: codecs in /home/pc/data/bin/utilities/video_reformatter/index.php on line 50
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 58
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 64
+[28-Jan-2019 21:24:07 Asia/Hong_Kong] PHP Notice:  Undefined variable: delete_on_conversion in /home/pc/data/bin/utilities/video_reformatter/index.php on line 64
+[28-Jan-2019 21:24:10 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 35
+[28-Jan-2019 21:24:10 Asia/Hong_Kong] PHP Warning:  Use of undefined constant php_EOL - assumed 'php_EOL' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/index.php on line 35
+[28-Jan-2019 21:24:10 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 58
