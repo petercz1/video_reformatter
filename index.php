@@ -1,9 +1,10 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
+require ('settings')
 // uncomment this if you want to see debugging in ./debug.log
 require('debug.php');
-reuire
+
 // SETTINGS
 // location of your media
 //$files = '/media/pc/Transcend';
