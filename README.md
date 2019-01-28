@@ -23,3 +23,4 @@ Hence I wrote the following to recursively find all my video files on my usb, th
 this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * ffmpeg
+* mediainfo
