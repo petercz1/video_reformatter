@@ -35,3 +35,7 @@ Stack trace:
 #1 /home/pc/data/bin/utilities/video_reformatter/index.php(82): chipbug\php_video_reformatter\get_files(NULL)
 #2 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/index.php on line 13
+[28-Jan-2019 18:11:53 Asia/Hong_Kong] PHP Notice:  Undefined variable: cmd in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
+[28-Jan-2019 18:11:53 Asia/Hong_Kong] PHP Notice:  Undefined variable: results in /home/pc/data/bin/utilities/video_reformatter/index.php on line 61
+[28-Jan-2019 18:11:54 Asia/Hong_Kong] PHP Notice:  Undefined variable: cmd in /home/pc/data/bin/utilities/video_reformatter/index.php on line 56
+[28-Jan-2019 18:11:54 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 57
