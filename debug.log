@@ -1,3 +1,6 @@
 [28-Jan-2019 16:26:40 Asia/Hong_Kong] PHP Notice:  Undefined variable: old in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
 [28-Jan-2019 16:26:40 Asia/Hong_Kong] PHP Notice:  Undefined variable: old in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
 [28-Jan-2019 16:26:40 Asia/Hong_Kong] PHP Notice:  Undefined variable: old in /home/pc/data/bin/utilities/video_reformatter/index.php on line 53
+[28-Jan-2019 16:50:17 Asia/Hong_Kong] PHP Notice:  Undefined variable: results in /home/pc/data/bin/utilities/video_reformatter/index.php on line 62
+[28-Jan-2019 16:50:17 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_video in /home/pc/data/bin/utilities/video_reformatter/index.php on line 58
+[28-Jan-2019 16:50:17 Asia/Hong_Kong] PHP Notice:  Undefined variable: same_file in /home/pc/data/bin/utilities/video_reformatter/index.php on line 58

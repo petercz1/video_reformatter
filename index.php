@@ -60,6 +60,7 @@ function process_video($fileinfo)
         $results = shell_exec($cmd);
     }
     print_r($results);
+    
 }
 
 function get_codecs($fileinfo)
