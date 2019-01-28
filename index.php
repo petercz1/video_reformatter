@@ -46,7 +46,7 @@ function process_video($fileinfo)
         $same_video = true;
     }
     if ($codecs['audio']<> 'aac') {
-        echo 'video not avc, ';
+        echo 'audio not avc, ';
         $audio_setting = "-c:a aac";
     } else {
         $audio_setting = "-c:a copy";
