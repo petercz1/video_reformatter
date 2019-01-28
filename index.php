@@ -64,6 +64,7 @@ function process_video($fileinfo)
     print_r($results);
 }
 
+
 function get_codecs($fileinfo)
 {
     $video = escapeshellarg($fileinfo->getPathName());
