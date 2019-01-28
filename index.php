@@ -9,7 +9,7 @@ if ($debug) {
 
 function get_files($files)
 {
-    echo 'getting fikles';
+    echo 'getting files';
     global $file_types;
     foreach (new \DirectoryIterator($files) as $fileinfo) {
         // skip dot files
