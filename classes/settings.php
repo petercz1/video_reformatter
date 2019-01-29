@@ -25,7 +25,7 @@ class Settings
     public function init()
     {
         $settings = array();
-        $settings['file_location_root'] = $file_location_root;
+        $settings['file_location_root'] = $this->file_location_root;
         $settings['file_types'] = $file_types;
         $settings['delete_on_conversion'] = $delete_on_conversion;
         $settings['debug'] = $debug;
