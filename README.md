@@ -6,7 +6,7 @@ Also, I've had it with trying to figure out foreign language remote controls.
 
 Sooooo, to fix this I did the following:
 
-1. researched the web for my phone and 'IR Blaster'  
+1. researched the web for my phone and 'IR Blaster' -  
 
 I've done a (little) bit of research and the state of my knowledge is as follows:
 
