@@ -6,7 +6,7 @@ Also, I've had it with trying to figure out foreign language remote controls.
 
 Sooooo, to fix this I did the following:
 
-1.  
+1. researched my phone for  
 
 I've done a (little) bit of research and the state of my knowledge is as follows:
 
