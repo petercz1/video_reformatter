@@ -8,7 +8,7 @@ class Settings
     // $files = '/yourmedia/videos';
 
     //$files = '/media/pc/Transcend';
-    private $files = '/media/dellserver/data/videos/series/temp';
+    private $file = '/media/dellserver/data/videos/series/temp';
 
     // video filetypes to scan for. Add your own if ffmpeg supports them
     // though to be honest you'd struggle to find a format that isn't supported...
