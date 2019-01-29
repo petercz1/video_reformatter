@@ -22,7 +22,7 @@ class Settings
     // use ./debug.log?
     private $debug = true;
 
-    function init(){
+    public function init(){
 
     }
 }
