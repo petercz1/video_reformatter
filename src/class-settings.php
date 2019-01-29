@@ -27,7 +27,7 @@ class Settings
         $settings = array();
         $settings['file_location_root'] = $file_location_root;
         $settings['file_types'] = $file_types;
-        
+        $settings['delete_on_conversion']
         return $settings;
     }
 }
