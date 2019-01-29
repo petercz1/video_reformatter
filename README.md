@@ -4,7 +4,7 @@ I tried to play my usb video files on a TV in a hotel recently and had the usual
 
 Also, I've had it with trying to figure out foreign language remote controls.
 
-Sooooo, to fix the 
+Sooooo, to fix this I did the fol
 
 I've done a (little) bit of research and the state of my knowledge is as follows:
 
