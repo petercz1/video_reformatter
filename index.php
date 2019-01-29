@@ -6,9 +6,9 @@ spl_autoload_register(function($class){
     $class = explode("\\", $class);
     // get last item and convert to lowercase
     $class = strtolower(end($class));
+    // include it
     include 'classes/' . $class . '.php';
 });
-
 
 $settings = (new Settings)->init();
 
