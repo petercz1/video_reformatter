@@ -13,7 +13,7 @@ This means I now learn only one remote control. A top tip for getting round the 
 
 (side tip - once you've got your phone set up as a remote, you can control the temperature to your liking for any IR-conrtrolled a/c, such as in well-known coffee shops... the [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) app even has an a/c scanner if you can't work out the brand of a/c)
 
-3. 
+3. convert all my video
 I've done a (little) bit of research and the state of my knowledge is as follows:
 
 1) the file name (mkv, mp4 etc) is just a container.
