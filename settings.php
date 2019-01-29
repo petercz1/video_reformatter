@@ -5,7 +5,7 @@ namespace chipbug\php_video_reformatter;
 // location of your media
 // $files = '/yourmedia/videos';
 
-$files = '/media/pc/Transcend';
+//$files = '/media/pc/Transcend';
 //$files = '/media/dellserver/data/videos/series/temp';
 
 // filetypes to scan for
