@@ -59,4 +59,4 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * once you've got your phone set up as a remote, you can control the temperature to your liking for any IR-controlled a/c, such as in well-known coffee shops. The [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) app even has an a/c scanner if you can't work out the brand of a/c. Just trying to be helpful...
 
-* [youtube-dl](https://rg3.github.io/youtube-dl/) is the weapon of choice for downloading clips from YouTube. There's a [gui version]
+* [youtube-dl](https://rg3.github.io/youtube-dl/) is the weapon of choice for downloading clips from YouTube. There's a [gui version](https://mrs0m30n3.github.io/youtube-dl-gui/)
