@@ -9,9 +9,7 @@ Also, I've had it with trying to figure out foreign language remote controls.
 Sooooo, to fix this I did the following:
 
 1. researched the web for my phone model and '[IR Blaster](https://en.wikipedia.org/wiki/Infrared_blaster)' - mine has it. Whoop!
-2. downloaded a couple of remote control apps (I use [mi](https://play.google.com/store/apps/details?id=com.duokan.phone.remotecontroller) and [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities), they have a near-identical setup and layout) - I found some devices can be found in one database but not the other. YMMV
-
-This means I now learn only one remote control.
+2. downloaded a couple of remote control apps (I use [mi](https://play.google.com/store/apps/details?id=com.duokan.phone.remotecontroller) and [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities), they have a near-identical setup and layout) - I found some devices can be found in one database but not the other. YMMV. This means I now learn only one remote control.
 
 3. convert all my favorite video watching to the most common TV format. This is what the code does.
 
