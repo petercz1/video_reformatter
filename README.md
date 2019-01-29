@@ -7,9 +7,11 @@ Also, I've had it with trying to figure out foreign language remote controls.
 Sooooo, to fix this I did the following:
 
 1. researched the web for my phone and '[IR Blaster](https://en.wikipedia.org/wiki/Infrared_blaster)' - mine has it. Whoop!
-2. downloaded a couple of remote control apps ([mi](https://play.google.com/store/apps/details?id=com.duokan.phone.remotecontroller) and [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) ) - some devices can be found in one database but not the other. YMMV
+2. downloaded a couple of remote control apps ([mi](https://play.google.com/store/apps/details?id=com.duokan.phone.remotecontroller) and [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) ) - I found some devices can be found in one database but not the other. YMMV
 
 This means I now learn only one remote control. A top tip for getting round the TV foreign language suggstions is to turn the set on and **then** plug in the USB. If it's recognized you should get something logical to press on screen.
+
+
 
 I've done a (little) bit of research and the state of my knowledge is as follows:
 
