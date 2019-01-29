@@ -2,6 +2,7 @@
 namespace chipbug\php_video_reformatter;
 
 spl_autoload_register(function($class){
+    // 
     $class = explode("\\", $class);
     $class = strtolower(end($class));
     echo 'CLASS: ' . $class . PHP_EOL;
