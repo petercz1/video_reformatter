@@ -12,9 +12,6 @@ spl_autoload_register(function($class){
 
 $settings = (new Settings)->init();
 
-print_r($settings);
-//require('settings.php');
-
 if ($settings['debug']) {
     (new Debug)->init();
 }
