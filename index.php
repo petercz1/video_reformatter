@@ -15,9 +15,9 @@ $settings = (new Settings)->init();
 print_r($settings);
 //require('settings.php');
 
-// if ($settings=>debug) {
-//     (new Debug)->init();
-// }
+if ($settings=>debug) {
+    (new Debug)->init();
+}
 
 // function get_files($files)
 // {
