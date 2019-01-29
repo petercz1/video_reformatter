@@ -39,7 +39,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 * mediainfo
 * php 7.x
 
-I know there are wrappers for [ffmpeg](https://github.com/PHP-FFMpeg/PHP-FFMpeg) and mediainfo but I decided they were overkill for what I needed.
+I know there are wrappers for [ffmpeg](https://github.com/PHP-FFMpeg/PHP-FFMpeg) and [mediainfo] but I decided they were overkill for what I needed.
 
 ## installation
 
