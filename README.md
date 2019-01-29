@@ -19,7 +19,7 @@ I've done a (little) bit of research and the state of my knowledge is as follows
 
 1) the file name (mkv, mp4 etc) is just a container.
 
-2) the video and audio format inside is the more important bit. 
+2) the video and audio format inside is the more important bit. This is why sometimes the video play but the audio does
 
 So as I understand it the most widely playable formats for TV usb seem to be as follows:
 
