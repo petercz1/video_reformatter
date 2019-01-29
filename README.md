@@ -51,4 +51,4 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * once you've got your phone set up as a remote, you can control the temperature to your liking for any IR-conrtrolled a/c, such as in well-known coffee shops... the [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) app even has an a/c scanner if you can't work out the brand of a/c
 
-* I plug my USB into the end of a 0.5m bright blue extension cable (approx a buck fifty?) and then plug that into the USB at the back of the box. The cable then dangles down in front of the set. This means I'm more likely to remember the USB when 
+* I plug my USB into the end of a 0.5m bright blue extension cable (approx a buck fifty?) and then plug that into the USB at the back of the box. The cable then dangles down in front of the set. This means I'm more likely to remember the USB when speed-packing for the 
