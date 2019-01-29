@@ -11,6 +11,7 @@ class Settings
     public $files = '/media/dellserver/data/videos/series/temp';
 
     // filetypes to scan for. Add your own if ffmpeg supports them
+    // 
     public $file_types = ['webm', 'mp4', 'avi', 'mkv'];
 
     // delete original file after conversion - set to 'true'
