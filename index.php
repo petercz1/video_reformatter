@@ -18,8 +18,6 @@ if ($settings['debug']) {
 
 $get_files = (new GetFiles)->get_files($settings['file_location_root']);
 
-
-
 // function get_files($files)
 // {
 //     echo 'get_files';
