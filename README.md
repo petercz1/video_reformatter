@@ -11,7 +11,7 @@ Sooooo, to fix this I did the following:
 
 This means I now learn only one remote control. A top tip for getting round the TV foreign language suggstions is to turn the set on and **then** plug in the USB. If it's recognized you should get something logical to press on screen.
 
-(side tip - once you've got your phone set up as a remote, you can control the air conditioning to your liking in eg coffee shops)
+(side tip - once you've got your phone set up as a remote, you can control the air conditioning to your liking in eg coffee shops...)
 
 I've done a (little) bit of research and the state of my knowledge is as follows:
 
