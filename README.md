@@ -15,6 +15,8 @@ This means I now learn only one remote control. A top tip for getting round the 
 
 3. convert all my favorite video watching to the most common TV format. This is what the code does.
 
+## solution
+
 I've done a (little) bit of research and the state of my knowledge is as follows:
 
 1) the file name (mkv, mp4 etc) is just a container.
