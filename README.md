@@ -39,7 +39,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 * mediainfo
 * php 7.x
 
-I kno wthere are wrappers for 
+I kno wthere are wrappers for ffmpeg and mediainfo
 
 ## installation
 
