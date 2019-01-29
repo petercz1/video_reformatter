@@ -1,6 +1,6 @@
 # a php video reformatter
 
-I tried to play my usb video files on a TV in a hotel recently and had the usual frustration of finding which ones would play. 
+I tried to play my usb video files on a TV in a hotel recently and had the usual frustration of finding which ones would play. Some would play in the lounge
 
 I've done a (little) bit of research and the state of my knowledge is as follows:
 
