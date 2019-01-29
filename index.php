@@ -16,7 +16,7 @@ print_R($settings);
 //require('settings.php');
 
 if ($settings=>debug) {
-    require('debug.php');
+    new ;
 }
 
 // function get_files($files)
