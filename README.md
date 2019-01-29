@@ -7,7 +7,7 @@ Also, I've had it with trying to figure out foreign language remote controls.
 Sooooo, to fix this I did the following:
 
 1. researched the web for my phone and 'IR Blaster' - it has it. Whoop!
-2. downloaded a couple of remote control apps ([mi](https://play.google.com/store/apps/details?id=com.duokan.phone.remotecontroller) and [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) ) - 
+2. downloaded a couple of remote control apps ([mi](https://play.google.com/store/apps/details?id=com.duokan.phone.remotecontroller) and [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) ) - some devices are in
 
 I've done a (little) bit of research and the state of my knowledge is as follows:
 
