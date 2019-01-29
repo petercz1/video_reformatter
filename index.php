@@ -1,7 +1,7 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
-function autoload_classes($class){
+splfunction($class){
     include 'src/' . $class . '.php';
 }
 //require('settings.php');
