@@ -1,6 +1,7 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
+
 require('settings.php');
 
 if ($debug) {
