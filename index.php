@@ -6,7 +6,6 @@ spl_autoload_register(function($class){
 });
 
 
-
 //require('settings.php');
 
 if ($debug) {
