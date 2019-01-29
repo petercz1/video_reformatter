@@ -5,7 +5,7 @@ spl_autoload_register(function($class){
     include 'src/' . $class . '.php';
 });
 
-$settings = new Settings()()
+$settings = (new Settings()()
 //require('settings.php');
 
 if ($debug) {
