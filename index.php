@@ -10,26 +10,26 @@ if ($debug) {
     require('debug.php');
 }
 
-function get_files($files)
-{
-    echo 'get_files';
-    global $file_types;
-    foreach (new \DirectoryIterator($files) as $fileinfo) {
-        // skip dot files
-        if ($fileinfo->isDot()) {
-            continue;
-        }
-        // recursion
-        if ($fileinfo->isDir()) {
-            get_files($fileinfo->getPathname());
-        }
-        $ext = strtolower(pathinfo($fileinfo->getPathname(), PATHINFO_EXTENSION));
-        // select video containers to process: mkv/mp4/avi/webm
-        if (in_array($ext, $file_types)) {
-            //process_video($fileinfo);
-        }
-    }
-}
+// function get_files($files)
+// {
+//     echo 'get_files';
+//     global $file_types;
+//     foreach (new \DirectoryIterator($files) as $fileinfo) {
+//         // skip dot files
+//         if ($fileinfo->isDot()) {
+//             continue;
+//         }
+//         // recursion
+//         if ($fileinfo->isDir()) {
+//             get_files($fileinfo->getPathname());
+//         }
+//         $ext = strtolower(pathinfo($fileinfo->getPathname(), PATHINFO_EXTENSION));
+//         // select video containers to process: mkv/mp4/avi/webm
+//         if (in_array($ext, $file_types)) {
+//             //process_video($fileinfo);
+//         }
+//     }
+// }
 
 function process_video($fileinfo)
 {
