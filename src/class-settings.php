@@ -23,6 +23,6 @@ class Settings
     private $debug = true;
 
     public function init(){
-$
+$settings = [];
     }
 }
