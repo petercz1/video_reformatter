@@ -8,7 +8,7 @@ class Settings{
 // $files = '/yourmedia/videos';
 
 //$files = '/media/pc/Transcend';
-$files = '/media/dellserver/data/videos/series/temp';
+public $files = '/media/dellserver/data/videos/series/temp';
 
 // filetypes to scan for
 $file_types = ['webm', 'mp4', 'avi', 'mkv'];
