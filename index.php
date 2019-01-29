@@ -4,7 +4,7 @@ namespace chipbug\php_video_reformatter;
 spl_autoload_register(function($class){
     $class = str_replace("\\", DIRECTORY_SEPARATOR, $class);
     echo 'CLASS: ' . $class . PHP_EOL;
-    include __DIR__ . '/classes/class-' . $class . '.php';
+    include __DIR__ . '/classes/' . $class . '.php';
 });
 
 
