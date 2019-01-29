@@ -4,9 +4,9 @@ namespace chipbug\php_video_reformatter;
 spl_autoload_register(function($class){
     // explode namespace and classname into array
     $class = explode("\\", $class);
-    // get last item and convert to lowercase
+    // get last item (ie classname) and convert to lowercase
     $class = strtolower(end($class));
-    // include it
+    // include the class
     require_once 'classes/' . $class . '.php';
 });
 
