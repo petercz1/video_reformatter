@@ -2,7 +2,7 @@
 namespace chipbug\php_video_reformatter;
 
 spl_autoload_register(function($class){
-    echo $class;
+    echo $class . PHP_EOL;
     include 'src/class-' . $class . '.php';
 });
 
