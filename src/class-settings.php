@@ -21,4 +21,6 @@ class Settings
 
     // use ./debug.log?
     public $debug = true;
+
+    
 }
