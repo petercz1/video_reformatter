@@ -6,7 +6,6 @@ spl_autoload_register(function($class){
     $class = explode("\\", $class);
     // get last item and convert to lowercase
     $class = strtolower(end($class));
-    echo 'CLASS: ' . $class . PHP_EOL;
     include 'classes/' . $class . '.php';
 });
 
