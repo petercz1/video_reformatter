@@ -15,7 +15,7 @@ $settings = (new Settings)->init();
 print_R($settings);
 //require('settings.php');
 
-if ($debug) {
+if ($setting) {
     require('debug.php');
 }
 
