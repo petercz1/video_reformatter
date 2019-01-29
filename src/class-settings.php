@@ -24,7 +24,7 @@ class Settings
 
     public function init()
     {
-        $settings[] = [];
+        $settings['files'] = [];
         $settings['file_types'] = $file_types;
         return $settings;
     }
