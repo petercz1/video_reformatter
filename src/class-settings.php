@@ -8,7 +8,7 @@ class Settings
     // $files = '/yourmedia/videos';
 
     //$files = '/media/pc/Transcend';
-    private $file = '/media/dellserver/data/videos/series/temp';
+    private $file_location_root = '/media/dellserver/data/videos/series/temp';
 
     // video filetypes to scan for. Add your own if ffmpeg supports them
     // though to be honest you'd struggle to find a format that isn't supported...
@@ -24,7 +24,7 @@ class Settings
 
     public function init()
     {
-        $settings['file_location_root'] = [];
+        $settings['file_location_root'] = 
         $settings['file_types'] = $file_types;
         return $settings;
     }
