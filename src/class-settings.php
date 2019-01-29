@@ -24,7 +24,7 @@ class Settings
 
     public function init()
     {
-        $settings['file_location_root'] = 
+        $settings['file_location_root'] = $file_location_root;
         $settings['file_types'] = $file_types;
         return $settings;
     }
