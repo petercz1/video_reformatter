@@ -16,7 +16,7 @@ print_r($settings);
 //require('settings.php');
 
 if ($settings['debug']) {
-    //(new Debug)->init();
+    (new Debug)->init();
 }
 
 throw new Exception();
