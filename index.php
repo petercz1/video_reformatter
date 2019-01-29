@@ -1,7 +1,9 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
-function 
+function autoload_classes(){
+    
+}
 require('settings.php');
 
 if ($debug) {
