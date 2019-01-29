@@ -55,6 +55,6 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * A top tip for getting round the TV foreign language interaction is to turn the set on and **then** plug in the USB. If it's recognized you should get something logical to press on screen.
 
-* I plug my USB into the end of a 0.5m bright blue extension cable (approx a buck fifty?) and then plug that into the USB at the back of the box. The cable then dangles down below anfin front of the set. This means I'm more likely to remember the USB when speed-packing for the airport and I give the room a final sweep.
+* I plug my USB into the end of a 0.5m bright blue extension cable (approx a buck fifty?) and then plug that into the USB at the back of the box. The cable then dangles down below and in front of the set. This means I'm more likely to remember the USB when speed-packing for the airport and I give the room a final sweep.
 
 * once you've got your phone set up as a remote, you can control the temperature to your liking for any IR-controlled a/c, such as in well-known coffee shops. The [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) app even has an a/c scanner if you can't work out the brand of a/c. Just trying to be helpful...
