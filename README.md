@@ -34,3 +34,4 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 ## version history
 
 * 2.0.0 refactored into classes
+* 1.0.0 proof of concept
