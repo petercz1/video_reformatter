@@ -24,5 +24,7 @@ class Settings
 
     public function init(){
 $settings = [];
+
+retu
     }
 }
