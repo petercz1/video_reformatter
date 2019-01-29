@@ -7,7 +7,7 @@ Also, I've had it with trying to figure out foreign language remote controls.
 Sooooo, to fix this I did the following:
 
 1. researched the web for my phone and 'IR Blaster' - it has it. Whoop!
-2. downloaded a couple of remote control apps (mi and ) 
+2. downloaded a couple of remote control apps (mi and sure ) 
 
 I've done a (little) bit of research and the state of my knowledge is as follows:
 
