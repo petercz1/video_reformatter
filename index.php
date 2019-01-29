@@ -16,7 +16,7 @@ if ($settings['debug']) {
     (new Debug)->init();
 }
 
-$get_files = (new GetFiles)->get_files($settings['file_location_root']);
+$file_location_root = (new GetFiles)->get_files($settings['file_location_root']);
 
 // function get_files($files)
 // {
