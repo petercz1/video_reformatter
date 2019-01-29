@@ -7,7 +7,7 @@ spl_autoload_register(function($class){
     // get last item and convert to lowercase
     $class = strtolower(end($class));
     // include it
-    include 'classes/' . $class . '.php';
+    require_once 'classes/' . $class . '.php';
 });
 
 $settings = (new Settings)->init();
