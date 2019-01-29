@@ -4,7 +4,9 @@ I tried to play my usb video files on a TV in a hotel recently and had the usual
 
 Also, I've had it with trying to figure out foreign language remote controls.
 
-Sooooo, to fix this I did the fol
+Sooooo, to fix this I did the following:
+
+1) 
 
 I've done a (little) bit of research and the state of my knowledge is as follows:
 
