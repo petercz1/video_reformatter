@@ -19,6 +19,7 @@ if ($settings['debug']) {
     (new Debug)->init();
 }
 
+throw 
 // function get_files($files)
 // {
 //     echo 'get_files';
