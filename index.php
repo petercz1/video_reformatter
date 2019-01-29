@@ -16,7 +16,7 @@ if ($settings['debug']) {
     (new Debug)->init();
 }
 
-$get_files = 
+$get_files = (new GetFiles)
 
 
 
