@@ -2,7 +2,7 @@
 namespace chipbug\php_video_reformatter;
 
 spl_autoload_register(function($class){
-    include 'src/' . $class . '.php';
+    include 'src/class-' . $class . '.php';
 });
 
 $settings = (new Settings)->init();
