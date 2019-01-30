@@ -2144,3 +2144,8 @@ Stack trace:
 [30-Jan-2019 19:47:57 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
 [30-Jan-2019 19:58:51 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$fileinfo' (T_VARIABLE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 36
 [30-Jan-2019 19:58:52 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 36
+[30-Jan-2019 19:58:55 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 36
+[30-Jan-2019 19:58:57 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
+[30-Jan-2019 19:58:57 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
+[30-Jan-2019 19:58:57 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
+[30-Jan-2019 19:58:57 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
