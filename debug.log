@@ -116,3 +116,8 @@ Stack trace:
 #1 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 19
 [30-Jan-2019 16:56:13 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 13
+[30-Jan-2019 16:56:19 Asia/Hong_Kong] PHP Fatal error:  Uncaught Error: Call to undefined function get_files() in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php:20
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/index.php(19): chipbug\php_video_reformatter\GetFiles->init(Array)
+#1 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
