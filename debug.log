@@ -24,3 +24,17 @@ Stack trace:
 [30-Jan-2019 17:04:29 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 8
 [30-Jan-2019 17:04:32 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 8
 [30-Jan-2019 17:04:54 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 8
+[30-Jan-2019 17:05:09 Asia/Hong_Kong] PHP Notice:  Undefined variable: file_location in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 14
+[30-Jan-2019 17:05:09 Asia/Hong_Kong] PHP Fatal error:  Uncaught RuntimeException: Directory name must not be empty. in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php:14
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(14): DirectoryIterator->__construct('')
+#1 /home/pc/data/bin/utilities/video_reformatter/index.php(19): chipbug\php_video_reformatter\GetFiles->init(Array)
+#2 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 14
+[30-Jan-2019 17:05:11 Asia/Hong_Kong] PHP Notice:  Undefined variable: file_location in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 15
+[30-Jan-2019 17:05:11 Asia/Hong_Kong] PHP Fatal error:  Uncaught RuntimeException: Directory name must not be empty. in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php:15
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(15): DirectoryIterator->__construct('')
+#1 /home/pc/data/bin/utilities/video_reformatter/index.php(19): chipbug\php_video_reformatter\GetFiles->init(Array)
+#2 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 15

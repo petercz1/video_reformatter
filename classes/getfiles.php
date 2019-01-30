@@ -5,6 +5,7 @@ class GetFiles
 {
     private $file_types;
     private $file_location;
+    
     public function init($settings)
     {
         try {
