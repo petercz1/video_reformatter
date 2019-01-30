@@ -27,14 +27,13 @@ class GetFiles
                     echo $fileinfo->getFilename() . PHP_EOL;
                 }
             }
-        } catch (Exception $ex) {
-            echo $ex->getMessage();
-            echo $ex->getFile() . ': line ' . $ex->getLine() . PHP_EOL;
-        }
+        } 
     }
 
     private function get_files(){
-        try{}
-            catch(){}
+        try{}catch (Exception $ex) {
+            echo $ex->getMessage();
+            echo $ex->getFile() . ': line ' . $ex->getLine() . PHP_EOL;
+        }
     }
 }
