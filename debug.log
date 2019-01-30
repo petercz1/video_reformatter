@@ -160,3 +160,5 @@ Stack trace:
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
 [30-Jan-2019 16:59:16 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 15
 [30-Jan-2019 16:59:18 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 15
+[30-Jan-2019 16:59:21 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 15
+[30-Jan-2019 16:59:24 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 15
