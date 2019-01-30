@@ -14,3 +14,4 @@ Stack trace:
 #1 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
 [30-Jan-2019 17:03:36 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 8
+[30-Jan-2019 17:03:42 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 8
