@@ -2008,3 +2008,4 @@ Stack trace:
 [30-Jan-2019 17:18:56 Asia/Hong_Kong] PHP Fatal error:  Cannot use try without catch or finally in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 11
 [30-Jan-2019 17:19:09 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 17
 [30-Jan-2019 17:19:12 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 17
+[30-Jan-2019 17:19:19 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH), expecting function (T_FUNCTION) or const (T_CONST) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 34

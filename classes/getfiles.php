@@ -8,7 +8,7 @@ class GetFiles
 
     public function init($settings)
     {
-        try {
+        
             $this->file_types = $settings['file_types'];
             $this->file_location = $settings['file_location_root'];
             
@@ -30,7 +30,7 @@ class GetFiles
                 //process_video($fileinfo);
                 echo $fileinfo->getFilename() . PHP_EOL;
             }
-        }
+        
     } }catch (Exception $ex) {
             echo $ex->getMessage();
             echo $ex->getFile() . ': line ' . $ex->getLine() . PHP_EOL;
