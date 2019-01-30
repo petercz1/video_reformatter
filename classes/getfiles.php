@@ -10,8 +10,8 @@ class GetFiles
     {
         try {
             echo 'GetFiles->init()' . PHP_EOL;
-             $this->file_types = $settings['file_types'];
-         $this->file_location = $settings['file_location_root'];
+            $this->file_types = $settings['file_types'];
+            $this->file_location = $settings['file_location_root'];
             foreach (new \DirectoryIterator($this->file_location) as $fileinfo) {
                 echo $fileinfo->getFilename();
                 // skip dot files
@@ -30,8 +30,8 @@ class GetFiles
                 }
             }
         } catch (Exception $ex) {
-			echo $ex->getMessage();
-			echo $ex->getFile() . ': line ' . $ex->getLine() . PHP_EOL;
+            echo $ex->getMessage();
+            echo $ex->getFile() . ': line ' . $ex->getLine() . PHP_EOL;
         }
     }
 }
