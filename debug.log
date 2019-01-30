@@ -58,3 +58,8 @@ Stack trace:
 #0 /home/pc/data/bin/utilities/video_reformatter/index.php(19): chipbug\php_video_reformatter\GetFiles->init(Array)
 #1 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 22
+[30-Jan-2019 17:15:11 Asia/Hong_Kong] PHP Fatal error:  Uncaught Error: Call to undefined method chipbug\php_video_reformatter\GetFiles::get_files() in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php:21
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/index.php(19): chipbug\php_video_reformatter\GetFiles->init(Array)
+#1 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 21
