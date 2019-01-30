@@ -3,10 +3,10 @@ namespace chipbug\php_video_reformatter;
 
 class GetFiles
 {
+    private $file_types;
+    private $file_location;
     public function init($settings)
     {
-        private $file_types;
-        private $file_location;
         try {
             echo 'GetFiles->init()' . PHP_EOL;
              $this->file_types = $settings['file_types'];
