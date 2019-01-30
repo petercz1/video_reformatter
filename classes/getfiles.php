@@ -9,7 +9,7 @@ if ($debug) {
 
 class GetFiles
 {
-    public function get_files($files)
+    public function get_files($settings)
     {
         try {
             echo 'get_files';
