@@ -73,3 +73,4 @@ Stack trace:
 #1 /home/pc/data/bin/utilities/video_reformatter/index.php(19): chipbug\php_video_reformatter\GetFiles->init(Array)
 #2 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 11
+[30-Jan-2019 15:58:41 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 25
