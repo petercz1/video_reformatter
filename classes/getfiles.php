@@ -8,7 +8,6 @@ class GetFiles
 
     public function init($settings)
     {
-        echo 'init';
         $this->file_types = $settings['file_types'];
         $this->file_location = $settings['file_location_root'];
         $this->get_files();
@@ -16,6 +15,7 @@ class GetFiles
 
     private function get_files()
     {
+        echo 'get files'
         try {
             foreach (new \DirectoryIterator($this->file_location) as $fileinfo) {
                 // skip dot files
