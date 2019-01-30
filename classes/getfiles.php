@@ -6,7 +6,7 @@ class GetFiles
     public function init($settings)
     {
         try {
-            echo 'get_files';
+            echo 'GetFiles';
             global $file_types;
             foreach (new \DirectoryIterator($files) as $fileinfo) {
                 // skip dot files
