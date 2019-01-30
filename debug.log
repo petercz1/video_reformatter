@@ -76,3 +76,4 @@ Stack trace:
 [30-Jan-2019 15:58:41 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 25
 [30-Jan-2019 15:58:51 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 25
 [30-Jan-2019 15:58:53 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 25
+[30-Jan-2019 15:58:57 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 25
