@@ -2122,3 +2122,6 @@ Stack trace:
 [30-Jan-2019 18:55:51 Asia/Hong_Kong] PHP Warning:  Use of undefined constant PHP - assumed 'PHP' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 22
 [30-Jan-2019 18:55:51 Asia/Hong_Kong] PHP Warning:  Use of undefined constant PHP - assumed 'PHP' (this will throw an Error in a future version of PHP) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 22
 [30-Jan-2019 18:55:59 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 29
+[30-Jan-2019 18:56:04 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 29
+[30-Jan-2019 18:56:07 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 29
+[30-Jan-2019 18:56:08 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 29
