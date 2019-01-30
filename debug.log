@@ -64,3 +64,4 @@ Stack trace:
 [30-Jan-2019 15:58:02 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 11
 [30-Jan-2019 15:58:03 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 11
 [30-Jan-2019 15:58:06 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 11
+[30-Jan-2019 15:58:22 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 11
