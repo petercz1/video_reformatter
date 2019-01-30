@@ -34,6 +34,7 @@ class GetFiles
     }
 
     private function get_files(){
-        
+        try{}
+            catch(){}
     }
 }

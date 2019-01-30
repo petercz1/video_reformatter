@@ -2000,3 +2000,5 @@ Stack trace:
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 21
 [30-Jan-2019 17:16:10 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'p' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 36
 [30-Jan-2019 17:16:16 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 37
+[30-Jan-2019 17:18:39 Asia/Hong_Kong] PHP Fatal error:  Cannot use try without catch or finally in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 37
+[30-Jan-2019 17:18:41 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}', expecting '(' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 39
