@@ -33,5 +33,5 @@ class GetFiles
         }
     }
 
-    p
+    private function 
 }
