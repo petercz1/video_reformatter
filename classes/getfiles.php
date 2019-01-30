@@ -12,7 +12,6 @@ class GetFiles
             $this->file_types = $settings['file_types'];
             $this->file_location = $settings['file_location_root'];
             foreach (new \DirectoryIterator($this->file_location) as $fileinfo) {
-                echo $fileinfo->getFilename();
                 // skip dot files
                 if ($fileinfo->isDot()) {
                     continue;
