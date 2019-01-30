@@ -2051,3 +2051,11 @@ Stack trace:
 #3 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(27): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
 #4 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(27): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
 #5 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(27 in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
+[30-Jan-2019 17:24:11 Asia/Hong_Kong] PHP Fatal error:  Uncaught UnexpectedValueException: DirectoryIterator::__construct(/media/dellserver/data/videos/series/temp): failed to open dir: Too many open files in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php:20
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(20): DirectoryIterator->__construct('/media/dellserv...')
+#1 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(27): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
+#2 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(27): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
+#3 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(27): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
+#4 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(27): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
+#5 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(27 in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
