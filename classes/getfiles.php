@@ -5,7 +5,7 @@ class GetFiles
 {
     public function init($settings)
     {
-        $file_types = $settings['file_types'];
+        private $file_types = $settings['file_types'];
         try {
             echo 'GetFiles->init()' . PHP_EOL;
             $file_location = $settings['file_location_root'];
