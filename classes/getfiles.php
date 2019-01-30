@@ -10,7 +10,7 @@ class GetFiles
         try {
             echo 'GetFiles->init()' . PHP_EOL;
              $this->file_types = $settings['file_types'];
-         $file_location = $settings['file_location_root'];
+         $this->file_location = $settings['file_location_root'];
             foreach (new \DirectoryIterator($file_location) as $fileinfo) {
                 echo $fileinfo->getFilename();
                 // skip dot files
