@@ -15,7 +15,7 @@ class GetFiles
 
     private function get_files()
     {
-        echo 'get files';
+        echo 'get files' . PHP_EOL;
         try {
             foreach (new \DirectoryIterator($this->file_location) as $fileinfo) {
                 // skip dot files
