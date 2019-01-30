@@ -7,7 +7,7 @@ class GetFiles
     {
         try {
             echo 'GetFiles->init()' . PHP_EOL;
-            $file_types;
+            $file_types = $settings[]
             foreach (new \DirectoryIterator($files) as $fileinfo) {
                 // skip dot files
                 if ($fileinfo->isDot()) {
