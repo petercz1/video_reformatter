@@ -19,11 +19,12 @@ class GetFiles
             foreach (new \DirectoryIterator($this->file_location) as $fileinfo) {
                 // skip dot files
                 if ($fileinfo->isDot()) {
-                    echo 'dot file...' . PHP;
+                    echo 'dot file...' . PHP_EOL;
                     continue;
                 }
                 // recursion
                 if ($fileinfo->isDir()) {
+                    
                     //$this->get_files($fileinfo->getPathname());
                 }
                 $ext = strtolower(pathinfo($fileinfo->getPathname(), PATHINFO_EXTENSION));
