@@ -133,3 +133,8 @@ Stack trace:
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
 [30-Jan-2019 16:56:56 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$file_location' (T_VARIABLE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 12
 [30-Jan-2019 16:56:59 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$file_location' (T_VARIABLE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 12
+[30-Jan-2019 16:57:01 Asia/Hong_Kong] PHP Fatal error:  Uncaught Error: Call to undefined function get_files() in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php:20
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/index.php(19): chipbug\php_video_reformatter\GetFiles->init(Array)
+#1 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
