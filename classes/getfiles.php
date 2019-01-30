@@ -1,12 +1,6 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
-require('settings.php');
-
-if ($debug) {
-    require('debug.php');
-}
-
 class GetFiles
 {
     public function init($settings)
