@@ -17,3 +17,5 @@ Stack trace:
 [30-Jan-2019 17:03:42 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 8
 [30-Jan-2019 17:03:46 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 8
 [30-Jan-2019 17:04:08 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 8
+[30-Jan-2019 17:04:09 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 8
+[30-Jan-2019 17:04:14 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 8
