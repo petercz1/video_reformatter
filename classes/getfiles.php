@@ -18,7 +18,7 @@ class GetFiles
                 }
                 // recursion
                 if ($fileinfo->isDir()) {
-                    $this->get_files($fileinfo->getPathname());
+                    $this->init($fileinfo->getPathname());
                 }
                 $ext = strtolower(pathinfo($fileinfo->getPathname(), PATHINFO_EXTENSION));
                 // select video containers to process: mkv/mp4/avi/webm
