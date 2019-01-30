@@ -2005,3 +2005,4 @@ Stack trace:
 [30-Jan-2019 17:18:43 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ')', expecting identifier (T_STRING) or namespace (T_NAMESPACE) or \\ (T_NS_SEPARATOR) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 38
 [30-Jan-2019 17:18:44 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ')', expecting identifier (T_STRING) or namespace (T_NAMESPACE) or \\ (T_NS_SEPARATOR) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 38
 [30-Jan-2019 17:18:52 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ')', expecting identifier (T_STRING) or namespace (T_NAMESPACE) or \\ (T_NS_SEPARATOR) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 35
+[30-Jan-2019 17:18:56 Asia/Hong_Kong] PHP Fatal error:  Cannot use try without catch or finally in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 11
