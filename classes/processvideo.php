@@ -4,7 +4,7 @@ namespace chipbug\php_video_reformatter;
 class ProcessVideo
 {
     private $delete_on_conversion;
-    public function init(\DirectoryIterator $fileinfo)
+    public function process(\DirectoryIterator $fileinfo)
     {
         global $delete_on_conversion;
         echo 'process_video';
