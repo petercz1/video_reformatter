@@ -28,14 +28,14 @@ class ProcessVideo
             $new_file_name = escapeshellarg($fileinfo->getPath(). 'new.mp4');
             $same_file = true;
         }
-        if ($codecs['video']<> 'avc') {
+        if ($this->codecs['video']<> 'avc') {
             echo 'video not avc...';
             $video_setting = "-c:v libx264";
         } else {
             $video_setting = "-c:v copy";
             $same_video = true;
         }
-        if ($codecs['audio']<> 'aac') {
+        if ($this->codecs['audio']<> 'aac') {
             echo 'audio not aac...';
             $audio_setting = "-c:a aac";
         } else {
