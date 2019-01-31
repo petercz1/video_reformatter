@@ -33,7 +33,7 @@ class ProcessVideo
             echo 'general not mp41...';
             $general_setting = "-brand mp41";
         } else {
-            echo 'same video' . PHP_EOL;
+            echo 'same mp41' . PHP_EOL;
             $video_setting = "-c:v copy";
             $same_video = true;
         }
