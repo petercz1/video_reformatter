@@ -21,7 +21,7 @@ class GetFiles
                 if ($fileinfo->isDot()) {
                     continue;
                 }
-                if(strpos($fileinfo->getFIlename == '.trash')){
+                if(strpos($fileinfo->getFIlename, '.trash')){
                     continue;
                 }
                 // recursion
