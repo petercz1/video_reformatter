@@ -33,7 +33,7 @@ class ProcessVideo
             echo 'video not avc...';
             $video_setting = "-c:v libx264";
         } else {
-            echo 'same file name' . PHP_EOL;
+            echo 'same video' . PHP_EOL;
             $video_setting = "-c:v copy";
             $same_video = true;
         }
