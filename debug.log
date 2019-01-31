@@ -128,3 +128,5 @@ Stack trace:
 #2 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles->init(Array)
 #3 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
+[31-Jan-2019 11:54:19 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ')' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
+[31-Jan-2019 11:54:23 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ')' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
