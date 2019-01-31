@@ -21,3 +21,9 @@
 [31-Jan-2019 10:16:22 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 33
 [31-Jan-2019 10:16:23 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 14
 [31-Jan-2019 10:16:25 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 13
+[31-Jan-2019 10:16:29 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 14
+[31-Jan-2019 10:16:30 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 14
+[31-Jan-2019 10:16:32 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 34
+[31-Jan-2019 10:16:32 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 34
+[31-Jan-2019 10:16:32 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 34
+[31-Jan-2019 10:16:32 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 34
