@@ -116,3 +116,8 @@ Stack trace:
 [31-Jan-2019 11:40:34 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 22
 [31-Jan-2019 11:40:35 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 22
 [31-Jan-2019 11:40:37 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'continue' (T_CONTINUE) in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 23
+[31-Jan-2019 11:42:40 Asia/Hong_Kong] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to chipbug\php_video_reformatter\GetFiles::init() must be an instance of chipbug\php_video_reformatter\Settings, array given, called in /home/pc/data/bin/utilities/video_reformatter/index.php on line 19 and defined in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php:9
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/index.php(19): chipbug\php_video_reformatter\GetFiles->init(Array)
+#1 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 9
