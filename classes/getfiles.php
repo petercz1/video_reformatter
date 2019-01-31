@@ -22,7 +22,7 @@ class GetFiles
                     continue;
                 }
                 echo 'TRASH:' . $fileinfo->getPath();
-                if(strpos($fileinfo->getFilename, '.Trash')){
+                if(strpos($fileinfo->getPath, '.Trash')){
                     continue;
                 }
                 // recursion
