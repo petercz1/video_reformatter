@@ -30,8 +30,8 @@ class ProcessVideo
             $new_file_name = escapeshellarg($fileinfo->getPath(). 'new.mp4');
             $same_file = true;
         }
-        
-        if ($this->codecs['general']<> 'mp41') {
+
+        if ($this->codecs['container'] 'mp4' && $this->codecs['general']<> 'mp41') {
             echo 'container not mp41...';
             $general_setting = "-brand mp41";
         } else {
