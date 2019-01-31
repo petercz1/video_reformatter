@@ -52,6 +52,8 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 * if debug is enabled, watch for problems in debug.log
 * if the file container is already mp4 but changes have to be made inside, the new file will be called `yourfile.new.mp4`
 
+
+
 ## version history
 
 * 2.0.0 refactored into classes
