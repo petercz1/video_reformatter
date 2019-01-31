@@ -5,9 +5,8 @@ class ProcessVideo
 {
     private $delete_on_conversion;
 
-    public function init(Type $var = null)
+    public function init(\DirectoryIterator $fileinfo)
     {
-        # code...
     }
 
     private function process_video(\DirectoryIterator $fileinfo)
