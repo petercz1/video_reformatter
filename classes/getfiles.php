@@ -22,8 +22,7 @@ class GetFiles
                     continue;
                 }
                 echo 'TRASH:' . $fileinfo->getPath() . PHP_EOL;
-                if(strpos($fileinfo->getPath, '.Trash')){
-                    echo $fileinfo->
+                if(strpos($fileinfo->getPath(), '.Trash')){
                     continue;
                 }
                 // recursion
