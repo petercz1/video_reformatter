@@ -62,7 +62,7 @@ class ProcessVideo
         echo PHP_EOL . 'NEW FILE NAME: ' . $new_file_name . PHP_EOL;
         if (!($same_video && $same_audio && $same_file && $same_mp41)) {
             $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name";
-            echo $cmd;
+            echo $cmd . PHP_EOL;
             //$results = shell_exec($cmd);
         }
         if ((!$same_file || !$same_video || !$same_audio || !$same_mp41) && $this->delete_on_conversion) {
