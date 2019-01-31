@@ -1,0 +1,2 @@
+[31-Jan-2019 12:55:04 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 36
+[31-Jan-2019 12:55:08 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 36
