@@ -1,7 +1,7 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
-\error_log('START:' . PHP_EOL);
+echo 'START:' . PHP_EOL);
 
 spl_autoload_register(function($class){
     // explode namespace and classname into array
