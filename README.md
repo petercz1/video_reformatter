@@ -54,7 +54,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 ## how it works
 
-1. 
+1. create a settings object
 
 ## version history
 
