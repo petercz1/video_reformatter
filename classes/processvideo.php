@@ -19,6 +19,7 @@ class ProcessVideo
         $same_file = false;
         $same_video = false;
         $same_audio = false;
+        $same_mp41 = false;
         $old_file_name = escapeshellarg($fileinfo->getPathname());
         echo PHP_EOL . 'PROCESSING ' . $old_file_name . PHP_EOL;
         if ($this->codecs['container']<> 'mp4') {
