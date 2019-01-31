@@ -21,7 +21,7 @@ class GetFiles
                 if ($fileinfo->isDot()) {
                     continue;
                 }
-                echo TRASH: . $fileinfo->getFilename();
+                echo 'TRASH: . $fileinfo->getFilename();
                 if(strpos($fileinfo->getFilename, '.Trash')){
                     continue;
                 }
