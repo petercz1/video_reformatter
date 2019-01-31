@@ -28,7 +28,7 @@ class ProcessVideo
             $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'mp4');
         } else {
             echo 'same file name' . PHP_EOL;
-            $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'mp4');
+            $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'new.mp4');
             $same_file = true;
         }
 
