@@ -21,12 +21,12 @@ class GetFiles
             foreach (new \DirectoryIterator($this->file_location) as $fileinfo) {
                 // skip dot files
                 if ($fileinfo->isDot()) {
-                    echo 'dot file:' . $filePHP_EOL;
+                    echo 'dot file:' . $fileinfo->getPathname() . PHP_EOL;
                     continue;
                 }
                 // recursion
                 if ($fileinfo->isDir()) {
-                    echo 'recursing...' . PHP_EOL;
+                    echo 'recursing:' . PHP_EOL;
                     //$this->get_files($fileinfo->getPathname());
                 }
                 $ext = strtolower($fileinfo->getExtension());
