@@ -15,7 +15,7 @@ class ProcessVideo
 
     private function process_video(\DirectoryIterator $fileinfo)
     {
-        
+
         echo 'process_video: ' . $fileinfo->getFilename() . PHP_EOL;
         $same_file = false;
         $same_video = false;
@@ -31,16 +31,6 @@ class ProcessVideo
             echo 'same file name' . PHP_EOL;
             $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'new.mp4');
             $same_file = true;
-        }
-
-        if ($this->codecs['container'] == 'mp4' && $this->codecs['general']<> 'mp41') {
-            echo 'container not mp41' . PHP_EOL;
-            $general_setting = "-brand mp41";
-            $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'new.mp4');
-        } else {
-            echo 'same mp41' . PHP_EOL;
-            $general_setting = "";
-            $same_mp41 = true;
         }
 
         if ($this->codecs['video']<> 'avc') {
