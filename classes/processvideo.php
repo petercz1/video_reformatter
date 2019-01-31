@@ -13,7 +13,6 @@ class ProcessVideo
 
     private function process_video(\DirectoryIterator $fileinfo)
     {
-        global $delete_on_conversion;
         echo 'process_video';
         $same_file = false;
         $same_video = false;
