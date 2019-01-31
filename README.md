@@ -10,7 +10,7 @@ Sooooo, to fix this I did the following:
 
 ## remote control solution
 1. I researched the web for my phone model and '[IR Blaster](https://en.wikipedia.org/wiki/Infrared_blaster)' - mine has it. Whoop!
-2. I downloaded a couple of remote control apps (I use [mi](https://play.google.com/store/apps/details?id=com.duokan.phone.remotecontroller) and [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities), they have a near-identical setup and layout) - I found some devices can be found in one database but not the other. YMMV. This means I now learn only one remote control, and it's in english.
+2. I downloaded a couple of remote control apps (I use [mi](https://play.google.com/store/apps/details?id=com.duokan.phone.remotecontroller) and [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities), they have a near-identical setup and layout) - I found some IR devices can be found in one database but not the other. YMMV. This means I now learn only one remote control, and it's in english.
 
 ## file format solution
 I then converted all my favorite video watching to the most common TV format using this code.
