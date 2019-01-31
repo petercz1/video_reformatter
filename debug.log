@@ -55,3 +55,4 @@
 [31-Jan-2019 18:58:36 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getPath in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 25
 [31-Jan-2019 18:58:36 Asia/Hong_Kong] PHP Notice:  Undefined property: DirectoryIterator::$getPath in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 25
 [31-Jan-2019 19:13:49 Asia/Hong_Kong] PHP Notice:  Undefined index: audio in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 55
+[31-Jan-2019 20:32:13 Asia/Hong_Kong] PHP Notice:  Undefined index: general in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 27
