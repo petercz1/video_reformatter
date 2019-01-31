@@ -25,7 +25,7 @@ class ProcessVideo
             echo 'file not mp4...';
             $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'mp4');
         } else {
-            echo 'same file name'
+            echo 'same file name' . php_EOL;
             $new_file_name = escapeshellarg($fileinfo->getPath(). 'new.mp4');
             $same_file = true;
         }
