@@ -31,7 +31,7 @@ class ProcessVideo
             $same_file = true;
         }
         if ($this->codecs['general']<> 'mp41') {
-            echo 'general not mp41...';
+            echo 'container not mp41...';
             $general_setting = "-brand mp41";
         } else {
             echo 'same mp41' . PHP_EOL;
