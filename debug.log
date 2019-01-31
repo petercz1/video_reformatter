@@ -154,3 +154,5 @@ Stack trace:
 #3 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles->init(Array)
 #4 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 9
+[31-Jan-2019 11:56:57 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$new_file_name' (T_VARIABLE), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 29
+[31-Jan-2019 11:57:02 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$new_file_name' (T_VARIABLE), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 29
