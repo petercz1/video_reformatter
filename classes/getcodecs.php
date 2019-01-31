@@ -16,7 +16,7 @@ class GetCodecs
         $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
         $codecs['filename'] = $fileinfo->getFilename();
         $codecs['container'] =  strtolower(pathinfo($fileinfo->getPathname(), PATHINFO_EXTENSION));
-        $codecs['general'] =  strtolower($video_codec[0][0]->__toString());
+        $codecs['general'] =  strtolower($general_codec[0][0]->__toString());
         $codecs['video'] =  strtolower($video_codec[0][0]->__toString());
         $codecs['audio'] = strtolower($audio_codec[0][0]->__toString());
         return $codecs;
