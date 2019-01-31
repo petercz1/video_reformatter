@@ -48,6 +48,8 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 * run with `php index.php`
 * if debug is enabled, watch for problems in debug.log
 
+##
+
 ## version history
 
 * 2.0.0 refactored into classes
