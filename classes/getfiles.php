@@ -27,7 +27,7 @@ class GetFiles
                 // recursion
                 if ($fileinfo->isDir()) {
                     echo 'recursing:' . $fileinfo->getPathname() . PHP_EOL;
-                 $this->get_files($fileinfo->getPathname());
+                    $this->get_files($fileinfo->getPathname());
                 }
                 echo 'PATH: ' . $fileinfo->getFilename() . PHP_EOL;
                 $ext = strtolower($fileinfo->getExtension());
@@ -36,7 +36,7 @@ class GetFiles
                 if (in_array($ext, $this->file_types)) {
                     echo 'processing video...' . PHP_EOL;
                     //process_video($fileinfo);
-                    print_r( $fileinfo). PHP_EOL;
+                    print_r($fileinfo). PHP_EOL;
                 }
             }
         } catch (Exception $ex) {
