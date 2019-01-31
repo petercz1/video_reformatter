@@ -41,6 +41,7 @@ class ProcessVideo
             echo 'audio not aac...';
             $audio_setting = "-c:a aac";
         } else {
+            echo 'same audio' . PHP_EOL;
             $audio_setting = "-c:a copy";
             $same_audio = true;
         }
