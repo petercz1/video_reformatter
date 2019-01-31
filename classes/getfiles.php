@@ -13,7 +13,7 @@ class GetFiles
         $this->get_files($this->file_location);
     }
 
-    private function get_files($file_location)
+    private function get_files(String $file_location)
     {
         try {
             foreach (new \DirectoryIterator($file_location) as $fileinfo) {
