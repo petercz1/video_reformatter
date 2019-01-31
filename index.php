@@ -19,6 +19,8 @@ if ($settings['debug']) {
 }
 
 (new GetFiles)->init($settings);
+echo 'FINISHED...';
+
 
 // function get_files($files)
 // {
