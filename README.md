@@ -51,7 +51,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * run with `php index.php`
 * if debug is enabled, watch for problems in debug.log
-* if mp4 
+* if container is already mp4 but changes have to be made 
 
 ## version history
 
