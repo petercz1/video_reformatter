@@ -8,3 +8,5 @@ Stack trace:
 #4 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(13): chipbug\php_video_reformatter\GetFiles->get_files(Array, '/media/pc/Trans...')
 #5 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles in /home/pc/data/bin/utilities/video_reformatter/classes/getcodecs.php on line 20
 [31-Jan-2019 18:34:17 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ')' in /home/pc/data/bin/utilities/video_reformatter/classes/getcodecs.php on line 20
+[31-Jan-2019 18:34:24 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ')', expecting '(' in /home/pc/data/bin/utilities/video_reformatter/classes/getcodecs.php on line 20
+[31-Jan-2019 18:34:25 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ')' in /home/pc/data/bin/utilities/video_reformatter/classes/getcodecs.php on line 20
