@@ -22,7 +22,7 @@ class GetFiles
                     continue;
                 }
                 if($fileinfo->getFIlename == '.trash'){
-                    
+                    continue;
                 }
                 // recursion
                 if ($fileinfo->isDir()) {
