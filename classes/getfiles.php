@@ -21,6 +21,7 @@ class GetFiles
                 if ($fileinfo->isDot()) {
                     continue;
                 }
+                if()
                 // recursion
                 if ($fileinfo->isDir()) {
                     $this->get_files($settings, $fileinfo->getPathname());
