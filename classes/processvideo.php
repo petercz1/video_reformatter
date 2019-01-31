@@ -35,7 +35,7 @@ class ProcessVideo
         } else {
             echo 'same mp41' . PHP_EOL;
             $general_setting = "-c:v copy";
-            $same_video = true;
+            $same_mp41 = true;
         }
         if ($this->codecs['video']<> 'avc') {
             echo 'video not avc...';
