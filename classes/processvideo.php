@@ -6,7 +6,7 @@ class ProcessVideo
     private $delete_on_conversion;
     private $codecs;
 
-    public function init(GetCodecs $codecs, array $settings, \DirectoryIterator $fileinfo)
+    public function init(, array $settings, \DirectoryIterator $fileinfo)
     {
         $this->delete_on_conversion = $settings['delete_on_conversion'];
         $this->codecs = 
