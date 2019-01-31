@@ -18,7 +18,6 @@ class GetFiles
         try {
             foreach (new \DirectoryIterator($file_location) as $fileinfo) {
                 // skip dot files
-                $fileinfo->
                 if ($fileinfo->isDot()) {
                     continue;
                 }
