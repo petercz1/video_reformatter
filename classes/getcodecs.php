@@ -11,7 +11,7 @@ class GetCodecs
         $results = simplexml_load_string($results);
         $ns = $results->getNamespaces();
         $results->registerXPathNamespace('ns', $ns['']);
-        $general_codec = $results->xpath("//ns:track[@type='Ge']/ns:Format");
+        $general_codec = $results->xpath("//ns:track[@type='General']/ns:Format");
         $audio_codec = $results->xpath("//ns:track[@type='Audio']/ns:Format");
         $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
         $codecs['filename'] = $fileinfo->getFilename();
