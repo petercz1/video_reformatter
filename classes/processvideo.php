@@ -59,7 +59,7 @@ class ProcessVideo
             $audio_setting = "-c:a copy";
             $same_audio = true;
         }
-        echo PHP_EOL . 'NEW FILE NAME: ' . $new_file_name;
+        echo PHP_EOL . 'NEW FILE NAME: ' . $new_file_name . PHP_EOL;
         if (!($same_video && $same_audio && $same_file && $same_mp41)) {
             $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name";
             echo $cmd;
