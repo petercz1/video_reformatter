@@ -221,3 +221,13 @@ Stack trace:
 #3 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(26): chipbug\php_video_reformatter\GetFiles->get_files(Array, '/media/pc/Trans...')
 #4 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(13): chipbug\php_video_reformatter\GetFiles->get_files(Array, '/media/pc/Trans...')
 #5 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles in /home/pc/data/bin/utilities/video_reformatter/classes/getcodecs.php on line 19
+[31-Jan-2019 18:28:33 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$video' (T_VARIABLE), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getcodecs.php on line 9
+[31-Jan-2019 18:28:35 Asia/Hong_Kong] PHP Notice:  Undefined offset: 0 in /home/pc/data/bin/utilities/video_reformatter/classes/getcodecs.php on line 20
+[31-Jan-2019 18:28:35 Asia/Hong_Kong] PHP Fatal error:  Uncaught Error: Call to a member function __toString() on null in /home/pc/data/bin/utilities/video_reformatter/classes/getcodecs.php:20
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php(12): chipbug\php_video_reformatter\GetCodecs->init(Object(DirectoryIterator))
+#1 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(32): chipbug\php_video_reformatter\ProcessVideo->init(Array, Object(DirectoryIterator))
+#2 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(26): chipbug\php_video_reformatter\GetFiles->get_files(Array, '/media/pc/Trans...')
+#3 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(26): chipbug\php_video_reformatter\GetFiles->get_files(Array, '/media/pc/Trans...')
+#4 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(13): chipbug\php_video_reformatter\GetFiles->get_files(Array, '/media/pc/Trans...')
+#5 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles in /home/pc/data/bin/utilities/video_reformatter/classes/getcodecs.php on line 20
