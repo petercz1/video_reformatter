@@ -50,7 +50,7 @@ class ProcessVideo
             $video_setting = "-c:v copy";
             $same_video = true;
         }
-        
+
         if ($this->codecs['audio']<> 'aac') {
             echo 'audio not aac...';
             $audio_setting = "-c:a aac";
@@ -63,7 +63,7 @@ class ProcessVideo
         if (!($same_video && $same_audio && $same_file && $same_mp41)) {
             $cmd = "ffmpeg -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name";
             echo $cmd;
-            $results = shell_exec($cmd);
+            //$results = shell_exec($cmd);
         }
         if ((!$same_file || !$same_video || !$same_audio || !$same_mp41) && $this->delete_on_conversion) {
             echo 'deleting: ' . escapeshellarg($fileinfo->getPathname());
