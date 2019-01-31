@@ -15,7 +15,7 @@ class GetFiles
         $this->get_files($this->file_location);
     }
 
-    private function get_files()
+    private function get_files($file_location)
     {
         try {
             foreach (new \DirectoryIterator() as $fileinfo) {
