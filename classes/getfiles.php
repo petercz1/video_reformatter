@@ -23,7 +23,7 @@ class GetFiles
                 }
                 // recursion
                 if ($fileinfo->isDir()) {
-                    $this->get_files($fileinfo->getPathname());
+                    $this->get_files($settings, $fileinfo->getPathname());
                 }
                 $ext = strtolower($fileinfo->getExtension());
                 // select video containers to process: mkv/mp4/avi/webm
