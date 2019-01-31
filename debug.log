@@ -39,3 +39,5 @@
 [31-Jan-2019 10:16:46 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 34
 [31-Jan-2019 10:16:46 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 34
 [31-Jan-2019 10:16:46 Asia/Hong_Kong] PHP Warning:  A non-numeric value encountered in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 34
+[31-Jan-2019 10:20:04 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
+[31-Jan-2019 10:20:07 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
