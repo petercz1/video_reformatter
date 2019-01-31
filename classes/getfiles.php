@@ -32,7 +32,7 @@ class GetFiles
                 echo $ext - PHP_EOL;
                 // select video containers to process: mkv/mp4/avi/webm
                 if (in_array($ext, $this->file_types)) {
-                    echo 'processing video...';
+                    echo 'processing video...' . PHP_EOL;
                     //process_video($fileinfo);
                     print_r( $fileinfo). PHP_EOL;
                 }
