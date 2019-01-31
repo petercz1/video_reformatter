@@ -37,6 +37,14 @@ class ProcessVideo
             $video_setting = "-c:v copy";
             $same_video = true;
         }
+        if ($this->codecs['video']<> 'avc') {
+            echo 'video not avc...';
+            $video_setting = "-c:v libx264";
+        } else {
+            echo 'same video' . PHP_EOL;
+            $video_setting = "-c:v copy";
+            $same_video = true;
+        }
         if ($this->codecs['audio']<> 'aac') {
             echo 'audio not aac...';
             $audio_setting = "-c:a aac";
