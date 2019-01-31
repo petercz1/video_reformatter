@@ -21,7 +21,9 @@ class GetFiles
                 if ($fileinfo->isDot()) {
                     continue;
                 }
-                if($fileinfo->getFIlename)
+                if($fileinfo->getFIlename == '.trash'){
+                    
+                }
                 // recursion
                 if ($fileinfo->isDir()) {
                     $this->get_files($settings, $fileinfo->getPathname());
