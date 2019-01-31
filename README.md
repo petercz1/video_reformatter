@@ -45,10 +45,12 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * copy the files into  a directory of your choice
 * adjust settings in src/class-settings.php, specifically **the location of your files**
-* run with `php index.php`
-* if debug is enabled, watch for problems in debug.log
+
 
 ## operation
+
+* run with `php index.php`
+* if debug is enabled, watch for problems in debug.log
 
 
 ## version history
