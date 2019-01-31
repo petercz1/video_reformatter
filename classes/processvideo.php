@@ -24,7 +24,7 @@ class ProcessVideo
         echo PHP_EOL . 'PROCESSING ' . $old_file_name . PHP_EOL;
 
         if ($this->codecs['container']<> 'mp4') {
-            echo 'file not mp4...';
+            echo 'file not mp4...' . PHP_EOL;
             $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'mp4');
         } else {
             echo 'same file name' . PHP_EOL;
