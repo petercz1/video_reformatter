@@ -30,7 +30,7 @@ class ProcessVideo
             $same_file = true;
         }
         if ($this->codecs['general']<> 'mp41') {
-            echo 'general not avc...';
+            echo 'general not mp41...';
             $video_setting = "-c:v libx264";
         } else {
             echo 'same video' . PHP_EOL;
