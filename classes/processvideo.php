@@ -43,7 +43,7 @@ class ProcessVideo
         }
 
         if ($this->codecs['video']<> 'avc') {
-            echo 'video not avc...';
+            echo 'video not avc' . PHP_EOL;
             $video_setting = "-c:v libx264";
         } else {
             echo 'same video' . PHP_EOL;
@@ -52,7 +52,7 @@ class ProcessVideo
         }
 
         if ($this->codecs['audio']<> 'aac') {
-            echo 'audio not aac...';
+            echo 'audio not aac';
             $audio_setting = "-c:a aac";
         } else {
             echo 'same audio' . PHP_EOL;
