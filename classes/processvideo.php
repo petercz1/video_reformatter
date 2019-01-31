@@ -67,7 +67,7 @@ class ProcessVideo
         }
         if ((!$same_file || !$same_video || !$same_audio || !$same_mp41) && $this->delete_on_conversion) {
             echo 'deleting: ' . escapeshellarg($fileinfo->getPathname());
-            unlink($fileinfo->getPathname());
+            //unlink($fileinfo->getPathname());
         }
     }
 }
