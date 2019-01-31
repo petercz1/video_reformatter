@@ -15,10 +15,10 @@ class GetFiles
         $this->get_files();
     }
 
-    private function get_files()
+    private function get_files($this->file_location)
     {
         try {
-            foreach (new \DirectoryIterator($this->file_location) as $fileinfo) {
+            foreach (new \DirectoryIterator() as $fileinfo) {
                 // skip dot files
                 if ($fileinfo->isDot()) {
                     echo 'dot file:' . $fileinfo->getPathname() . PHP_EOL;
