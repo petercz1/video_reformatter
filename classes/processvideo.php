@@ -4,7 +4,7 @@ namespace chipbug\php_video_reformatter;
 class ProcessVideo
 {
     private $delete_on_conversion;
-    private
+    private $codecs;
 
     public function init(array $settings, \DirectoryIterator $fileinfo)
     {
