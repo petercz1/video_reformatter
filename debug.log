@@ -7,3 +7,9 @@ Stack trace:
 #3 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles->init(Array)
 #4 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 9
+[31-Jan-2019 12:00:20 Asia/Hong_Kong] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function chipbug\php_video_reformatter\GetFiles::get_files(), 1 passed in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 13 and exactly 2 expected in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php:16
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(13): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
+#1 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles->init(Array)
+#2 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 16
