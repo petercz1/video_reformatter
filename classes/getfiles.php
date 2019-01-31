@@ -29,8 +29,8 @@ class GetFiles
                     echo 'recursing:' . $fileinfo->getPathname() . PHP_EOL;
                     //$this->get_files($fileinfo->getPathname());
                 }
-                $ext = strtolower($fileinfo->getExtension());
                 echo $fileinfo->getPathname() . PHP_EOL;
+                $ext = strtolower($fileinfo->getExtension());
                 echo 'PATH: ' . $ext . PHP_EOL;
                 // select video containers to process: mkv/mp4/avi/webm
                 if (in_array($ext, $this->file_types)) {
