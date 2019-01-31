@@ -18,7 +18,7 @@ class GetFiles
     private function get_files($file_location)
     {
         try {
-            foreach (new \DirectoryIterator() as $fileinfo) {
+            foreach (new \DirectoryIterator($file_location) as $fileinfo) {
                 // skip dot files
                 if ($fileinfo->isDot()) {
                     echo 'dot file:' . $fileinfo->getPathname() . PHP_EOL;
@@ -27,7 +27,7 @@ class GetFiles
                 // recursion
                 if ($fileinfo->isDir()) {
                     echo 'recursing:' . $fileinfo->getPathname() . PHP_EOL;
-                    //return $this->get_files($fileinfo->getPathname());
+                    return $this->get_files($fileinfo->getPathname());
                 }
                 echo 'PATH: ' . $fileinfo->getFilename() . PHP_EOL;
                 $ext = strtolower($fileinfo->getExtension());
