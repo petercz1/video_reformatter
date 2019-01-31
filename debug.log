@@ -93,3 +93,10 @@ Stack trace:
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 21
 [31-Jan-2019 11:37:46 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 22
 [31-Jan-2019 11:37:51 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$fileinfo' (T_VARIABLE), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
+[31-Jan-2019 11:37:55 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
+[31-Jan-2019 11:37:57 Asia/Hong_Kong] PHP Fatal error:  Uncaught Error: Call to undefined function typeof() in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php:20
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(13): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
+#1 /home/pc/data/bin/utilities/video_reformatter/index.php(19): chipbug\php_video_reformatter\GetFiles->init(Array)
+#2 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
