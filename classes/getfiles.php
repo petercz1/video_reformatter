@@ -6,7 +6,7 @@ class GetFiles
     private $file_types;
     private $file_location;
 
-    public function init(Settings $settings)
+    public function init(Array $settings)
     {
         $this->file_types = $settings['file_types'];
         $this->file_location = $settings['file_location_root'];
