@@ -5,6 +5,7 @@ class GetCodecs
 {
     public function init(\DirectoryIterator $fileinfo)
     {
+        echo 'getting codecs'
         $video = escapeshellarg($fileinfo->getPathName());
         $cmd = 'mediainfo --Output=XML ' . $video;
         $results = shell_exec($cmd);
