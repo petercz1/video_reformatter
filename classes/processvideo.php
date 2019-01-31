@@ -30,6 +30,7 @@ class ProcessVideo
             $new_file_name = escapeshellarg($fileinfo->getPath(). 'new.mp4');
             $same_file = true;
         }
+        
         if ($this->codecs['general']<> 'mp41') {
             echo 'container not mp41...';
             $general_setting = "-brand mp41";
@@ -38,6 +39,7 @@ class ProcessVideo
             $general_setting = "";
             $same_mp41 = true;
         }
+
         if ($this->codecs['video']<> 'avc') {
             echo 'video not avc...';
             $video_setting = "-c:v libx264";
