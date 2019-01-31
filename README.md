@@ -63,6 +63,6 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * I plug my USB into the end of a 0.5m bright blue USB extension cable (approx a buck fifty?) and then plug that into the USB at the back of the box. The cable then dangles down below and in front of the set. This means I'm more likely to remember the USB when speed-packing for the airport and I give the room a final sweep.
 
-* once you've got your phone set up as a remote, you can control the temperature to your liking for any IR-controlled a/c, such as in well-known coffee shops. The [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) app even has an a/c scanner if you can't work out the brand of a/c. Just trying to be helpful...
+* Once you've got your phone set up as a remote, you can control the temperature to your liking for any IR-controlled a/c, such as in well-known coffee shops. The [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) app even has an a/c scanner if you can't work out the brand of a/c. Just trying to be helpful...
 
 * [youtube-dl](https://rg3.github.io/youtube-dl/) is the weapon of choice for downloading clips from YouTube, but doesn't guarantee containers will be in mp41 format (as I found out on my last trip. Grrrr....). There's a [gui version](https://mrs0m30n3.github.io/youtube-dl-gui/) available if you want an easier ride.
