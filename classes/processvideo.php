@@ -29,7 +29,7 @@ class ProcessVideo
             $new_file_name = escapeshellarg($fileinfo->getPath(). 'new.mp4');
             $same_file = true;
         }
-        if ($this->codecs['video']<> 'avc') {
+        if ($this->codecs['general']<> 'avc') {
             echo 'video not avc...';
             $video_setting = "-c:v libx264";
         } else {
