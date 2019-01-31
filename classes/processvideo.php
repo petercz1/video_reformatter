@@ -30,6 +30,7 @@ class ProcessVideo
             $same_file = true;
         }
         if ($this->codecs['video']<> 'avc') {
+            echo 'same file name' . PHP_EOL;
             echo 'video not avc...';
             $video_setting = "-c:v libx264";
         } else {
