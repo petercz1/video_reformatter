@@ -34,7 +34,7 @@ class ProcessVideo
             $general_setting = "-brand mp41";
         } else {
             echo 'same mp41' . PHP_EOL;
-            $general_setting = "-c:v copy";
+            $general_setting = "";
             $same_mp41 = true;
         }
         if ($this->codecs['video']<> 'avc') {
