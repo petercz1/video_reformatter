@@ -49,7 +49,7 @@ class ProcessVideo
             $results = shell_exec($cmd);
             //print_r($results);
         }
-        if ((!$same_file || !$same_video || !$same_audio) && $delete_on_conversion) {
+        if ((!$same_file || !$same_video || !$same_audio) && $this->delete_on_conversion) {
             echo 'deleting: ' . escapeshellarg($fileinfo->getPathname());
             unlink($fileinfo->getPathname());
         }
