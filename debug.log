@@ -7,3 +7,10 @@ Stack trace:
 #2 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles->init(Array)
 #3 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 19
+[31-Jan-2019 17:11:06 Asia/Hong_Kong] PHP Fatal error:  Uncaught UnexpectedValueException: DirectoryIterator::__construct(/media/pc/Transcend/experiment): failed to open dir: No such file or directory in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php:19
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(19): DirectoryIterator->__construct('/media/pc/Trans...')
+#1 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(13): chipbug\php_video_reformatter\GetFiles->get_files(Array, '/media/pc/Trans...')
+#2 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles->init(Array)
+#3 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 19
