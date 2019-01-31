@@ -174,3 +174,21 @@ Stack trace:
 #3 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles->init(Array)
 #4 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 9
+[31-Jan-2019 11:57:35 Asia/Hong_Kong] PHP Notice:  Undefined variable: settings in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
+[31-Jan-2019 11:57:35 Asia/Hong_Kong] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to chipbug\php_video_reformatter\ProcessVideo::init() must be of the type array, null given, called in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32 and defined in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php:9
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(32): chipbug\php_video_reformatter\ProcessVideo->init(NULL, Object(DirectoryIterator))
+#1 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(26): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
+#2 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(13): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
+#3 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles->init(Array)
+#4 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 9
+[31-Jan-2019 11:57:37 Asia/Hong_Kong] PHP Notice:  Undefined variable: settings in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32
+[31-Jan-2019 11:57:37 Asia/Hong_Kong] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to chipbug\php_video_reformatter\ProcessVideo::init() must be of the type array, null given, called in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 32 and defined in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php:9
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(32): chipbug\php_video_reformatter\ProcessVideo->init(NULL, Object(DirectoryIterator))
+#1 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(26): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
+#2 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(13): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
+#3 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles->init(Array)
+#4 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 9
