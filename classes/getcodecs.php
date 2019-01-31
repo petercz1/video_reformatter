@@ -3,7 +3,7 @@ namespace chipbug\php_video_reformatter;
 
 class GetCodecs
 {
-    public function get_codecs(\DirectoryIterator $fileinfo)
+    public function init(\DirectoryIterator $fileinfo)
     {
         $video = escapeshellarg($fileinfo->getPathName());
         $cmd = 'mediainfo --Output=XML ' . $video;
