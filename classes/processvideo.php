@@ -5,7 +5,7 @@ class ProcessVideo
 {
     private $delete_on_conversion;
 
-    public function FunctionName(Type $var = null)
+    public function init(Type $var = null)
     {
         # code...
     }
