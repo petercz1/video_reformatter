@@ -13,7 +13,7 @@ class ProcessVideo
 
     private function process_video(\DirectoryIterator $fileinfo)
     {
-        echo 'process_video';
+        echo 'process_video' . PHP_EOL;
         $same_file = false;
         $same_video = false;
         $same_audio = false;
