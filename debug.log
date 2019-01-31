@@ -44,3 +44,4 @@
 [31-Jan-2019 10:20:45 Asia/Hong_Kong] PHP Notice:  Undefined variable: filePHP_EOL in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 24
 [31-Jan-2019 10:20:45 Asia/Hong_Kong] PHP Notice:  Undefined variable: filePHP_EOL in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 24
 [31-Jan-2019 10:21:10 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'PHP_EOL' (T_STRING), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 29
+[31-Jan-2019 10:22:07 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected 'EXTENSION' (T_STRING), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 34
