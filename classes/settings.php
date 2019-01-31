@@ -7,7 +7,7 @@ class Settings
     // location of your media
     // $files = '/yourmedia/videos';
 
-    //$file_location_root = '/media/pc/Transcend';
+    //private $file_location_root = '/media/pc/Transcend';
     private $file_location_root = '/media/dellserver/data/videos/series/temp';
 
     // video filetypes to scan for. Add your own if ffmpeg supports them
