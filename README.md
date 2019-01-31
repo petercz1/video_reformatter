@@ -44,7 +44,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 ## installation
 
 * copy the files into  a directory of your choice
-* adjust settings in src/class-settings.php, specifically **the location of your files**
+* adjust settings in classes/class-settings.php, specifically **the location of your files**
 
 
 ## operation
