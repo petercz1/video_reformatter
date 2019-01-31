@@ -100,3 +100,10 @@ Stack trace:
 #1 /home/pc/data/bin/utilities/video_reformatter/index.php(19): chipbug\php_video_reformatter\GetFiles->init(Array)
 #2 {main}
   thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
+[31-Jan-2019 11:38:06 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected end of file in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 41
+[31-Jan-2019 11:38:09 Asia/Hong_Kong] PHP Fatal error:  Uncaught Error: Call to undefined function typeof() in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php:20
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(13): chipbug\php_video_reformatter\GetFiles->get_files('/media/dellserv...')
+#1 /home/pc/data/bin/utilities/video_reformatter/index.php(19): chipbug\php_video_reformatter\GetFiles->init(Array)
+#2 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php on line 20
