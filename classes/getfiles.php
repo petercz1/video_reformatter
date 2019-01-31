@@ -32,7 +32,6 @@ class GetFiles
                     (new ProcessVideo)->init($settings, $fileinfo);
                 }
             }
-            echo 'FINISHED...';
         } catch (Exception $ex) {
             echo $ex->getMessage();
             echo $ex->getFile() . ': line ' . $ex->getLine() . PHP_EOL;
