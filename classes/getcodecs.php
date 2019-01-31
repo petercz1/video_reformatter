@@ -20,7 +20,7 @@ class GetCodecs
         if (isset($general_codec[0][0])) {
             $codecs['general'] =  strtolower($general_codec[0][0]->__toString());
         }
-        if (isset($general_codec[0][0])) {
+        if (isset($video_codec[0][0])) {
             $codecs['video'] =  strtolower($video_codec[0][0]->__toString());
         }
         $codecs['audio'] = strtolower($audio_codec[0][0]->__toString());
