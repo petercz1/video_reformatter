@@ -35,7 +35,7 @@ class ProcessVideo
         if ($this->codecs['container'] == 'mp4' && $this->codecs['general']<> 'mp41') {
             echo 'container not mp41' . PHP_EOL;
             $general_setting = "-brand mp41";
-            $new_file_name = escapeshellarg($fileinfo->getPath(). '/'. $fileinfo->getBasename($this->codecs['container']) . 'mp4');
+            $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'mp4');
         } else {
             echo 'same mp41' . PHP_EOL;
             $general_setting = "";
