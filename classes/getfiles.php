@@ -21,7 +21,7 @@ class GetFiles
                 if ($fileinfo->isDot()) {
                     continue;
                 }
-                echo 'TRASH:' . $fileinfo->getPath();
+                echo 'TRASH:' . $fileinfo->getPath() . PHP_EOL;
                 if(strpos($fileinfo->getPath, '.Trash')){
                     continue;
                 }
