@@ -17,7 +17,7 @@ class GetFiles
     {
         try {
             foreach (new \DirectoryIterator($file_location) as $fileinfo) {
-                echo "TYPE: " . typeof($fileinfo);
+                echo "TYPE: " . gettype($fileinfo);
                 // skip dot files
                 if ($fileinfo->isDot()) {
                     continue;
