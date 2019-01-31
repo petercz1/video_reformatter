@@ -24,7 +24,6 @@ class Settings
 
     public function init()
     {
-        echo 'doing settings stuff';
         $settings = array();
         $settings['file_location_root'] = $this->file_location_root;
         $settings['file_types'] = $this->file_types;
