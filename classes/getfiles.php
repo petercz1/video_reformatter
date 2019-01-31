@@ -30,7 +30,6 @@ class GetFiles
                     $this->get_files($fileinfo->getPathname());
                 }
                 $ext = strtolower($fileinfo->getExtension());
-                echo 'EXTENSION: ' . $ext . PHP_EOL;
                 // select video containers to process: mkv/mp4/avi/webm
                 if (in_array($ext, $this->file_types)) {
                     echo 'processing video...' . PHP_EOL;
