@@ -15,7 +15,7 @@ class ProcessVideo
 
     private function process_video(\DirectoryIterator $fileinfo)
     {
-        echo 'process_video: ' $fileinfo->getFilename. PHP_EOL;
+        echo 'process_video: ' $fileinfo->getFilename() . PHP_EOL;
         $same_file = false;
         $same_video = false;
         $same_audio = false;

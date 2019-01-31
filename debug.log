@@ -114,3 +114,5 @@ Stack trace:
 [31-Jan-2019 17:49:19 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$fileinfo' (T_VARIABLE), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 18
 [31-Jan-2019 17:49:28 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$fileinfo' (T_VARIABLE), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 18
 [31-Jan-2019 17:49:31 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$fileinfo' (T_VARIABLE), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 18
+[31-Jan-2019 17:49:33 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$fileinfo' (T_VARIABLE), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 18
+[31-Jan-2019 17:49:35 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '$fileinfo' (T_VARIABLE), expecting ',' or ';' in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 18
