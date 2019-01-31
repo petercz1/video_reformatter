@@ -19,7 +19,6 @@ class GetFiles
             foreach (new \DirectoryIterator($file_location) as $fileinfo) {
                 // skip dot files
                 if ($fileinfo->isDot()) {
-                    echo 'dot file:' . $fileinfo->getPathname() . PHP_EOL;
                     continue;
                 }
                 // recursion
