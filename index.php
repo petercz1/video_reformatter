@@ -1,6 +1,7 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
+error
 spl_autoload_register(function($class){
     // explode namespace and classname into array
     $class = explode("\\", $class);
