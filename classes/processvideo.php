@@ -31,7 +31,7 @@ class ProcessVideo
         }
         if ($this->codecs['general']<> 'mp41') {
             echo 'general not mp41...';
-            $general_setting = "-c:v libx264";
+            $general_setting = "-brand mp41";
         } else {
             echo 'same video' . PHP_EOL;
             $video_setting = "-c:v copy";
