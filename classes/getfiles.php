@@ -27,7 +27,7 @@ class GetFiles
                 // recursion
                 if ($fileinfo->isDir()) {
                     echo 'recursing:' . $fileinfo->getPathname() . PHP_EOL;
-                    return $this->get_files($fileinfo->getPathname());
+                 $this->get_files($fileinfo->getPathname());
                 }
                 echo 'PATH: ' . $fileinfo->getFilename() . PHP_EOL;
                 $ext = strtolower($fileinfo->getExtension());
