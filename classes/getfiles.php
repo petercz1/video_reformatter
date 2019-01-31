@@ -10,7 +10,7 @@ class GetFiles
     {
         $this->file_types = $settings['file_types'];
         $this->file_location = $settings['file_location_root'];
-        $this->get_files($this->file_location);
+        $this->get_files($settings, $this->file_location);
     }
 
     private function get_files($settings, String $file_location)
