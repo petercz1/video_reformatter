@@ -23,6 +23,7 @@ class GetCodecs
         if (isset($video_codec[0][0])) {
             $codecs['video'] =  strtolower($video_codec[0][0]->__toString());
         }
+        if (isset($video_codec[0][0])) {
         $codecs['audio'] = strtolower($audio_codec[0][0]->__toString());
         return $codecs;
     }
