@@ -46,7 +46,6 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 * copy the files into  a directory of your choice
 * adjust settings in classes/settings.php, specifically **the location of your files**
 
-
 ## operation
 
 * run with `php index.php`
