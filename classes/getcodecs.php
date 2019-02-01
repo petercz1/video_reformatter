@@ -20,7 +20,7 @@ class GetCodecs
         $cmd = 'mediainfo --Output=XML ' . $video;
         $results = shell_exec($cmd);
         $results = simplexml_load_string($results);
-        // get first namespace
+        // get first namespace and register it
         $ns = $results->getNamespaces();
         $results->registerXPathNamespace('ns', $ns['']);
         $general_codec = $results->xpath("//ns:track[@type='General']/ns:CodecID");
