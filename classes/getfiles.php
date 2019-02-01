@@ -24,7 +24,7 @@ class GetFiles
     }
     
     /**
-     * Undocumented function
+     * get files recusively and h
      *
      * @param [type] $settings
      * @param String $file_location
