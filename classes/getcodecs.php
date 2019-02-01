@@ -7,7 +7,7 @@ namespace chipbug\php_video_reformatter;
 class GetCodecs
 {
     /**
-     * Undocumented function
+     * takes a file represented by a 
      *
      * @param \DirectoryIterator $fileinfo
      * @return void
