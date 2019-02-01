@@ -23,6 +23,7 @@ class GetCodecs
         // get first namespace and register it
         $ns = $results->getNamespaces();
         $results->registerXPathNamespace('ns', $ns['']);
+        
         // get codecs
         // CodecID == mp41, mp42 etc
         $general_codec = $results->xpath("//ns:track[@type='General']/ns:CodecID");
