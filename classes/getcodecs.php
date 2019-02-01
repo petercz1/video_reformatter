@@ -23,6 +23,7 @@ class GetCodecs
         // get first namespace and register it
         $ns = $results->getNamespaces();
         $results->registerXPathNamespace('ns', $ns['']);
+        // get codecs
         $general_codec = $results->xpath("//ns:track[@type='General']/ns:CodecID");
         $audio_codec = $results->xpath("//ns:track[@type='Audio']/ns:Format");
         $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
