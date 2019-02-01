@@ -6,7 +6,7 @@ namespace chipbug\php_video_reformatter;
  */
 class Debug{
     /**
-     * Undocumented function
+     * create a debug object
      *
      * @return void
      */
