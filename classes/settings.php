@@ -11,7 +11,7 @@ class Settings
     // https://en.wikipedia.org/wiki/FFmpeg#Supported_codecs_and_formats
     private $file_types = ['webm', 'mp4', 'avi', 'mkv'];
 
-    // to delete original file after conversion - set to 'true'
+    // to delete original file after conversion set this to 'true'
     // WARNING - if you don't delete then you are responsible for making sure you have enough space available!
     private $delete_on_conversion = true;
 
