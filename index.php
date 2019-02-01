@@ -20,4 +20,4 @@ if ($settings['debug']) {
 
 (new GetFiles)->init($settings);
 
-echo PHP_EOL . 'FINISHED...';
+echo PHP_EOL . 'FINISHED.';
