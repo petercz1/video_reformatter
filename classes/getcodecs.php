@@ -24,8 +24,9 @@ class GetCodecs
         $ns = $results->getNamespaces();
         $results->registerXPathNamespace('ns', $ns['']);
         // get codecs
-        // codec
+        // CodecID == mp41, mp42 etc
         $general_codec = $results->xpath("//ns:track[@type='General']/ns:CodecID");
+        // 
         $audio_codec = $results->xpath("//ns:track[@type='Audio']/ns:Format");
         $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
         $codecs['filename'] = $fileinfo->getFilename();
