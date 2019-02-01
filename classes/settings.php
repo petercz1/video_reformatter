@@ -5,8 +5,6 @@ class Settings
 {
     // SETTINGS
     // location of your media
-    // $files = '/yourmedia/videos';
-
     private $file_location_root = '/media/pc/Transcend';
     //private $file_location_root = '/media/dellserver/data/videos/series/temp';
 
