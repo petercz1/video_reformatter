@@ -38,6 +38,7 @@ class GetFiles
                 if ($fileinfo->isDot()) {
                     continue;
                 }
+                // skip trash folder if present
                 echo 'TRASH:' . $fileinfo->getPath() . PHP_EOL;
                 if(strpos($fileinfo->getPath(), '.Trash')){
                     continue;
