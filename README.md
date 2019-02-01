@@ -58,7 +58,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 2. create a getfiles object and inject the settings object
 3. iterate through the files 
 4. create a processvideo object and inject each file along with a settings object
-5. c
+5. create a 
 
 ## version history
 
