@@ -10,7 +10,7 @@ class GetCodecs
      * takes a file represented by a DirectoryIterator object and gets the codecs
      *
      * @param \DirectoryIterator $fileinfo
-     * @return void
+     * @return array
      */
     public function init(\DirectoryIterator $fileinfo)
     {
