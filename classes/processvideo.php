@@ -2,7 +2,7 @@
 namespace chipbug\php_video_reformatter;
 
 /**
- * processes 
+ * processes a video file
  */
 class ProcessVideo
 {
