@@ -24,7 +24,7 @@ class GetFiles
     }
     
     /**
-     * get files recusively, filter for correct file type and hand to 
+     * get files recusively, filter for correct file type and hand to processvideo object
      *
      * @param [type] $settings
      * @param String $file_location
