@@ -2,7 +2,7 @@
 namespace chipbug\php_video_reformatter;
 
 /**
- * buil
+ * builds an array of settings to be used
  */
 class Settings
 {
