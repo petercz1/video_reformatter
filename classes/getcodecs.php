@@ -16,7 +16,7 @@ class GetCodecs
     {
         echo 'getting codecs';
         $video = escapeshellarg($fileinfo->getPathName());
-        // uses mediainfo
+        // uses mediainfo which can dump results as xml.
         $cmd = 'mediainfo --Output=XML ' . $video;
         $results = shell_exec($cmd);
         $results = simplexml_load_string($results);
