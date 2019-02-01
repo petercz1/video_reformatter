@@ -24,7 +24,7 @@ class ProcessVideo
     }
 
     /**
-     * Undocumented function
+     * processes a video file
      *
      * @param \DirectoryIterator $fileinfo
      * @return void
