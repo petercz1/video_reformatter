@@ -10,7 +10,7 @@ class ProcessVideo
     private $codecs;
 
     /**
-     * sets up a ProcessVideo object
+     * sets up a ProcessVideo object and hands control to
      *
      * @param array $settings
      * @param \DirectoryIterator $fileinfo
