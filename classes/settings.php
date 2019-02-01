@@ -24,7 +24,7 @@ class Settings
     /**
      * builds an array of settings
      *
-     * @return void
+     * @return array
      */
     public function init()
     {
