@@ -1,6 +1,9 @@
 <?php 
 namespace chipbug\php_video_reformatter;
 
+/**
+ * simple debug object
+ */
 class Debug{
 	public function init(){
         error_reporting(E_ALL);
