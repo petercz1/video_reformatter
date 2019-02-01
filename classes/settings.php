@@ -22,7 +22,7 @@ class Settings
     private $debug = true;
 
     /**
-     * Undocumented function
+     * builds an array of settings
      *
      * @return void
      */
