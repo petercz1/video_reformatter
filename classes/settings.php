@@ -2,7 +2,7 @@
 namespace chipbug\php_video_reformatter;
 
 /**
- * builds an array of settings to be used
+ * builds an array of settings to be used in various places
  */
 class Settings
 {
@@ -21,6 +21,11 @@ class Settings
     // use ./debug.log?
     private $debug = true;
 
+    /**
+     * Undocumented function
+     *
+     * @return void
+     */
     public function init()
     {
         $settings = array();
