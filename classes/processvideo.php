@@ -36,7 +36,7 @@ class ProcessVideo
 
         // if anything is not the same as the 'standards', process the video
         $same_file = false; // container = mp4
-        $same_video = false; // video = AVC ie 
+        $same_video = false; // video = AVC ie h.264
         $same_audio = false;
         $same_mp41 = false;
         $old_file_name = escapeshellarg($fileinfo->getPathname());
