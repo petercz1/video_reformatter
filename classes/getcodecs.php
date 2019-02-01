@@ -1,6 +1,9 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
+/**
+ * Undocumented class
+ */
 class GetCodecs
 {
     public function init(\DirectoryIterator $fileinfo)
