@@ -41,7 +41,7 @@ class ProcessVideo
         $old_file_name = escapeshellarg($fileinfo->getPathname());
         echo PHP_EOL . 'PROCESSING ' . $old_file_name . PHP_EOL;
 
-        // check if container == mp4 and container brand = mp41
+        // check if container == mp4 and container brand == mp41
         if ($this->codecs['container'] == 'mp4' && $this->codecs['general']<> 'mp41') {
             echo 'container not mp41' . PHP_EOL;
             $general_setting = "-brand mp41";
@@ -52,7 +52,7 @@ class ProcessVideo
             $same_mp41 = true;
         }
     
-        // check if container = mp4
+        // check if container == mp4
         if ($this->codecs['container']<> 'mp4') {
             echo 'file not mp4' . PHP_EOL;
             $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'mp4');
