@@ -26,7 +26,7 @@ class GetCodecs
         // get codecs
         // CodecID == mp41, mp42 etc
         $general_codec = $results->xpath("//ns:track[@type='General']/ns:CodecID");
-        // 
+        // AAC, 
         $audio_codec = $results->xpath("//ns:track[@type='Audio']/ns:Format");
         $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
         $codecs['filename'] = $fileinfo->getFilename();
