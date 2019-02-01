@@ -34,7 +34,7 @@ class ProcessVideo
 
         echo 'process_video: ' . $fileinfo->getFilename() . PHP_EOL;
 
-        // if anything is not the same, process the video
+        // if anything is not the same as the , process the video
         $same_file = false;
         $same_video = false;
         $same_audio = false;
