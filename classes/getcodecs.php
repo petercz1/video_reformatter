@@ -31,7 +31,7 @@ class GetCodecs
         // h.264 etc
         $video_codec = $results->xpath("//ns:track[@type='Video']/ns:Format");
 
-        
+        // load up the array
         $codecs['filename'] = $fileinfo->getFilename();
         $codecs['container'] =  strtolower(pathinfo($fileinfo->getPathname(), PATHINFO_EXTENSION));
         if (isset($general_codec[0][0])) {
