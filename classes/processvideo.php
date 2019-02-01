@@ -39,6 +39,7 @@ class ProcessVideo
         $same_video = false; // video = AVC ie h.264
         $same_audio = false; // audio = AAC
         $same_mp41 = false; // container brand  = mp41
+        
         $old_file_name = escapeshellarg($fileinfo->getPathname());
         echo PHP_EOL . 'PROCESSING ' . $old_file_name . PHP_EOL;
 
