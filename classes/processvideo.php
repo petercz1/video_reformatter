@@ -37,7 +37,7 @@ class ProcessVideo
         // if anything is not the same as the 'standards', process the video
         $same_file = false; // container = mp4
         $same_video = false; // video = AVC ie h.264
-        $same_audio = false;
+        $same_audio = false; // adio = AAC
         $same_mp41 = false;
         $old_file_name = escapeshellarg($fileinfo->getPathname());
         echo PHP_EOL . 'PROCESSING ' . $old_file_name . PHP_EOL;
