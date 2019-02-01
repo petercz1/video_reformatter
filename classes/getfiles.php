@@ -9,6 +9,12 @@ class GetFiles
     private $file_types;
     private $file_location;
 
+    /**
+     * Undocumented function
+     *
+     * @param Array $settings
+     * @return void
+     */
     public function init(Array $settings)
     {
         $this->file_types = $settings['file_types'];
