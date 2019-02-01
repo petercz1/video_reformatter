@@ -10,7 +10,7 @@ class GetFiles
     private $file_location;
 
     /**
-     * Undocumented function
+     * grab settings and 
      *
      * @param Array $settings
      * @return void
