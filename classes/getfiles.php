@@ -23,7 +23,13 @@ class GetFiles
         $this->get_files($settings, $this->file_location);
     }
     
-
+    /**
+     * Undocumented function
+     *
+     * @param [type] $settings
+     * @param String $file_location
+     * @return void
+     */
     private function get_files($settings, String $file_location)
     {
         try {
