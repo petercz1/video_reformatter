@@ -57,7 +57,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 1. create a settings object
 2. create a getfiles object and inject the settings object
 3. iterate through the files 
-4. and send each file to a processvideo object along with a settings object
+4. send each file to a processvideo object along with a settings object
 
 ## version history
 
