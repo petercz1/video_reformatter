@@ -72,6 +72,7 @@ class ProcessVideo
             $same_video = true;
         }
 
+        // check if audio == AAC
         if ($this->codecs['audio']<> 'aac') {
             echo 'audio not aac' . PHP_EOL;
             $audio_setting = "-c:a aac";
