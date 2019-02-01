@@ -5,9 +5,7 @@ class Settings
 {
     // SETTINGS
     // location of your media
-    // $files = '/yourmedia/videos';
     private $file_location_root = '/your/media/videos';
-    //private $file_location_root = '/media/dellserver/data/videos/series/temp';
 
     // video filetypes to scan for. Add your own if ffmpeg supports them
     // though to be honest you'd struggle to find a format that isn't supported...
