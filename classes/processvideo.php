@@ -89,6 +89,8 @@ class ProcessVideo
             echo $cmd . PHP_EOL;
             $results = shell_exec($cmd);
         }
+
+        // delete file if necessary
         if ((!$same_file || !$same_video || !$same_audio || !$same_mp41) && $this->delete_on_conversion) {
             echo 'deleting: ' . escapeshellarg($fileinfo->getPathname());
             unlink($fileinfo->getPathname());
