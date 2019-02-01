@@ -59,6 +59,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 3. iterate through the files 
 4. create a processvideo object and inject each file along with a settings object
 5. create a codecs object for each file to get details of container/video/audio
+()
 6. 
 
 ## version history
