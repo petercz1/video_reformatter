@@ -9,6 +9,13 @@ class ProcessVideo
     private $delete_on_conversion;
     private $codecs;
 
+    /**
+     * Undocumented function
+     *
+     * @param array $settings
+     * @param \DirectoryIterator $fileinfo
+     * @return void
+     */
     public function init(array $settings, \DirectoryIterator $fileinfo)
     {
         $this->delete_on_conversion = $settings['delete_on_conversion'];
