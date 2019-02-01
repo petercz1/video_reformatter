@@ -3,7 +3,6 @@ namespace chipbug\php_video_reformatter;
 
 class Settings
 {
-    // SETTINGS
     // location of your media
     private $file_location_root = '/your/media/videos';
 
