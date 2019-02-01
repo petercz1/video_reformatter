@@ -11,7 +11,7 @@ class GetFiles
 
     /**
      * grab settings and pass to get_files()
-     * I 
+     * I could have made this a little slicker but ran out of time...
      *
      * @param Array $settings
      * @return void
