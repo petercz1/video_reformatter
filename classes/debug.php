@@ -5,6 +5,11 @@ namespace chipbug\php_video_reformatter;
  * simple debug object
  */
 class Debug{
+    /**
+     * Undocumented function
+     *
+     * @return void
+     */
 	public function init(){
         error_reporting(E_ALL);
         ini_set('log_errors', 1);
