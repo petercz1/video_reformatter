@@ -60,7 +60,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 4. create a processvideo object and inject each file along with a settings object
 5. create a codecs object for each file to get details of container/video/audio
 (codecs object uses `mediainfo`)
-6. convert 
+6. conv
 
 ## version history
 
