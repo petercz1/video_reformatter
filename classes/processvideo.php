@@ -1,7 +1,9 @@
 <?php
 namespace chipbug\php_video_reformatter;
 
-
+/**
+ * Undocumented class
+ */
 class ProcessVideo
 {
     private $delete_on_conversion;
