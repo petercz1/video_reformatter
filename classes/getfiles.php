@@ -10,7 +10,7 @@ class GetFiles
     private $file_location;
 
     /**
-     * grab settings and 
+     * grab settings and start
      *
      * @param Array $settings
      * @return void
