@@ -23,6 +23,12 @@ class ProcessVideo
         $this->process_video($fileinfo);
     }
 
+    /**
+     * Undocumented function
+     *
+     * @param \DirectoryIterator $fileinfo
+     * @return void
+     */
     private function process_video(\DirectoryIterator $fileinfo)
     {
 
