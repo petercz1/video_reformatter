@@ -24,7 +24,7 @@ class GetFiles
     }
     
     /**
-     * get files recusively, filter for correct file type
+     * get files recusively, filter for correct file type and hand to 
      *
      * @param [type] $settings
      * @param String $file_location
