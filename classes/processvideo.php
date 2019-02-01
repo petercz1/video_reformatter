@@ -10,7 +10,7 @@ class ProcessVideo
     private $codecs;
 
     /**
-     * Undocumented function
+     * sets up a 
      *
      * @param array $settings
      * @param \DirectoryIterator $fileinfo
