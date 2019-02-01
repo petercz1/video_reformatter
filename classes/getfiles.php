@@ -2,7 +2,7 @@
 namespace chipbug\php_video_reformatter;
 
 /**
- * Undocumented class
+ * class to retrieve files recusively
  */
 class GetFiles
 {
