@@ -36,7 +36,7 @@ Hence I wrote the following to recursively find all video files on my usb, then 
 this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * ffmpeg
-    * This is the
+    * This is the command
     * ffmpeg -i yourfilename -c:v libx264 -c:a aac -brand mp41 new_file_name.mp4
 * mediainfo
     * mediainfo --Output=XML yourfilename
