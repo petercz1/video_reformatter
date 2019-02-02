@@ -46,7 +46,7 @@ class GetCodecs
                 $codecs['audio'] = strtolower($audio_codec[0][0]->__toString());
             }
             return $codecs;
-        }catch (Exception $ex) {
+        } catch (Exception $ex) {
             echo $ex->getMessage() . PHP_EOL;
             echo $ex->getFile() . ': line ' . $ex->getLine() . PHP_EOL;
         }
