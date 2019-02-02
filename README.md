@@ -36,6 +36,7 @@ Hence I wrote the following to recursively find all video files on my usb, then 
 this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * ffmpeg
+
 * mediainfo
 * php 7.x
 
