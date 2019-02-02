@@ -36,7 +36,7 @@ Hence I wrote the following to recursively find all video files on my usb, then 
 this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * ffmpeg
-    * ffmpeg -i old_file_name -c:v libx264 -c:a aac $general_setting $new_file_name
+    * ffmpeg -i old_file_name -c:v libx264 -c:a aac -brand mp41 $new_file_name
 * mediainfo
 * php 7.x
 
