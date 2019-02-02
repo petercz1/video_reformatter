@@ -33,12 +33,12 @@ class ProcessVideo
     {
         try {
             // if anything is not the same as the 'standards', process the video
-        $same_file = false; // container = mp4
-        $same_video = false; // video = AVC ie h.264
-        $same_audio = false; // audio = AAC
-        $same_mp41 = false; // container brand  = mp41
+            $same_file = false; // container = mp4
+            $same_video = false; // video = AVC ie h.264
+            $same_audio = false; // audio = AAC
+            $same_mp41 = false; // container brand  = mp41
 
-        $old_file_name = escapeshellarg($fileinfo->getPathname());
+            $old_file_name = escapeshellarg($fileinfo->getPathname());
             echo PHP_EOL . 'PROCESSING ' . $old_file_name . PHP_EOL;
 
             // check if container == mp4 and container brand == mp41
