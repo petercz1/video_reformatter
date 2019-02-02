@@ -1,6 +1,6 @@
 # a php video reformatter
 
-## problem
+## problem - how to get usb files to work on any TV
 
 I tried to play my usb video files on a TV in a hotel recently and had the usual frustration of finding which files would play. Some would play on the lounge TV, others on the bedroom TV. Some would play video and not sound, others would do the opposite. :tired_face:
 
