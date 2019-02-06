@@ -7,7 +7,8 @@ namespace chipbug\php_video_reformatter;
 class Settings
 {
     // location of your media
-    private $file_location_root = '/your/media/videos';
+    //private $file_location_root = '/your/media/videos';
+    private $file_location_root = '/media/dellserver/data/videos/series/temp';
 
 
     // video filetypes to scan for. Add your own if ffmpeg supports them

@@ -18,7 +18,7 @@ class GetCodecs
             echo 'getting codecs';
             $video = escapeshellarg($fileinfo->getPathName());
             // uses mediainfo which can dump results as xml. Not my choice but there we are...
-            $cmd = 'mediainfo --Output=XML ' . $video;
+            $cmd = \escapeshellcmd('mediainfo --Output=XML ' . $video);
             $results = shell_exec($cmd);
             $results = simplexml_load_string($results);
             // get first namespace and register it

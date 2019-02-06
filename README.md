@@ -47,6 +47,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * copy the files into  a directory of your choice
 * adjust settings in classes/settings.php, specifically **the location of your files**
+* this is meant to be run as a local app with the input of settings etc under your direct supervision. If you want to adapt this for web use in some way then do not rely on `escapeshellcmd()` and `escapeshellarg()` to sanitize your input!
 
 ## operation
 
