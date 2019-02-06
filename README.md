@@ -29,7 +29,7 @@ So as I understand it the most widely playable formats for TV usb seem to be as 
 
 Feel free to criticize/comment on my (lack of) understanding.
 
-Hence I wrote the following to recursively find all video files on my usb, then check the contents for both video and audio formats, then run ffmpeg to convert the codecs/containers where necessary.
+Hence I wrote the app to recursively find all video files on my usb, then check the contents for both video and audio formats, then run ffmpeg to convert the codecs/containers where necessary.
 
 ## requirements
 
