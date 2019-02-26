@@ -6,7 +6,8 @@ namespace chipbug\php_video_reformatter;
  */
 class Settings
 {
-    public function __construct(){
+    public function __construct()
+    {
         \error_log('constructing');
     }
     // location of your media
@@ -49,7 +50,8 @@ class Settings
         return $settings;
     }
 
-    public function set_settings(){
+    public function set_settings()
+    {
         // TODO set settings
     }
 }
