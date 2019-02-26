@@ -10,7 +10,6 @@ class Settings
     //private $file_location_root = '/your/media/videos';
     private $file_location_root = '/home/pc/data/downloads/misc/temp';
 
-
     // video filetypes to scan for. Add your own if ffmpeg supports them
     // though to be honest you'd struggle to find a format that isn't supported...
     // https://en.wikipedia.org/wiki/FFmpeg#Supported_codecs_and_formats
