@@ -1,25 +1,25 @@
-console.log('get_settings loaded');
+console.log('get_options loaded');
 
-function get_settings() {
-  settings = {
+function get_options() {
+  options = {
     url: 'app/public.php',
     type: 'GET',
     data: {
-      'command': 'get_settings'
+      'command': 'getOptions'
     },
-    success: display_settings,
+    success: display_options,
     error: display_error
   };
-  $.ajax(settings);
+  $.ajax(options);
 }
 
-function display_settings(data, status, xhr) {
-  data = JSON.parse(data);
+function display_options(data, status, xhr) {
   console.log(data);
-  $.each(data, build_settings);
+  data = JSON.parse(data);
+  $.each(data, build_options);
 }
 
-function build_settings(data_item, data_value) {
+function build_options(data_item, data_value) {
   console.log(data_item + ': ' + data_value);
 
   // create BootStrap form-group
@@ -61,5 +61,5 @@ function build_settings(data_item, data_value) {
 function append_setting(label, option) {
   div.appendChild(label);
   div.appendChild(option);
-  document.getElementById("app_settings").appendChild(div);
+  document.getElementById("app_options").appendChild(div);
 }

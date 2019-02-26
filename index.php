@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 namespace chipbug\php_video_reformatter;
 
 echo 'START' . PHP_EOL;
@@ -12,12 +13,12 @@ spl_autoload_register(function($class){
     require_once 'classes/' . $class . '.php';
 });
 
-$settings = (new Settings)->init();
+$options = (new Options)->getOptions();
 
-if ($settings['debug']) {
+if ($options['debug']) {
     (new Debug)->init();
 }
 
-(new GetFiles)->init($settings);
+(new GetFiles)->init();
 
 echo PHP_EOL . 'FINISHED.';

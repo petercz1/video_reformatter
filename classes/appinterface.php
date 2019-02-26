@@ -7,43 +7,44 @@ class AppInterface
 
     public function init()
     {
+        error_log('options init');
         if (isset($_REQUEST)) {
             $this->request = filter_var_array($_REQUEST, FILTER_SANITIZE_STRING);
         }
         switch ($this->request['command']) {
-            case 'get_settings':
-            $this->get_settings();
+            case 'getOptions':
+            $this->getOptions();
             break;
-            case 'set_settings':
-            $this->set_settings();
+            case 'setOptions':
+            $this->setOptions();
             break;
-            case 'get_videos':
-            $this->get_videos();
+            case 'getVideos':
+            $this->getVideos();
             // no break
-            case 'process_videos':
-            $this->process_videos();
+            case 'processVideos':
+            $this->processVideos();
             break;
         }
     }
 
-    public function get_settings()
+    public function getOptions()
     {
-        \error_log('getting settings');
-        echo (new Settings())->get_settings();
+        \error_log('getting options');
+        echo json_encode((new Options())->getOptions());
     }
     
-    public function set_settings()
+    public function setOptions()
     {
-        // set settings
+        // TODO set options
     }
     
-    public function get_videos()
+    public function getVideos()
     {
-        # code...
+        // TODO get video list...
     }
 
-    public function process_videos()
+    public function processVideos()
     {
-        # code...
+        // TODO process videos...
     }
 }

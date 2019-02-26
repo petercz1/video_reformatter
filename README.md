@@ -46,8 +46,8 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 ## installation
 
 * copy the files into  a directory of your choice
-* adjust settings in classes/settings.php, specifically **the location of your files**
-* this is meant to be run as a local app with the input of settings etc under your direct supervision. If you want to adapt this for web use in some way then do not rely on `escapeshellcmd()` and `escapeshellarg()` to sanitize your input!
+* adjust options in classes/options.php, specifically **the location of your files**
+* this is meant to be run as a local app with the input of options etc under your direct supervision. If you want to adapt this for web use in some way then do not rely on `escapeshellcmd()` and `escapeshellarg()` to sanitize your input!
 
 ## operation
 
@@ -57,10 +57,10 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 ## how it works
 
-1. create a settings object
-2. create a getfiles object and inject the settings object
+1. create a options object
+2. create a getfiles object and inject the options object
 3. iterate through the files 
-4. create a processvideo object and inject each file along with a settings object
+4. create a processvideo object and inject each file along with a options object
 5. create a codecs object for each file to get details of container/video/audio
 (codecs object uses `mediainfo`)
 6. process each file using `ffmpeg`

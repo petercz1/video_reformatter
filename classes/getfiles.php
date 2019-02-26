@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 namespace chipbug\php_video_reformatter;
 
 /**
@@ -6,56 +7,45 @@ namespace chipbug\php_video_reformatter;
  */
 class GetFiles
 {
-    private $file_types;
-    private $file_location;
+    private $options;
 
     /**
-     * grab settings and pass to get_files()
-     * I could have made this a little slicker but ran out of time...
-     *
-     * @param Array $settings
+     * initialize options and start file recursion
+     * 
      * @return void
      */
-    public function init(Array $settings)
+    public function init():void
     {
-        $this->file_types = $settings['file_types'];
-        $this->file_location = $settings['file_location_root'];
-        $this->get_files($settings, $this->file_location);
+        $this->options = (new Options)->getOptions();
+        $this->getFiles($this->options['file_location_root']);
     }
     
     /**
      * get files recusively, filter for correct file type and hand to processvideo object
      *
-     * @param [type] $settings
      * @param String $file_location
      * @return void
      */
-    private function get_files($settings, String $file_location)
+    private function getFiles(string $file_location):void
     {
         try {
             foreach (new \DirectoryIterator($file_location) as $fileinfo) {
-                // skip dot files
-                if ($fileinfo->isDot()) {
-                    continue;
-                }
                 // skip trash folder if present
-                if(strpos($fileinfo->getPath(), '.Trash')){
+                if (strpos($fileinfo->getPath(), '.Trash')) {
                     continue;
                 }
                 // recursion
-                if ($fileinfo->isDir()) {
-                    $this->get_files($settings, $fileinfo->getPathname());
+                if ($fileinfo->isDir() && !$fileinfo->isDot()) {
+                    $this->getFiles($fileinfo->getPathname());
                 }
                 // select video containers to process: mkv/mp4/avi/webm
                 $ext = strtolower($fileinfo->getExtension());
-                if (in_array($ext, $this->file_types)) {
-                    echo 'getfiles: processing video for ' . $fileinfo->getFilename() . PHP_EOL;
-                    (new ProcessVideo)->init($settings, $fileinfo);
+                if (in_array($ext, $this->options['file_types'])) {
+                    (new ProcessVideo)->init($fileinfo);
                 }
             }
-        } catch (Exception $ex) {
-            echo $ex->getMessage() . PHP_EOL;
-            echo $ex->getFile() . ': line ' . $ex->getLine() . PHP_EOL;
+        } catch (\Throwable $th) {
+            error_log($th->getFile() . ': line ' . $th->getLine() . ', ' . $th->getMessage());
         }
     }
 }
