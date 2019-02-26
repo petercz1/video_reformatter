@@ -49,5 +49,7 @@ class Settings
         return $settings;
     }
 
-    public function
+    public function set_settings(){
+        
+    }
 }
