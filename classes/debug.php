@@ -11,6 +11,7 @@ class Debug{
      * @return void
      */
 	public function init(){
+        error_log('');
         error_reporting(E_ALL);
         ini_set('log_errors', 1);
         ini_set('error_log', "./debug.log");
