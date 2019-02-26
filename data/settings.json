@@ -1,0 +1,6 @@
+{
+	"file_location_root": "/home/pc/data/downloads/misc/temp",
+	"file_types":["webm", "mp4", "avi", "mkv"],
+	"delete_on_conversion": true,
+	"debug": true
+}

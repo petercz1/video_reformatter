@@ -1,3 +1,9 @@
-[06-Feb-2019 12:23:23 Asia/Hong_Kong] PHP Notice:  Undefined index: general in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 45
-[06-Feb-2019 12:23:23 Asia/Hong_Kong] PHP Notice:  Undefined index: video in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 66
-[06-Feb-2019 12:23:23 Asia/Hong_Kong] PHP Notice:  Undefined index: audio in /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php on line 76
+[26-Feb-2019 09:53:51 Asia/Hong_Kong] PHP Fatal error:  Uncaught Error: Call to a member function getNamespaces() on bool in /home/pc/data/bin/utilities/video_reformatter/classes/getcodecs.php:25
+Stack trace:
+#0 /home/pc/data/bin/utilities/video_reformatter/classes/processvideo.php(22): chipbug\php_video_reformatter\GetCodecs->init(Object(DirectoryIterator))
+#1 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(53): chipbug\php_video_reformatter\ProcessVideo->init(Array, Object(DirectoryIterator))
+#2 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(47): chipbug\php_video_reformatter\GetFiles->get_files(Array, '/home/pc/data/d...')
+#3 /home/pc/data/bin/utilities/video_reformatter/classes/getfiles.php(23): chipbug\php_video_reformatter\GetFiles->get_files(Array, '/home/pc/data/d...')
+#4 /home/pc/data/bin/utilities/video_reformatter/index.php(21): chipbug\php_video_reformatter\GetFiles->init(Array)
+#5 {main}
+  thrown in /home/pc/data/bin/utilities/video_reformatter/classes/getcodecs.php on line 25

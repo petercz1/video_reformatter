@@ -6,9 +6,12 @@ namespace chipbug\php_video_reformatter;
  */
 class Settings
 {
+    public function __construct(){
+        \error_log('constructing');
+    }
     // location of your media
     //private $file_location_root = '/your/media/videos';
-    private $file_location_root = '/media/dellserver/data/videos/series/temp';
+    private $file_location_root = '/home/pc/data/downloads/misc/temp';
 
 
     // video filetypes to scan for. Add your own if ffmpeg supports them
@@ -35,6 +38,13 @@ class Settings
         $settings['file_types'] = $this->file_types;
         $settings['delete_on_conversion'] = $this->delete_on_conversion;
         $settings['debug'] = $this->debug;
+        return $settings;
+    }
+
+    public function get_settings()
+    {
+        \error_log('getting settings');
+        $settings = \file_get_contents(__DIR__ . '/../data/settings.json');
         return $settings;
     }
 }
