@@ -58,7 +58,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 ## how it works
 
 1. create an options object and initialize debug if required
-2. create a getfiles object and inject the options object
+2. create a getfiles object
 3. iterate through the files 
 4. create a processvideo object and inject each file along with a options object
 5. create a codecs object for each file to get details of container/video/audio
