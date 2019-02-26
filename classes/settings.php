@@ -50,6 +50,6 @@ class Settings
     }
 
     public function set_settings(){
-        
+        // TODO set settings
     }
 }
