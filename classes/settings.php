@@ -48,4 +48,6 @@ class Settings
         $settings = \file_get_contents(__DIR__ . '/../data/settings.json');
         return $settings;
     }
+
+    public function
 }
