@@ -38,7 +38,7 @@ class Settings
         $settings['file_types'] = $this->file_types;
         $settings['delete_on_conversion'] = $this->delete_on_conversion;
         $settings['debug'] = $this->debug;
-        error_log('b');
+        error_log('built settings array');
         return $settings;
     }
 
