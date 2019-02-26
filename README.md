@@ -60,7 +60,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 1. create an options object and initialize debug if required
 2. create a getfiles object
 3. iterate through the files 
-4. create a processvideo object and inject each file along with a options object
+4. create a processvideo object and inject each file
 5. create a codecs object for each file to get details of container/video/audio
 (codecs object uses `mediainfo`)
 6. process each file using `ffmpeg`
