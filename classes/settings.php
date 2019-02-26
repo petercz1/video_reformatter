@@ -6,10 +6,6 @@ namespace chipbug\php_video_reformatter;
  */
 class Settings
 {
-    public function __construct()
-    {
-        \error_log('constructing');
-    }
     // location of your media
     //private $file_location_root = '/your/media/videos';
     private $file_location_root = '/home/pc/data/downloads/misc/temp';
