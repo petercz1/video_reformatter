@@ -91,7 +91,13 @@ class ProcessVideo
                 $same_file = true;
             }
 
-            // 
+            // {
+            //     echo 'same mp41 ';
+            //     $general_setting = "";
+            //     $same_mp41 = true;
+            // }
+
+            // check if container <> mp4
 
             // check if video <> AVC
             if ($this->codecs['video']<> 'avc') {
