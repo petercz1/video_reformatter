@@ -98,7 +98,7 @@ class ProcessVideo
                 $same_file = true;
             }
 
-            
+
             // check if video <> AVC
             if ($this->codecs['video']<> 'avc') {
                 echo 'video not avc ';
@@ -126,7 +126,7 @@ class ProcessVideo
                     echo 'doesnt exist' . PHP_EOL;
                     $cmd = \escapeshellcmd("ffmpeg -hide_banner -loglevel panic -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name");
                     //echo $cmd . PHP_EOL;
-                    $results = shell_exec($cmd);
+                    //$results = shell_exec($cmd);
                 }
             }
 
