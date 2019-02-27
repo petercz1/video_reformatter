@@ -42,7 +42,6 @@ function build_option(option) {
 
 function build_string(option) {
 div = create_div(option);
-option = document.createElement('input');
 
 }
 
@@ -72,7 +71,8 @@ function create_div(option) {
   label.setAttribute("for", option['name']);
   label.appendChild(txt);
   // create generic option and append
-  
+  option = document.createElement('input');
+
   div.appendChild(label);
   return div;
 }
