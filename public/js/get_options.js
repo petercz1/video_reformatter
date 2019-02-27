@@ -34,7 +34,7 @@ function build_options(option) {
       build_checkbox(option);
       break;
       case 'dropdown':
-      build_checkbox(option);
+      build_dropdown(option);
       break;
   }
 }
