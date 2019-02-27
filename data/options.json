@@ -13,7 +13,7 @@
 	"options": ["webm", "mp4", "avi", "mkv"],
 	"order":0
   },
-  {
+  "delete_on_conversion":{
     "name": "delete_on_conversion",
     "value": "no",
     "type": "radio",
