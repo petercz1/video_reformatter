@@ -7,7 +7,7 @@
 	"name":"file_types",
 	"value":["webm", "mp4", "avi", "mkv"],
 	"type":"checkbox",
-	"options": 
+	"options": ["webm", "mp4", "avi", "mkv"]
 },
 {
 	"name":"file_location_root",
