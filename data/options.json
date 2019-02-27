@@ -13,7 +13,7 @@
 	"name":"delete_on_conversion",
 	"value":false,
 	"type":"radio",
-	"options": null
+	"options": 
 },
 {
 	"name":"file_location_root",
