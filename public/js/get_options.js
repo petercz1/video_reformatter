@@ -54,6 +54,9 @@ function build_radio(option) {
 function build_checkbox(option) {
   
 }
+function name(params) {
+  
+}
 
 // function build_options(data_item, data_value) {
 //   console.log(data_item + ': ' + data_value['name']);
