@@ -20,7 +20,9 @@ class Options
     public static function getOptions():array
     {
         try {
-            if(!isset(self::$options))
+            if(!isset(self::$options)){
+                
+            }
             $options = json_decode(\file_get_contents(__DIR__ . '/../data/options.json'), true);
             return $options;
         } catch (\Throwable $th) {
