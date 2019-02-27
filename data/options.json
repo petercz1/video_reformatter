@@ -4,6 +4,11 @@
 	"type":"string",
 	"options": null
 },{
-	
+
 }
 ]
+
+
+"file_types":["webm", "mp4", "avi", "mkv"],
+"delete_on_conversion": true,
+"debug": true
