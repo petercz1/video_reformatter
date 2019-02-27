@@ -20,7 +20,7 @@ function build_options(data, status, xhr) {
   $.each(data, build_option);
 }
 
-function build_options(option) {
+function build_option(option) {
   switch (option['type']) {
     case 'string':
       build_string(option);
