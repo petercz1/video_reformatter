@@ -71,6 +71,8 @@ function create_div(option) {
   label = document.createElement("label");
   label.setAttribute("for", option['name']);
   label.appendChild(txt);
+  // create generic option and append
+  
   div.appendChild(label);
   return div;
 }
