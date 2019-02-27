@@ -14,7 +14,9 @@ spl_autoload_register(function($class){
 });
 
 $options = Options::getOptions();
-foreach
+foreach($options as $option){
+    
+}
 if ($options['debug']) {
     (new Debug)->init();
 }
