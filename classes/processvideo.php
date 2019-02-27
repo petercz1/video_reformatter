@@ -76,12 +76,10 @@ class ProcessVideo
                 echo 'container not mp41 ';
                 $general_setting = "-brand mp41";
                 $new_file_name = $fileinfo->getPath() . '/' . pathinfo($fileinfo->getPathname(), PATHINFO_FILENAME) . '.new.mp4';
-                // $new_file_name = $fileinfo->getPath() . '/'. $fileinfo->getBasename() . 'new.mp4';
                 echo PHP_EOL . __LINE__ . ', setting new file: ' . $new_file_name . PHP_EOL;
             } elseif ($this->codecs['container']<> 'mp4') {
                 echo 'file not mp4 ';
                 $new_file_name = $fileinfo->getPath() . '/' . pathinfo($fileinfo->getPathname(), PATHINFO_FILENAME) . '.mp4';
-                // $new_file_name = $fileinfo->getPath() . '/'. $fileinfo->getBasename(). 'mp4';
                 echo PHP_EOL . __LINE__ . ', setting new file: ' . $new_file_name . PHP_EOL;
             } else {
                 echo 'same file name ';
