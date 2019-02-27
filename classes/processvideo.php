@@ -72,7 +72,7 @@ class ProcessVideo
             // }
 
             // check if container == mp4 and container brand == mp41
-            if ($this->codecs['container'] == 'mp4' && $this->codecs['general']<> 'mp41') {
+            if ($this->codecs['container'] == 'mp4') {
                 echo 'container not mp41 ';
                 $general_setting = "-brand mp41";
                 $new_file_name = $fileinfo->getPath() . '/' . pathinfo($fileinfo->getPathname(), PATHINFO_FILENAME) . '.new.mp4';
