@@ -19,7 +19,7 @@ function display_options(data, status, xhr) {
 }
 
 function build_options(data_item, data_value) {
-  console.log(data_item + ': ' + data_value[]);
+  console.log(data_item + ': ' + data_value['name']);
 
   // create BootStrap form-group
   div = document.createElement("div");
