@@ -38,14 +38,14 @@ class ProcessVideo
             $same_audio = false; // audio = AAC
             $same_mp41 = false; // container brand  = mp41
 
-            $old_file_name = escapeshellarg($fileinfo->getPathname());
+            $old_file_name = ($fileinfo->getPathname());
             echo PHP_EOL . 'old file: ' . $old_file_name . PHP_EOL;
 
             // check if container == mp4 and container brand == mp41
             if ($this->codecs['container'] == 'mp4' && $this->codecs['general']<> 'mp41') {
                 echo 'container not mp41 ';
                 $general_setting = "-brand mp41";
-                $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'new.mp4');
+                $new_file_name = ($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'new.mp4');
             } else {
                 echo 'same mp41 ';
                 $general_setting = "";
@@ -55,10 +55,10 @@ class ProcessVideo
             // check if container <> mp4
             if ($this->codecs['container']<> 'mp4') {
                 echo 'file not mp4 ';
-                $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'mp4');
+                $new_file_name = ($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'mp4');
             } else {
                 echo 'same file name ';
-                $new_file_name = escapeshellarg($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'new.mp4');
+                $new_file_name = ($fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container']) . 'new.mp4');
                 $same_file = true;
             }
 
