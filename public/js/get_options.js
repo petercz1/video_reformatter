@@ -7,7 +7,7 @@ function get_options() {
     data: {
       'command': 'getOptions'
     },
-    success: display_options,
+    success: build_options,
     error: display_error
   };
   $.ajax(options);
