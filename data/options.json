@@ -5,8 +5,8 @@
 	"options": null
 },{
 	"name":"file_types",
-	"value":"/home/pc/data/downloads/misc/demo",
-	"type":"string",
+	"value":["webm", "mp4", "avi", "mkv"],
+	"type":"checkbox",
 	"options": null
 },
 {
