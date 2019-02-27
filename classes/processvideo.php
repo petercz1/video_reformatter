@@ -21,6 +21,7 @@ class ProcessVideo
         $this->options = Options::getOptions();
         $this->codecs = (new GetCodecs)->init($fileinfo);
         $this->process_video($fileinfo);
+        print_r($this)
     }
 
     /**
