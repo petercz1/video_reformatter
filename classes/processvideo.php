@@ -86,7 +86,7 @@ class ProcessVideo
             if (!($same_video && $same_audio && $same_file && $same_mp41)) {
                 echo PHP_EOL . 'new file: ' . $new_file_name . PHP_EOL;
                 $cmd = \escapeshellcmd("ffmpeg -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name");
-                echo $cmd . PHP_EOL;
+                //echo $cmd . PHP_EOL;
                 $results = shell_exec($cmd);
             }
 
