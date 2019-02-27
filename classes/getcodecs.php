@@ -16,7 +16,6 @@ class GetCodecs
     public function init(\DirectoryIterator $fileinfo): array
     {
         try {
-            echo 'getting codecs' . PHP_EOL;;
             $video = escapeshellarg($fileinfo->getPathName());
             // uses mediainfo which can dump results as xml. Not my choice of datatype but there we are...
             $cmd = \escapeshellcmd('mediainfo --Output=XML ' . $video);
