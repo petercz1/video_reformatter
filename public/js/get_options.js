@@ -13,11 +13,11 @@ function get_options() {
   $.ajax(options);
 }
 
-function display_options(data, status, xhr) {
+function build_options(data, status, xhr) {
   data = JSON.parse(data);
   console.log(data);
   // TODO do an order_by here first?
-  $.each(data, build_options);
+  $.each(data, build_option);
 }
 
 function build_options(option) {
