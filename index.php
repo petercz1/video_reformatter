@@ -21,6 +21,6 @@ foreach($options as $option){
 
 }
 
-(new GetFiles)->init();
+// (new GetFiles)->init();
 
 echo PHP_EOL . 'FINISHED.';
