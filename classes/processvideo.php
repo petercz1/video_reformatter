@@ -42,7 +42,7 @@ class ProcessVideo
             $new_file_name = '';
 
             $old_file_name = $fileinfo->getPathname();
-            echo PHP_EOL . 'old file: ' . $old_file_name . ', PHP_EOL;
+            echo PHP_EOL . 'old file: ' . $old_file_name . ', ' . $fileinfo->getBasename() . PHP_EOL;
 
             // check if container == mp4 and container brand == mp41
             if ($this->codecs['container'] == 'mp4' && $this->codecs['general']<> 'mp41') {
