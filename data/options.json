@@ -17,7 +17,7 @@
     "type": "radio",
     "options": ["yes", "no"]
   },
-  {
+  "debug"{
     "name": "debug",
     "value": "no",
     "type": "radio",
