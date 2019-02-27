@@ -30,9 +30,7 @@ function build_options(option) {
       case 'checkbox':
       build_checkbox(option);
       break;
-      case 'int':
-      build_int(option);
-      break;
+     x
   }
 }
 
