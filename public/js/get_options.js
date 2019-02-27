@@ -19,7 +19,7 @@ function display_options(data, status, xhr) {
   $.each(data, build_options);
 }
 
-function build_options() {
+function build_options(option) {
   
 }
 
