@@ -26,7 +26,7 @@ class Options
                 }
                 self::$options = $settings;
             }
-            print_r(self::$options);
+            //print_r(self::$options);
             return self::$options;
         } catch (\Throwable $th) {
             error_log($th->getFile() . ': line ' . $th->getLine() . ', ' . $th->getMessage());
