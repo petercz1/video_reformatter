@@ -8,15 +8,7 @@ namespace chipbug\php_video_reformatter;
 class Options
 {
     private static $options;
-    /**
-     * builds an array of options
-     * singleton so we only access the settings json file once
-     *
-     * @return array
-     */
-    public function init()
-    {
-    }
+
 
     public static function getOptions():array
     {
