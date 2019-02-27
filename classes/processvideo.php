@@ -77,7 +77,6 @@ class ProcessVideo
 
             // execute ffmpeg
             if (!($same_video && $same_audio && $same_file && $same_mp41)) {
-                echo PHP_EOL . 'new file: ' . $new_file_name . PHP_EOL;
                 if (!file_exists($new_file_name)) {
                     $old_file_name = \escapeshellarg($old_file_name);
                     $new_file_name = \escapeshellarg($new_file_name);
