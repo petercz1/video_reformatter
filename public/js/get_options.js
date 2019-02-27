@@ -24,7 +24,7 @@ function build_options(option) {
     case 'string':
       build_string(option);
       break;
-    case 'string':
+    case 'int':
       build_string(option);
       break;
     case 'radio':
