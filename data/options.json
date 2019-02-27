@@ -3,7 +3,8 @@
     "value": "/home/pc/data/downloads/misc/demo",
     "type": "string",
     "options": null
-  }, {
+  },
+  {
     "name": "file_types",
     "value": ["webm", "mp4", "avi", "mkv"],
     "type": "checkbox",
