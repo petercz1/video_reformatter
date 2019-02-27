@@ -49,7 +49,7 @@ class ProcessVideo
                 echo 'container not mp41 ';
                 $general_setting = "-brand mp41";
                 $new_file_name = $fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container'] . 'new.mp4');
-                echo 
+                echo 'setting new file: ' . $new_file_name
             } else {
                 echo 'same mp41 ';
                 $general_setting = "";
