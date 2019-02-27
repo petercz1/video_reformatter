@@ -39,6 +39,7 @@ class ProcessVideo
             $same_video = false; // video = AVC ie h.264
             $same_audio = false; // audio = AAC
             $same_mp41 = false; // container brand  = mp41
+            
             $new_file_name = '';
             $old_file_name = $fileinfo->getPathname();
 
