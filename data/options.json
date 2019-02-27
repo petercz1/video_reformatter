@@ -12,7 +12,7 @@
 {
 	"name":"delete_on_conversion",
 	"value":false,
-	"type":"string",
+	"type":"boolean",
 	"options": null
 },
 {
