@@ -99,7 +99,7 @@ class ProcessVideo
             // delete file if necessary
             if ((!$same_file || !$same_video || !$same_audio || !$same_mp41) && $this->options['delete_on_conversion']) {
                 echo 'deleting: ' . $old_file_name . PHP_EOL;
-                unlink($fileinfo->getPathname());
+                //unlink($fileinfo->getPathname());
             }
         } catch (\Throwable $th) {
             error_log($th->getFile() . ': line ' . $th->getLine() . ', ' . $th->getMessage());
