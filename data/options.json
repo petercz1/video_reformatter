@@ -1,11 +1,11 @@
 [
-	"file_location_root": {
+  "file_location_root": {
     "name": "file_location_root",
     "value": "/home/pc/data/downloads/misc/demo",
     "type": "string",
     "options": null
   },
-  "file_types":{
+  "file_types": {
     "name": "file_types",
     "value": ["webm", "mp4", "avi", "mkv"],
     "type": "checkbox",
@@ -17,7 +17,7 @@
     "type": "radio",
     "options": ["yes", "no"]
   },
-  "debug"{
+  "debug": {
     "name": "debug",
     "value": "no",
     "type": "radio",
