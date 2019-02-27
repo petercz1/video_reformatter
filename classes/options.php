@@ -10,6 +10,11 @@ class Options
     private static $options;
 
 
+    /**
+     * Undocumented function
+     *
+     * @return array
+     */
     public static function getOptions():array
     {
         try {
