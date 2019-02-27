@@ -53,7 +53,6 @@ class ProcessVideo
 
             // check if container brand <> mp41
             if ($this->codecs['general']<> 'mp41') {
-                echo 'container not mp41 ';
                 $general_setting = "-brand mp41";
             } else {
                 echo 'same mp41 ';
