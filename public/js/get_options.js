@@ -41,7 +41,8 @@ function build_option(option) {
 }
 
 function build_string(option) {
-div = create_div(option)
+div = create_div(option);
+
 }
 
 function build_int(option) {
