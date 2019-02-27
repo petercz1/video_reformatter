@@ -69,6 +69,8 @@ function create_element() {
     label = document.createElement("label");
     label.setAttribute("for", data_item);
     label.appendChild(txt);
+    div.appendChild(label);
+
   return div;
 }
 
