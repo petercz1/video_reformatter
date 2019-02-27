@@ -10,7 +10,7 @@ class Options
     private static $options;
     /**
      * builds an array of options
-     * singleton
+     * singleton so we only acc
      *
      * @return array
      */
