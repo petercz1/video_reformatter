@@ -78,10 +78,6 @@ class ProcessVideo
             } else {
                 echo 'file not mp4 ';
                 $new_file_name = $fileinfo->getPath() . '/' . pathinfo($fileinfo->getPathname(), PATHINFO_FILENAME) . '.mp4';
-            } else {
-                echo 'same file name ';
-                $new_file_name = $fileinfo->getPath() . '/' . pathinfo($fileinfo->getPathname(), PATHINFO_FILENAME) . '.new.mp4';
-                $same_file = true;
             }
             echo PHP_EOL . __LINE__ . ', setting new file: ' . $new_file_name . PHP_EOL;
 
