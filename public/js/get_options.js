@@ -24,13 +24,16 @@ function build_options(option) {
     case 'string':
       build_string(option);
       break;
-      case 'radio':
+    case 'string':
+      build_string(option);
+      break;
+    case 'radio':
       build_radio(option);
       break;
-      case 'checkbox':
+    case 'checkbox':
       build_checkbox(option);
       break;
-     x
+
   }
 }
 
