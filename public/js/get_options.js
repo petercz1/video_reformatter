@@ -43,6 +43,10 @@ function build_string(option) {
   
 }
 
+function build(params) {
+  
+}
+
 // function build_options(data_item, data_value) {
 //   console.log(data_item + ': ' + data_value['name']);
 
