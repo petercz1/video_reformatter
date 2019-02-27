@@ -19,6 +19,6 @@ $options = Options::getOptions();
     }
 
 
-// (new GetFiles)->init();
+(new GetFiles)->init();
 
 echo PHP_EOL . 'FINISHED.';
