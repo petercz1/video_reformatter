@@ -17,7 +17,7 @@ class GetFiles
     public function init():void
     {
         $this->options = Options::getOptions();
-        $this->getFiles($this->options['file_location_root']);
+        $this->getFiles($this->options['file_location_root']['value']);
     }
     
     /**
