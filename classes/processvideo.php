@@ -63,17 +63,14 @@ class ProcessVideo
             if ($this->codecs['video']<> 'avc') {
                 $video_setting = "-c:v libx264";
             } else {
-                echo 'same video ';
                 $video_setting = "-c:v copy";
                 $same_video = true;
             }
 
             // check if audio <> AAC
             if ($this->codecs['audio']<> 'aac') {
-                echo 'audio not aac ';
                 $audio_setting = "-c:a aac";
             } else {
-                echo 'same audio ';
                 $audio_setting = "-c:a copy";
                 $same_audio = true;
             }
