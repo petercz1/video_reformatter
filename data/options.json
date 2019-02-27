@@ -1,17 +1,20 @@
 {
 	"file_location_root":{
+    "name": "file_location_root",
     "value": "/home/pc/data/downloads/misc/demo",
     "type": "string",
 	"options": null,
 	"order":0
   },
   "file_types":{
+    "name": "file_types",
     "value": ["webm", "mp4", "avi", "mkv"],
     "type": "checkbox",
 	"options": ["webm", "mp4", "avi", "mkv"],
 	"order":0
   },
   "delete_on_conversion":{
+    "name": "delete_on_conversion",
     "value": "no",
     "type": "radio",
 	"options": ["yes", "no"],
