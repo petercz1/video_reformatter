@@ -75,7 +75,7 @@ class ProcessVideo
             if ($this->codecs['container'] == 'mp4') {
                 echo 'container is mp4 ';
                 $new_file_name = $fileinfo->getPath() . '/' . pathinfo($fileinfo->getPathname(), PATHINFO_FILENAME) . '.new.mp4';
-            } else ($this->codecs['container']<> 'mp4') {
+            } else  {
                 echo 'file not mp4 ';
                 $new_file_name = $fileinfo->getPath() . '/' . pathinfo($fileinfo->getPathname(), PATHINFO_FILENAME) . '.mp4';
             } else {
