@@ -5,7 +5,7 @@
     "type": "string",
     "options": null
   },
-  file_types{
+  "file_types"{
     "name": "file_types",
     "value": ["webm", "mp4", "avi", "mkv"],
     "type": "checkbox",
