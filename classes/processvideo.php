@@ -50,7 +50,6 @@ class ProcessVideo
                 $new_file_name = $fileinfo->getPath() . '/' . pathinfo($fileinfo->getPathname(), PATHINFO_FILENAME) . '.mp4';
             }
 
-
             // check if container brand <> mp41
             if ($this->codecs['general']<> 'mp41') {
                 $general_setting = "-brand mp41";
