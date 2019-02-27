@@ -47,7 +47,11 @@ function build_int(option) {
   
 }
 
-function build_radio(params) {
+function build_radio(option) {
+  
+}
+
+function build_(params) {
   
 }
 
