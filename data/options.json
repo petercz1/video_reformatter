@@ -14,7 +14,7 @@
 	"order":0
   },
   "delete_on_conversion":{
-    "name": "delete_on_conversion",
+    "name": "delete after conversion",
     "value": "no",
     "type": "radio",
 	"options": ["yes", "no"],
