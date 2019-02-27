@@ -20,10 +20,11 @@ function display_options(data, status, xhr) {
 }
 
 function build_options(option) {
-  switch(option['type']){
+  switch (option['type']) {
     case 'string':
-    build_string(option);
-    break;
+      build_string(option);
+      break;
+      
   }
 }
 
