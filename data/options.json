@@ -3,7 +3,7 @@
     "value": "/home/pc/data/downloads/misc/demo",
     "type": "string",
 	"options": null,
-	
+	"order":
   },
   {
     "name": "file_types",
