@@ -43,7 +43,7 @@ function build_string(option) {
   
 }
 
-function build(params) {
+function build_int(params) {
   
 }
 
