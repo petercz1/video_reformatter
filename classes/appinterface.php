@@ -30,7 +30,7 @@ class AppInterface
     public function getOptions()
     {
         \error_log('getting options');
-        echo json_encode((OptionsgetOptions());
+        echo json_encode((Options::getOptions());
     }
     
     public function setOptions()
