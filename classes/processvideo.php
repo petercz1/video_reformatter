@@ -39,19 +39,16 @@ class ProcessVideo
             $same_video = false; // video = AVC ie h.264
             $same_audio = false; // audio = AAC
             $same_mp41 = false; // container brand  = mp41
-            
+
             $new_file_name = '';
             $old_file_name = $fileinfo->getPathname();
 
             // check if container == mp4 
             if ($this->codecs['container'] == 'mp4') {
-                echo 'container is mp4 ';
                 $new_file_name = $fileinfo->getPath() . '/' . pathinfo($fileinfo->getPathname(), PATHINFO_FILENAME) . '.new.mp4';
             } else {
-                echo 'file not mp4 ';
                 $new_file_name = $fileinfo->getPath() . '/' . pathinfo($fileinfo->getPathname(), PATHINFO_FILENAME) . '.mp4';
             }
-            echo PHP_EOL . __LINE__ . ', setting new file: ' . $new_file_name . PHP_EOL;
 
 
             // check if container brand <> mp41
