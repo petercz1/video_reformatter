@@ -13,7 +13,7 @@ spl_autoload_register(function($class){
     require_once 'classes/' . $class . '.php';
 });
 
-$options = (Options)::getOptions();
+$options = Options::getOptions();
 
 if ($options['debug']) {
     (new Debug)->init();
