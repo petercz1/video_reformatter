@@ -71,8 +71,8 @@ class ProcessVideo
             //     $same_file = true;
             // }
 
-             // check if container == mp4 and container brand == mp41
-             if ($this->codecs['container'] == 'mp4' && $this->codecs['general']<> 'mp41') {
+            // check if container == mp4 and container brand == mp41
+            if ($this->codecs['container'] == 'mp4' && $this->codecs['general']<> 'mp41') {
                 echo 'container not mp41 ';
                 $general_setting = "-brand mp41";
                 $new_file_name = $fileinfo->getPath() . '/' . pathinfo($fileinfo->getPathname(), PATHINFO_FILENAME) . '.new.mp4';
@@ -91,11 +91,11 @@ class ProcessVideo
             if ($this->codecs['container'] == 'mp4' && $this->codecs['general']<> 'mp41') {
                 echo 'container not mp41 ';
                 $general_setting = "-brand mp41";
-            } else// {
-                //     echo 'same mp41 ';
-                //     $general_setting = "";
-                //     $same_mp41 = true;
-                // }
+            } else {
+                echo 'same mp41 ';
+                $general_setting = "";
+                $same_mp41 = true;
+            }
 
             // check if video <> AVC
             if ($this->codecs['video']<> 'avc') {
@@ -120,7 +120,7 @@ class ProcessVideo
             // execute ffmpeg
             if (!($same_video && $same_audio && $same_file && $same_mp41)) {
                 echo PHP_EOL . 'new file: ' . $new_file_name . PHP_EOL;
-                if(!file_exists($new_file_name)){
+                if (!file_exists($new_file_name)) {
                     echo 'doesnt exist' . PHP_EOL;
                     $cmd = \escapeshellcmd("ffmpeg -hide_banner -loglevel panic -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name");
                     //echo $cmd . PHP_EOL;
@@ -138,4 +138,3 @@ class ProcessVideo
         }
     }
 }
-
