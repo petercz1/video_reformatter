@@ -21,7 +21,8 @@ function display_options(data, status, xhr) {
 
 function build_options(option) {
   switch(option['type']){
-    case 'string'
+    case 'string':
+    build
   }
 }
 
