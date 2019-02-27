@@ -15,7 +15,7 @@ spl_autoload_register(function($class){
 
 $options = Options::getOptions();
 foreach($options as $option){
-    if ($option['debug'] == ) {
+    if ($option['debug'] == 'yes') {
         (new Debug)->init();
     }
 
