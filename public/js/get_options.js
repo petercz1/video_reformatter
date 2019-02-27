@@ -42,6 +42,7 @@ function build_option(option) {
 
 function build_string(option) {
 div = create_div(option);
+option = document.createElement('input');
 
 }
 
