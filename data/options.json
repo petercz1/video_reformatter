@@ -11,7 +11,7 @@
 },
 {
 	"name":"delete_on_conversion",
-	"value":"/home/pc/data/downloads/misc/demo",
+	"value":false,
 	"type":"string",
 	"options": null
 },
