@@ -63,14 +63,13 @@ function create_element() {
   div = document.createElement("div");
   div.setAttribute("class", "form-group");
   //   // create text label out of key by removing underscores
-    txt = data_item.toString().replace(/_/g, ' ');
-    txt = document.createTextNode(txt);
-    // create label and append text
-    label = document.createElement("label");
-    label.setAttribute("for", data_item);
-    label.appendChild(txt);
-    div.appendChild(label);
-
+  txt = data_item.toString().replace(/_/g, ' ');
+  txt = document.createTextNode(txt);
+  // create label and append text
+  label = document.createElement("label");
+  label.setAttribute("for", data_item);
+  label.appendChild(txt);
+  div.appendChild(label);
   return div;
 }
 
