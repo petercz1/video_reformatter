@@ -38,7 +38,7 @@ class ProcessVideo
             $same_audio = false; // audio = AAC
             $same_mp41 = false; // container brand  = mp41
 
-            $old_file_name = ($fileinfo->getPathname());
+            $old_file_name = $fileinfo->getPathname();
             echo PHP_EOL . 'old file: ' . $old_file_name . PHP_EOL;
 
             // check if container == mp4 and container brand == mp41
