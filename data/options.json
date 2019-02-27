@@ -21,7 +21,7 @@
 	"order":0
   },
   "debug":{
-    "name": "debug",
+    "name": "follow debug",
     "value": "no",
     "type": "radio",
 	"options": ["yes", "no"],
