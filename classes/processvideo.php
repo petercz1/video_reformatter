@@ -21,9 +21,8 @@ class ProcessVideo
         $this->options = Options::getOptions();
         $this->codecs = (new GetCodecs)->init($fileinfo);
         $this->process_video($fileinfo);
-        print_r($this->codecs);
     }
-
+    
     /**
      * processes a video file
      *
@@ -33,6 +32,7 @@ class ProcessVideo
     private function process_video(\DirectoryIterator $fileinfo):void
     {
         try {
+            print_r($this->codecs);
             // if anything is not the same as the 'USB TV standards', process the video
             $same_file = false; // container = mp4
             $same_video = false; // video = AVC ie h.264
