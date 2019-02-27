@@ -19,6 +19,8 @@ function display_options(data, status, xhr) {
   $.each(data, build_options);
 }
 
+
+
 function build_options(data_item, data_value) {
   console.log(data_item + ': ' + data_value['name']);
 
