@@ -59,7 +59,7 @@ function build_dropdown(option) {
   
 }
 
-function create
+function create_element
 
 
 // function build_options(data_item, data_value) {
