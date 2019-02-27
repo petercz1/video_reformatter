@@ -39,7 +39,7 @@ function build_options(option) {
   }
 }
 
-function name(params) {
+function build_string(option) {
   
 }
 
