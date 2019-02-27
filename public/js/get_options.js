@@ -20,7 +20,9 @@ function display_options(data, status, xhr) {
 }
 
 function build_options(option) {
-  switch(option['type'])
+  switch(option['type']){
+    
+  }
 }
 
 function build_options(data_item, data_value) {
