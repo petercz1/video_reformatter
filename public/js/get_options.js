@@ -67,7 +67,7 @@ function create_div(option) {
   txt = document.createTextNode(txt);
   // create label and append text
   label = document.createElement("label");
-  label.setAttribute("for", option['']);
+  label.setAttribute("for", option['name']);
   label.appendChild(txt);
   div.appendChild(label);
   return div;
