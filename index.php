@@ -15,10 +15,10 @@ spl_autoload_register(function($class){
 
 $options = Options::getOptions();
 foreach($options as $option){
-    
-}
-if ($options['debug']) {
-    (new Debug)->init();
+    if ($option['debug'] == ) {
+        (new Debug)->init();
+    }
+
 }
 
 (new GetFiles)->init();
