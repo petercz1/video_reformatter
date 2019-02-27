@@ -18,7 +18,7 @@ class ProcessVideo
      */
     public function init(\DirectoryIterator $fileinfo):void
     {
-        $this->options = (new Options)->getOptions();
+        $this->options = (new Options::getOptions();
         $this->codecs = (new GetCodecs)->init($fileinfo);
         $this->process_video($fileinfo);
     }
