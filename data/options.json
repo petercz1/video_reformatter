@@ -11,9 +11,9 @@
 },
 {
 	"name":"delete_on_conversion",
-	"value":'no',
+	"value":"no",
 	"type":"radio",
-	"options": ["yes", 'no']
+	"options": ["yes", "no"]
 },
 {
 	"name":"file_location_root",
