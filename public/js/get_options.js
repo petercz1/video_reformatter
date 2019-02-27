@@ -27,8 +27,11 @@ function build_options(option) {
       case 'radio':
       build_radio(option);
       break;
-      case 'int':
+      case 'checkbox':
       build_string(option);
+      break;
+      case 'int':
+      build_int(option);
       break;
   }
 }
