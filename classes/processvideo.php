@@ -96,6 +96,7 @@ class ProcessVideo
             if ($this->codecs['container'] == 'mp4' && $this->codecs['general']<> 'mp41') {
                 echo 'container not mp41 ';
                 $general_setting = "-brand mp41";
+            }
 
             // check if video <> AVC
             if ($this->codecs['video']<> 'avc') {
