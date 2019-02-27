@@ -1,6 +1,6 @@
 {
 	"file_location_root":{
-    "name": "file_location_root",
+    "name": "folder to start in",
     "value": "/home/pc/data/downloads/misc/demo",
     "type": "string",
 	"options": null,
