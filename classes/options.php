@@ -21,9 +21,9 @@ class Options
     {
         try {
             if(!isset(self::$options)){
-                
+
             }
-            $options = json_decode(\file_get_contents(__DIR__ . '/../data/options.json'), true);
+            self::$options = json_decode(\file_get_contents(__DIR__ . '/../data/options.json'), true);
             return $options;
         } catch (\Throwable $th) {
             error_log($th->getFile() . ': line ' . $th->getLine() . ', ' . $th->getMessage());
