@@ -11,7 +11,7 @@ class Options
 
 
     /**
-     * Undocumented function
+     * returns an array of options with $key == name of option, array of values
      *
      * @return array
      */
