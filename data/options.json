@@ -4,7 +4,7 @@
 	"type":"string",
 	"options": null
 },{
-	"name":"file_location_root",
+	"name":"file_types",
 	"value":"/home/pc/data/downloads/misc/demo",
 	"type":"string",
 	"options": null
