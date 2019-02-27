@@ -72,7 +72,6 @@ function create_div(option) {
   label.appendChild(txt);
   // create generic option and append
   option = document.createElement('input');
-
   div.appendChild(label);
   return div;
 }
