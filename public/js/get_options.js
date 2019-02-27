@@ -16,6 +16,7 @@ function get_options() {
 function display_options(data, status, xhr) {
   data = JSON.parse(data);
   console.log(data);
+  // do an order_by here first?
   $.each(data, build_options);
 }
 
