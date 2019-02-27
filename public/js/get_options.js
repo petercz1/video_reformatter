@@ -39,44 +39,46 @@ function build_options(option) {
   }
 }
 
-function build_options(data_item, data_value) {
-  console.log(data_item + ': ' + data_value['name']);
 
-  // create BootStrap form-group
-  div = document.createElement("div");
-  div.setAttribute("class", "form-group");
 
-  // create text label out of key by removing underscores
-  txt = data_item.toString().replace(/_/g, ' ');
-  txt = document.createTextNode(txt);
+// function build_options(data_item, data_value) {
+//   console.log(data_item + ': ' + data_value['name']);
 
-  // create label and append text
-  label = document.createElement("label");
-  label.setAttribute("for", data_item);
-  label.appendChild(txt);
+//   // create BootStrap form-group
+//   div = document.createElement("div");
+//   div.setAttribute("class", "form-group");
 
-  option = document.createElement('input');
-  if (typeof data_value == "boolean") {
-    option.setAttribute("class", "form-check form-check-inline");
-    option.setAttribute("type", "radio");
-    option.setAttribute("name", data_item);
-    option.setAttribute("id", data_item + "_true");
-    append_setting(label, option);
+//   // create text label out of key by removing underscores
+//   txt = data_item.toString().replace(/_/g, ' ');
+//   txt = document.createTextNode(txt);
 
-    option.setAttribute("class", "form-check form-check-inline");
-    option.setAttribute("type", "radio");
-    option.setAttribute("name", data_item);
-    option.setAttribute("id", data_item + "_false");
-    append_setting(label, option);
+//   // create label and append text
+//   label = document.createElement("label");
+//   label.setAttribute("for", data_item);
+//   label.appendChild(txt);
 
-  } else {
-    option.setAttribute("type", "text");
-    option.setAttribute("class", "form-control");
-    option.setAttribute("id", data_item);
-    option.setAttribute("value", data_value);
-    append_setting(label, option);
-  }
-}
+//   option = document.createElement('input');
+//   if (typeof data_value == "boolean") {
+//     option.setAttribute("class", "form-check form-check-inline");
+//     option.setAttribute("type", "radio");
+//     option.setAttribute("name", data_item);
+//     option.setAttribute("id", data_item + "_true");
+//     append_setting(label, option);
+
+//     option.setAttribute("class", "form-check form-check-inline");
+//     option.setAttribute("type", "radio");
+//     option.setAttribute("name", data_item);
+//     option.setAttribute("id", data_item + "_false");
+//     append_setting(label, option);
+
+//   } else {
+//     option.setAttribute("type", "text");
+//     option.setAttribute("class", "form-control");
+//     option.setAttribute("id", data_item);
+//     option.setAttribute("value", data_value);
+//     append_setting(label, option);
+//   }
+// }
 
 function append_setting(label, option) {
   div.appendChild(label);
