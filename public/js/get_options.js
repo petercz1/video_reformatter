@@ -51,7 +51,7 @@ function build_radio(option) {
   
 }
 
-function build_(params) {
+function build_checkbox(option) {
   
 }
 
