@@ -55,14 +55,12 @@ class ProcessVideo
             if ($this->codecs['general']<> 'mp41') {
                 $general_setting = "-brand mp41";
             } else {
-                echo 'same mp41 ';
                 $general_setting = "";
                 $same_mp41 = true;
             }
 
             // check if video <> AVC
             if ($this->codecs['video']<> 'avc') {
-                echo 'video not avc ';
                 $video_setting = "-c:v libx264";
             } else {
                 echo 'same video ';
