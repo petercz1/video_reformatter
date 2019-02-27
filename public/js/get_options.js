@@ -14,8 +14,8 @@ function get_options() {
 }
 
 function display_options(data, status, xhr) {
-  console.log(data);
   data = JSON.parse(data);
+  console.log(data);
   $.each(data, build_options);
 }
 
