@@ -40,7 +40,7 @@ class GetFiles
                 }
                 // select video containers to process: mkv/mp4/avi/webm
                 $ext = strtolower($fileinfo->getExtension());
-                if (in_array($ext, $this->options['file_types'])) {
+                if (in_array($ext, $this->options['file_types']['value'])) {
                     (new ProcessVideo)->init($fileinfo);
                 }
             }
