@@ -14,12 +14,12 @@ spl_autoload_register(function($class){
 });
 
 $options = Options::getOptions();
-foreach($options as $option){
-    if ($option['debug'] == 'yes') {
-        (new Debug)->init();
-    }
+// foreach($options as $option){
+//     if ($option['debug'] == 'yes') {
+//         (new Debug)->init();
+//     }
 
-}
+// }
 
 // (new GetFiles)->init();
 
