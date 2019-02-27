@@ -12,7 +12,7 @@
 {
 	"name":"delete_on_conversion",
 	"value":false,
-	"type":"boolean",
+	"type":"radio",
 	"options": null
 },
 {
