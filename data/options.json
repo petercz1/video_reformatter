@@ -1,0 +1,28 @@
+[{
+	"name":"file_location_root",
+	"value":"/home/pc/data/downloads/misc/demo",
+	"type":"string",
+	"options": null
+},{
+	"name":"file_types",
+	"value":["webm", "mp4", "avi", "mkv"],
+	"type":"checkbox",
+	"options": ["webm", "mp4", "avi", "mkv"]
+},
+{
+	"name":"delete_on_conversion",
+	"value":'false',
+	"type":"radio",
+	"options": ['true', 'false'];
+},
+{
+	"name":"file_location_root",
+	"value":"/home/pc/data/downloads/misc/demo",
+	"type":"string",
+	"options": null
+}
+]
+
+
+"": true,
+"debug": true
