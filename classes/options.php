@@ -20,8 +20,8 @@ class Options
         try {
             if(!isset(self::$options)){
                 $settings = json_decode(\file_get_contents(__DIR__ . '/../data/options.json'), true);
-                foreach($settings as $setting){
-                    
+                foreach($settings as $setting=>$value){
+
                 }
                 self::$options = $settings;
             }
