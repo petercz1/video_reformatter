@@ -20,7 +20,7 @@
 	"options": ["yes", "no"],
 	"order":0
   },
-  {
+  "debug":{
     "name": "debug",
     "value": "no",
     "type": "radio",
