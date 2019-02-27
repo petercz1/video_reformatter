@@ -73,7 +73,6 @@ function create_div(option) {
   return div;
 }
 
-
 // function build_options(data_item, data_value) {
 //   console.log(data_item + ': ' + data_value['name']);
 
