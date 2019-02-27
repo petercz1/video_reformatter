@@ -18,11 +18,11 @@ class Options
     public static function getOptions():array
     {
         try {
-            if(!isset(self::$options)){
+            if (!isset(self::$options)) {
                 $settings = json_decode(\file_get_contents(__DIR__ . '/../data/options.json'), true);
-                foreach($settings as $setting=>$value){
-print_r($setting);
-print_r($value)
+                foreach ($settings as $setting=>$value) {
+                    print_r($setting);
+                    print_r($value);
                 }
                 self::$options = $settings;
             }
