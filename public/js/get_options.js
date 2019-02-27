@@ -62,7 +62,7 @@ function build_dropdown(option) {
 function create_element(){
   div = document.createElement("div");
   div.setAttribute("class", "form-group");
-  return 
+  return div;
 }
 
 
