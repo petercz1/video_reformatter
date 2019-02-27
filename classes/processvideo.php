@@ -87,10 +87,6 @@ class ProcessVideo
                 echo PHP_EOL . 'new file: ' . $new_file_name . PHP_EOL;
                 if(!file_exists($new_file_name)){
                     echo 'doesnt exist' . PHP_EOL;
-                    echo $new_file_name . PHP_EOL;
-                    echo "/home/pc/data/downloads/misc/demo/folder 1/filemkvmp3.mp4" . PHP_EOL;
-                    echo strcmp("/home/pc/data/downloads/misc/demo/folder 1/filemkvmp3.mp4", $new_file_name) . PHP_EOL;
-                    var_dump(!is_file($new_file_name));
                     $cmd = \escapeshellcmd("ffmpeg -hide_banner -loglevel panic -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name");
                     //echo $cmd . PHP_EOL;
                     $results = shell_exec($cmd);
