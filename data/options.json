@@ -25,5 +25,5 @@
 
 
 "file_types":["webm", "mp4", "avi", "mkv"],
-"delete_on_conversion": true,
+"": true,
 "debug": true
