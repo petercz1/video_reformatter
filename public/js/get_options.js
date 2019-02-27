@@ -63,7 +63,6 @@ function build_dropdown(option) {
 function create_div(option) {
   div = document.createElement("div");
   div.setAttribute("class", "form-group");
-  //   // create text label out of key by removing underscores
   txt = data_item.toString().replace(/_/g, ' ');
   txt = document.createTextNode(txt);
   // create label and append text
