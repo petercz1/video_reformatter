@@ -41,7 +41,6 @@ class ProcessVideo
             $same_mp41 = false; // container brand  = mp41
             $new_file_name = '';
             $old_file_name = $fileinfo->getPathname();
-            echo PHP_EOL . 'old file: ' . $old_file_name . PHP_EOL;
 
             // check if container == mp4 
             if ($this->codecs['container'] == 'mp4') {
@@ -93,7 +92,7 @@ class ProcessVideo
                     $new_file_name = \escapeshellarg($new_file_name);
                     $cmd = \escapeshellcmd("ffmpeg -hide_banner -loglevel panic -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name");
                     echo $cmd . PHP_EOL;
-                    $results = shell_exec($cmd);
+                    //$results = shell_exec($cmd);
                 }
             }
 
