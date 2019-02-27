@@ -11,7 +11,7 @@
     "type": "checkbox",
     "options": ["webm", "mp4", "avi", "mkv"]
   },
-  {
+  "delete_on_conversion": {
     "name": "delete_on_conversion",
     "value": "no",
     "type": "radio",
