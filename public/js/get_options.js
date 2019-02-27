@@ -40,31 +40,35 @@ function build_options(option) {
 }
 
 function build_string(option) {
-  
+
 }
 
 function build_int(option) {
-  
+
 }
 
 function build_radio(option) {
-  
+
 }
 
 function build_checkbox(option) {
-  
+
 }
 
 function build_dropdown(option) {
-  
+
 }
 
-function create_element(){
+function create_element() {
   div = document.createElement("div");
   div.setAttribute("class", "form-group");
   //   // create text label out of key by removing underscores
-//   txt = data_item.toString().replace(/_/g, ' ');
-//   txt = document.createTextNode(txt);
+  //   txt = data_item.toString().replace(/_/g, ' ');
+  //   txt = document.createTextNode(txt);
+  //   // create label and append text
+  //   label = document.createElement("label");
+  //   label.setAttribute("for", data_item);
+  //   label.appendChild(txt);
   return div;
 }
 
