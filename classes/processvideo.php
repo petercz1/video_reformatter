@@ -92,7 +92,9 @@ class ProcessVideo
             //     $same_mp41 = true;
             // }
 
-            // check if container brand = mp
+            // check if container brand = mp41
+
+            
             // check if video <> AVC
             if ($this->codecs['video']<> 'avc') {
                 echo 'video not avc ';
