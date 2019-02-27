@@ -86,11 +86,6 @@ class ProcessVideo
             }
             echo PHP_EOL . __LINE__ . ', setting new file: ' . $new_file_name . PHP_EOL;
 
-            // {
-            //     echo 'same mp41 ';
-            //     $general_setting = "";
-            //     $same_mp41 = true;
-            // }
 
             // check if container brand = mp41
             if ($this->codecs['container'] == 'mp4' && $this->codecs['general']<> 'mp41') {
