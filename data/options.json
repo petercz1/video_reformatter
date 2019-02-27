@@ -1,5 +1,5 @@
 {
-	{
+	"file_location_root":{
     "name": "file_location_root",
     "value": "/home/pc/data/downloads/misc/demo",
     "type": "string",
