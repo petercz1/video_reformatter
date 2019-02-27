@@ -63,7 +63,7 @@ function build_dropdown(option) {
 function create_div(option) {
   div = document.createElement("div");
   div.setAttribute("class", "form-group");
-  txt = data_item.toString().replace(/_/g, ' ');
+  txt = op
   txt = document.createTextNode(txt);
   // create label and append text
   label = document.createElement("label");
