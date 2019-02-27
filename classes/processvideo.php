@@ -64,6 +64,7 @@ class ProcessVideo
             } else {
                 echo 'same file name ';
                 $new_file_name = $fileinfo->getPath() . '/'. $fileinfo->getBasename($this->codecs['container'] . 'new.mp4');
+                echo __LINE__ . ', setting new file: ' . $new_file_name . PHP_EOL;
                 $same_file = true;
             }
 
