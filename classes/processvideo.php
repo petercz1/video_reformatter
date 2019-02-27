@@ -90,7 +90,7 @@ class ProcessVideo
                 echo PHP_EOL . 'new file: ' . $new_file_name . PHP_EOL;
                 if (!file_exists($new_file_name)) {
                     echo 'doesnt exist' . PHP_EOL;
-                    $old_file_name = \escapeshellarg($old_file_name)
+                    $old_file_name = \escapeshellarg($old_file_name);
                     $new_file_name = \escapeshellarg($new_file_name);
                     $cmd = \escapeshellcmd("ffmpeg -hide_banner -loglevel panic -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name");
                     echo $cmd . PHP_EOL;
