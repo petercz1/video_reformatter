@@ -21,7 +21,7 @@ function build_options(data, status, xhr) {
 }
 
 function build_option(option) {
-  console.log();
+  console.log(option['type']);
   switch (option['type']) {
     case 'string':
       build_string(option);
