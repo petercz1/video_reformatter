@@ -17,7 +17,7 @@ function build_options(data, status, xhr) {
   data = JSON.parse(data);
   console.log(data);
   // TODO do an order_by here first?
-  Object.keys(data).forEachbuild_option);
+  Object.keys(data).forEach(build_option);
 }
 
 function build_option(option) {
