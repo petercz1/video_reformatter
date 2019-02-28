@@ -17,11 +17,11 @@ function build_options(data, status, xhr) {
   data = JSON.parse(data);
   console.log(data);
   // TODO do an order_by here first?
-  build_option);
+  Object.build_option);
 }
 
 function build_option(option) {
-  console.log(option['type']);
+  console.log();
   switch (option['type']) {
     case 'string':
       build_string(option);
