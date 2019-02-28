@@ -42,7 +42,7 @@ function build_option(option) {
 
 function build_string(option) {
 div = create_div(option);
-
+console.log(div);
 }
 
 function build_int(option) {
