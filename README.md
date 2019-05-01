@@ -72,4 +72,4 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * [youtube-dl](https://rg3.github.io/youtube-dl/) (there's a [gui version](https://mrs0m30n3.github.io/youtube-dl-gui/) available) is the weapon of choice for downloading clips from YouTube, but doesn't guarantee containers will be in mp41 format (as I found out on my last trip. Grrrr....)
 
-If it's any use a start would be nice (top right...)
+If it's any use a star would be nice (top right...)
