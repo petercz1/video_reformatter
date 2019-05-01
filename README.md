@@ -1,5 +1,7 @@
 # a php video reformatter
 
+![](demo.gif)
+
 ## problem - how to get usb files to work on any TV
 
 I tried to play my usb video files on a TV in a hotel recently and had the usual frustration of finding which files would play. Some would play on the lounge TV, others on the bedroom TV. Some would play video and not sound, others would do the opposite. :tired_face:
@@ -51,22 +53,12 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 ## operation
 
-* run with `php index.php`
-* if debug is enabled, watch for problems in debug.log
+* run with `php -S localhost: 4567`
+* use your browser and navigate to `localhost:4567`
 * if the file container is already mp4 but changes have to be made inside, the new file will be called `yourfile.new.mp4`
 
-## how it works
-
-1. create an options object and initialize debug if required
-2. create a getfiles object
-3. iterate through the files 
-4. create a processvideo object and inject each file
-5. create a codecs object for each file to get details of container/video/audio
-(codecs object uses `mediainfo`)
-6. process each file using `ffmpeg`
-
 ## version history
-
+* 3.0.0 added simple frontend built with web components and a bit of bootstrap 4
 * 2.0.0 refactored into classes
 * 1.0.0 proof of concept
 
@@ -79,3 +71,4 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 * Once you've got your phone set up as a remote, you can control the temperature to your liking for any IR-controlled a/c, such as in a certain brand of well-known coffee shops. The [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) app even has an a/c scanner if you can't work out the brand of a/c. Just trying to be helpful...
 
 * [youtube-dl](https://rg3.github.io/youtube-dl/) (there's a [gui version](https://mrs0m30n3.github.io/youtube-dl-gui/) available) is the weapon of choice for downloading clips from YouTube, but doesn't guarantee containers will be in mp41 format (as I found out on my last trip. Grrrr....)
+

@@ -4,21 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible">
-  <link rel="icon" href="https://undertale.aminoapps.com/static/bower/emojify.js/images/emoji/fish.png">
-  <link rel="stylesheet" <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="public/css/style.css">
+  <link rel="shortcut icon" href="public/images/favicon.ico" type="image/x-icon">
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-  <script src="js/javascript.js"></script>
-  <script src="js/display_error.js"></script>
-  <script src="js/get_options.js"></script>
-  <script src="js/save_options.js"></script>
-  <script src="js/get_videos.js"></script>
-  <script src="js/process_videos.js"></script>
+  <script type="module" src="public/js/javascript.js"></script>
 
   <title>USB Video reformatter</title>
 </head>
@@ -26,51 +20,32 @@
 <body class="container">
 
   <h1>USB Video reformatter</h1>
-  <p>Uses ffmpeg and mediainfo - see installation</p>
+  <p>Converts video files to a format used by most (all?) TVs.</p>
+  <p> Files of type webm, avi, mkv and mp4 are converted to mp4 (brand mp41), internal video stream is converted to AVC
+    and
+    internal audio stream is converted to AAC</p>
+  <p>This code uses <a href="https://www.ffmpeg.org/download.html">ffmpeg</a> and <a
+      href="https://mediaarea.net/en/MediaInfo/Download">mediainfo</a> - see <a
+      href="https://github.com/petercz1/video_reformatter">installation</a> for details</p>
 
-  <ul class="nav nav-tabs justify-content-center" id="myTab">
-
-    <li class="nav-item">
-      <a class="nav-link active" id="options-tab" data-toggle="tab" href="#options">options</a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" id="process-tab" data-toggle="tab" href="#process">process videos</a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" id="installation-tab" data-toggle="tab" href="#installation">installation</a>
-    </li>
-
-  </ul>
-
-  <div class="tab-content" id="menu">
-
-    <div class="tab-pane fade show active" id="options">
-      <h2>options</h2>
-      <p>Adjust before running!</p>
-      <div id="app_options">
-        
+  <div class="row">
+    <div class="form-group col-8">
+      <div class="row">
+        <label for="file_location_root" class="col-3">Folder to start in</label>
+        <input type="text" class="form-control col-8" value="/home/pc/data/downloads/misc/demo" id="file_location_root"
+          placeholder="/path/to/your/video/folder">
       </div>
     </div>
-
-    <div class="tab-pane fade" id="process">
-      <h2>videos</h2>
-      <button id="start_processing">start processing</button>
+    <div class="form-check col-4">
+      <input class="form-check-input" type="checkbox" id="delete_on_conversion">
+      <label class="form-check-label" for="delete_on_conversion">Delete old files after conversion</label>
+      <small id="emailHelp" class="form-text text-muted">THIS IS IRREVERSIBLE! If you want to keep the old files, check
+        you have enough disk space for the new files</small>
     </div>
-
-    <div class="tab-pane fade" id="installation">
-      <h2>installation</h2>
-      <p>This code needs a couple of utilities to be installed first:</p>
-      <ul>
-        <li><a href="https://mediaarea.net/en/MediaInfo/Download">mediainfo</a> - this grabs all the coding info for any media file</li>
-        <li><a href="https://www.ffmpeg.org/download.html">ffmpeg</a> - this does the actual conversions</li>
-      </ul>
-      <p>Download them for your particular machine before running a video conversion - it won't work without them!</p>
-    </div>
-
   </div>
 
+  <app-controlbutton></app-controlbutton>
+  <app-tablebase></app-tablebase>
 </body>
 
 </html>

@@ -2,23 +2,29 @@
 declare(strict_types=1);
 namespace chipbug\php_video_reformatter;
 
-echo 'START' . PHP_EOL;
+//echo 'START' . '</br>';
 
-spl_autoload_register(function($class){
-    // explode namespace and classname into array
-    $class = explode("\\", $class);
-    // get last item (ie classname) and convert to lowercase
-    $class = strtolower(end($class));
-    // include the class
-    require_once 'classes/' . $class . '.php';
-});
+require_once('classes/autoloader.php');
+(new Autoloader)->init();
 
-$options = Options::getOptions();
-    if ($options['debug']['value'] == 'yes') {
-        (new Debug)->init();
+(new Debug)->init();
+
+(new Router)->init();
+
+
+// simple debug helper
+function notice($txt)
+{
+    $bt = \debug_backtrace();
+    $area = array_shift($bt);
+
+    if (\is_array($txt)) {
+        error_log(basename($area['file']) . ': ' . $area['line']);
+        error_log(print_r($txt, true));
+    } elseif (\is_object($txt)) {
+        error_log(basename($area['file']) . ': ' . $area['line']);
+        error_log(print_r((array)$txt, true));
+    } else {
+        error_log(basename($area['file']) . ': ' . $area['line'] . ', ' . $txt);
     }
-
-
-(new GetFiles)->init();
-
-echo PHP_EOL . 'FINISHED.';
+}

@@ -1,0 +1,83 @@
+:root {
+  --main-fg-color: blue;
+  --main-bg-color: lightgray;
+  --header-bg-color: lightblue;
+  --footer-bg-color: lightblue;
+  --warning: red;
+  --bigger-font-size: 1.2em
+}
+
+.floatRight {
+  float: right;
+}
+
+p.IE11 {
+  display: none;
+}
+
+.divider {
+  border-top: 1px solid var(--main-bg-color);
+  margin-top: 0.5em;
+}
+
+.warning {
+  padding-top: 0.5em;
+  color: var(--warning);
+}
+
+.center{
+  text-align: center;
+}
+
+.basictable {
+  width: 100%;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.theader {
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.theadercell {
+  display: table-cell;
+  padding: 10px;
+  text-align: justify;
+  border-bottom: 1px solid var(--main-bg-color);
+}
+
+.tbody {
+  display: table-row-group;
+
+}
+
+.trow {
+  display: table-row;
+}
+
+.trow:nth-child(even) {
+  background: var(--main-bg-color);
+}
+
+.tcell {
+  display: table-cell;
+  padding: 0.1em 0;
+}
+
+.tfooter {
+  display: table-footer-group;
+  font-weight: bold;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.3);
+}
+
+.completed{
+  height: 1.2em;
+  color: var(--main-fg-color);
+  font-weight: bold;
+}
