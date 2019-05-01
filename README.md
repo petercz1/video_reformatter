@@ -74,4 +74,4 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 Help yourself.
 
-If it's any use a star would be nice (top right...)
+If it's of any use a star would be nice (top right...)
