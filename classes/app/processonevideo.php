@@ -17,14 +17,9 @@ class ProcessOneVideo
     public function process_video(array $file):void
     {
         try {
-            notice('processing video');
-
             // if anything is not the same as the 'USB TV standards', process the video
             $ideal_format = true; // container = mp4, container brand  = mp41, video = AVC ie h.264, audio = AAC
-
             $new_file_name = '';
-            $old_file_name = $file['basename'];
-
 
             // check if container == mp4
             if ($file['extension'] == 'mp4') {
@@ -59,38 +54,25 @@ class ProcessOneVideo
             }
 
             // execute ffmpeg
-            if (!($ideal_format || file_exists($new_file_name))) {
-                $old_file_name = \escapeshellarg($old_file_name);
+            if (!$ideal_format && !file_exists($new_file_name)) {
+                $old_file_name = \escapeshellarg($file['filepath']);
                 $new_file_name = \escapeshellarg($new_file_name);
-                $cmd = \escapeshellcmd("ffmpeg -hide_banner -loglevel panic -i ${file['filepath']} $video_setting $audio_setting $general_setting $new_file_name");
+                $cmd = "ffmpeg -hide_banner -loglevel panic -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name";
+                notice($cmd);
                 $results = shell_exec($cmd);
-                //$this->saveData($file);
+                // delete file if necessary
+                if (!$ideal_format && $file['delete_on_conversion']) {
+                    unlink($file['filepath']);
+                }
+                $file['processed'] = true;
+                $file['audioFormat'] = 'AAC';
+                $file['videoFormat'] = 'AVC';
+                $file['mp41'] = true;
+                $file['extension'] = 'mp4';
             }
-
-            // delete file if necessary
-            if (!$ideal_format && $file['delete_on_conversion']) {
-                unlink($file['filepath']);
-            }
-            $file['processed'] = true;
-            $file['audioFormat'] = 'AAC';
-            $file['videoFormat'] = 'AVC';
-            $file['mp41'] = true;
-            $file['extension'] = 'mp4';
             echo json_encode($file);
         } catch (\Throwable $th) {
             echo json_encode(["error"=> "server error $th->getFile() line $th->getLine() $th->getMessage()"]);
         }
     }
-
-    // private function saveData(array $file):void
-    // {
-    //     $file['processed'] = true;
-    //     if (\file_exists('tempData.json')) {
-    //         $tempData = json_decode(\file_get_contents('tempData.json'));
-    //     } else {
-    //         $tempData = [];
-    //     }
-    //     $tempData[] = $file;
-    //     \file_put_contents('tempData.json', json_encode($tempData));
-    // }
 }
