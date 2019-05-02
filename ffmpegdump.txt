@@ -1,0 +1,32 @@
+Input #0, matroska,webm, from '/media/pc/64GB USB/videos/films/me/Hotel (1967)/Hotel (1967 Film Complete).mkv':
+  Metadata:
+    CREATION_TIME   : 2016-05-28 10:17:36
+    MAJOR_BRAND     : dash
+    MINOR_VERSION   : 0
+    COMPATIBLE_BRANDS: iso6avc1mp41
+    ENCODER         : Lavf56.1.0
+  Duration: 02:04:48.67, start: 0.026000, bitrate: 655 kb/s
+    Stream #0:0(und): Video: h264 (Main), yuv420p(tv, smpte170m, progressive), 854x480 [SAR 1:1 DAR 427:240], 30.30 fps, 29.97 tbr, 1k tbn, 59.94 tbc (default)
+    Metadata:
+      CREATION_TIME   : 2016-05-28 10:17:36
+      LANGUAGE        : und
+    Stream #0:1(eng): Audio: opus, 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (opus (native) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, mp4, to '/media/pc/64GB USB/videos/films/me/Hotel (1967)/Hotel (1967 Film Complete).mp4':
+  Metadata:
+    COMPATIBLE_BRANDS: iso6avc1mp41
+    MAJOR_BRAND     : dash
+    MINOR_VERSION   : 0
+    encoder         : Lavf57.83.100
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m, progressive), 854x480 [SAR 1:1 DAR 427:240], q=2-31, 30.30 fps, 29.97 tbr, 16k tbn, 1k tbc (default)
+    Metadata:
+      CREATION_TIME   : 2016-05-28 10:17:36
+      LANGUAGE        : und
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      LANGUAGE        : eng
+      encoder         : Lavc57.107.100 aac
+frame=  460 fps=0.0 q=-1.0 size=    1024kB time=00:00:15.29 bitrate= 548.4kbits/s speed=30.6x    frame=  887 fps=887 q=-1.0 size=    2560kB time=00:00:29.53 bitrate= 710.0kbits/s speed=29.5x    frame= 1311 fps=873 q=-1.0 size=    3840kB time=00:00:43.68 bitrate= 720.1kbits/s speed=29.1x    frame= 1772 fps=885 q=-1.0 size=    5120kB time=00:00:59.06 bitrate= 710.1kbits/s speed=29.5x    frame= 2172 fps=868 q=-1.0 size=    6656kB time=00:01:12.41 bitrate= 753.0kbits/s speed=28.9x    frame= 2616 fps=871 q=-1.0 size=    7680kB time=00:01:27.22 bitrate= 721.3kbits/s speed=29.1x    
