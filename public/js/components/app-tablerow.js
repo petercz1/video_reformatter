@@ -3,7 +3,7 @@ import PubSub from '../data/pubsub.js';
 
 
 export default class AppTableRow extends RootElement {
-  
+
   constructor(file) {
     super();
     this.pubsub = PubSub;
@@ -36,4 +36,5 @@ export default class AppTableRow extends RootElement {
     this.pubsub.publish('RowChanged', this.file);
   }
 }
+
 customElements.define('app-tablerow', AppTableRow);
