@@ -57,7 +57,6 @@ class ProcessOneVideo
                 $old_file_name = \escapeshellarg($file['filepath']);
                 $new_file_name = \escapeshellarg($new_file_name);
                 $cmd = "ffmpeg -hide_banner -loglevel panic -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name";
-                notice($cmd);
                 $timer = time();
                 $results = shell_exec($cmd);
                 // delete file if necessary
