@@ -24,7 +24,7 @@ export default new class SendData {
         'dirname': data.dirname,
         'filename': data.filename,
         'videoFormat': data.videoFormat.toLowerCase(),
-        'audioCodec': data.audioFormat.toLowerCase(),
+        'audioFormat': data.audioFormat.toLowerCase(),
         'delete_on_conversion': document.getElementById('delete_on_conversion').checked
       };
     });
