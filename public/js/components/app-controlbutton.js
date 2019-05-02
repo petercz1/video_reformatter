@@ -2,7 +2,7 @@ import RootElement from './app-rootelement.js';
 import PubSub from '../data/pubsub.js';
 
 export default class AppControlButton extends RootElement {
-  
+
   constructor() {
     super();
     this.pubsub = PubSub;
@@ -29,8 +29,8 @@ export default class AppControlButton extends RootElement {
     if (data && data.source == 'server error') {
       this.querySelector('div.warning').innerHTML = data.text;
       return
-    }else{
-    this.querySelector('div.warning').innerHTML = '';
+    } else {
+      this.querySelector('div.warning').innerHTML = '';
     }
 
     // once notified of 'ReturnedServerData', unsubscribe to it so this won't get fired again
