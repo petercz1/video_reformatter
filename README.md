@@ -1,5 +1,7 @@
 # a php video reformatter
 
+![](https://img.shields.io/badge/licence-free-green.svg) ![](https://img.shields.io/badge/frameworks-none-green.svg)
+
 ![](demo.gif)
 
 ## problem - how to get usb files to work on any TV
