@@ -2,6 +2,7 @@ import RootElement from './app-rootelement.js';
 import PubSub from '../data/pubsub.js';
 
 export default class AppControlButton extends RootElement {
+  
   constructor() {
     super();
     this.pubsub = PubSub;
