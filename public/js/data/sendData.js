@@ -23,7 +23,7 @@ export default new class SendData {
         'basename': data.basename,
         'dirname': data.dirname,
         'filename': data.filename,
-        'videoCodec': data.videoFormat.toLowerCase(),
+        'videoFormat': data.videoFormat.toLowerCase(),
         'audioCodec': data.audioFormat.toLowerCase(),
         'delete_on_conversion': document.getElementById('delete_on_conversion').checked
       };
