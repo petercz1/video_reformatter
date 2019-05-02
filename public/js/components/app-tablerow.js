@@ -1,7 +1,6 @@
 import RootElement from './app-rootelement.js';
 import PubSub from '../data/pubsub.js';
 
-
 export default class AppTableRow extends RootElement {
 
   constructor(file) {
