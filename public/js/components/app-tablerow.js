@@ -1,7 +1,7 @@
 import PubSub from '../data/pubsub.js';
 
 
-export default class AppTableRow extends HTMLElement {
+export default class AppTableRow extends RootElement {
   constructor(file) {
     super();
     this.pubsub = PubSub;
