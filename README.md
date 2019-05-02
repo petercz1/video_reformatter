@@ -66,12 +66,12 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 
 * A top tip for getting round the TV foreign language interaction is to turn the set on and **then** plug in the USB. If it's recognized you should get something logical to press on screen.
 
-* I plug my USB into the end of a 0.5m bright blue USB extension cable (approx a buck fifty?) and then plug that into the USB at the back of the box. The cable then dangles down below and in front of the set. This means I'm more likely to remember the USB when speed-packing for the airport and I give the room a final sweep.
+* I plug my USB into the end of a 0.5m bright blue USB extension cable (approx a buck fifty?) and then plug that into the USB at the back of the TV. The cable then dangles down below and in front of the set. This means I'm more likely to remember the USB when speed-packing for the airport and I give the room a final sweep.
 
-* Once you've got your phone set up as a remote, you can control the temperature to your liking for any IR-controlled a/c, such as in a certain brand of well-known coffee shops. The [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) app even has an a/c scanner if you can't work out the brand of a/c. Just trying to be helpful...
+* Once you've got your phone set up as a remote, you can control any IR-controlled device, such as the a/c in a certain brand of well-known coffee shops. The [sure](https://play.google.com/store/apps/details?id=com.tekoia.sure.activities) app even has an a/c scanner if you can't work out the brand of a/c. Or maybe you just want to fast-forward someone else's presentation? Just trying to be helpful...
 
-* [youtube-dl](https://rg3.github.io/youtube-dl/) (there's a [gui version](https://mrs0m30n3.github.io/youtube-dl-gui/) available) is the weapon of choice for downloading clips from YouTube, but doesn't guarantee containers will be in mp41 format (as I found out on my last trip. Grrrr....)
+* [youtube-dl](https://rg3.github.io/youtube-dl/) (there's a [gui version](https://mrs0m30n3.github.io/youtube-dl-gui/) available) is the weapon of choice for downloading clips from YouTube, but doesn't guarantee containers will be in mp41 format (as I found out on my last trip. Grrrr....). This code should fix that for you.
 
-Help yourself.
+* I'm probably stating the obvious here, but you have formatted your USB drive to FAT32 right?...
 
-If it's of any use a star would be nice (top right...)
+Help yourself to the code, and if it's of any use then a star would be nice (top right...)

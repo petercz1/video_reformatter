@@ -28,7 +28,6 @@ class ProcessOneVideo
                 $new_file_name = $file['dirname'] . '/' . $file['filename'] . '.mp4';
             }
 
-
             // check if container brand <> mp41
             if (!$file['mp41']) {
                 $general_setting = "-brand mp41";
@@ -38,7 +37,7 @@ class ProcessOneVideo
             }
 
             // check if video <> AVC
-            if (isset($file['videoCodec']) &&  $file['videoCodec'] <> 'avc') {
+            if (isset($file['videoFormat']) &&  $file['videoFormat'] <> 'avc') {
                 $video_setting = "-c:v libx264";
                 $ideal_format = false;
             } else {
@@ -46,7 +45,7 @@ class ProcessOneVideo
             }
 
             // check if audio <> AAC
-            if (isset($file['audioCodec']) && $file['audioCodec'] <> 'aac') {
+            if (isset($file['audioFormat']) && $file['audioFormat'] <> 'aac') {
                 $audio_setting = "-c:a aac";
                 $ideal_format = false;
             } else {
@@ -59,6 +58,7 @@ class ProcessOneVideo
                 $new_file_name = \escapeshellarg($new_file_name);
                 $cmd = "ffmpeg -hide_banner -loglevel panic -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name";
                 notice($cmd);
+                $timer = time();
                 $results = shell_exec($cmd);
                 // delete file if necessary
                 if (!$ideal_format && $file['delete_on_conversion']) {
@@ -69,6 +69,8 @@ class ProcessOneVideo
                 $file['videoFormat'] = 'AVC';
                 $file['mp41'] = true;
                 $file['extension'] = 'mp4';
+                $timer = time() - $timer;
+                $file['timer'] = gmdate("H:i:s", $timer);
             }
             echo json_encode($file);
         } catch (\Throwable $th) {
