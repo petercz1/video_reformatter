@@ -21,7 +21,7 @@ export default class AppTableRow extends HTMLElement {
     <div class="tcell center select"></div>
 		`;
     if ((this.file.videoFormat == 'AVC' && this.file.audioFormat == 'AAC' && this.file.mp41) || this.file.processed == true) {
-      this.querySelector('.select').innerHTML = `<span class="completed">done: ${this.file.timer}</span>`;
+      this.querySelector('.select').innerHTML = `<span class="completed">done: ${()=>{this.file.timer}}</span>`;
     }else{
       this.querySelector('.select').innerHTML = `<input class="form-check-input video-delete" type="checkbox" id="${this.file.filepath}" value="chekit">`;
       this.querySelector('input').checked = this.file.process_video;
