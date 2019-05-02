@@ -56,7 +56,7 @@ class ProcessOneVideo
             if (!$ideal_format && !file_exists($new_file_name)) {
                 $old_file_name = \escapeshellarg($file['filepath']);
                 $new_file_name = \escapeshellarg($new_file_name);
-                $cmd = "ffmpeg -hide_banner -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name";
+                $cmd = "ffmpeg -hide_banner -i $old_file_name $video_setting $audio_setting $general_setting $new_file_name > ";
                 $timer = time();
                 $results = shell_exec($cmd);
                 // delete file if necessary
