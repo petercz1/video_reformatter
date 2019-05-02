@@ -1,3 +1,4 @@
+import RootElement from './app-rootelement.js';
 import PubSub from '../data/pubsub.js';
 import AppTableRow from './app-tablerow.js';
 
