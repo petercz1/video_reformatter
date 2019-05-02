@@ -5,8 +5,8 @@ export default class AppControlButton extends RootElement {
     super();
     this.pubsub = PubSub;
 
-    this.renderData = this.renderData.bind(this);
-    this.processData = this.processData.bind(this);
+    // this.renderData = this.renderData.bind(this);
+    // this.processData = this.processData.bind(this);
 
     // subscribe to 'ReturnedServerData' event
     this.pubsub.subscribe('LocalData', null, null, this.processData);
