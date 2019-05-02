@@ -1,6 +1,6 @@
 import PubSub from '../data/pubsub.js';
 
-export default class AppControlButton extends HTMLElement {
+export default class AppControlButton extends RootElement {
   constructor() {
     super();
     this.pubsub = PubSub;
