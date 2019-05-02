@@ -5,7 +5,7 @@ export default class AppTableBase extends RootElement {
   constructor() {
     super();
     this.pubsub = PubSub;
-    this.renderData = this.renderData.bind(this);
+    // this.renderData = this.renderData.bind(this);
     this.pubsub.subscribe('FileChecked', 'updateFiles', null, this.renderData);
     this.pubsub.subscribe('LocalData', 'getLocalData', null, this.renderData);
     this.pubsub.subscribe('ServerResult', 'getLocalData', null, this.renderData);

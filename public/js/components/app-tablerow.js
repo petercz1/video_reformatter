@@ -6,8 +6,8 @@ export default class AppTableRow extends RootElement {
     super();
     this.pubsub = PubSub;
     this.file = file;
-    this.renderData = this.renderData.bind(this);
-    this.registerChange = this.registerChange.bind(this);
+    // this.renderData = this.renderData.bind(this);
+    // this.registerChange = this.registerChange.bind(this);
     this.renderData();
   }
   renderData() {
