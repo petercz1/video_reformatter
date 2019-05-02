@@ -55,7 +55,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 * Use terminal/console/command line and go to the folder containing your downloaded files
 * type `php -S localhost:4567`
 * type `localhost:4567` in your browser address bar
-* 
+* enter the folder containing your videos. 
 * if the file container is already mp4 but changes have to be made inside, the new file will be called `yourfile.new.mp4`
 
 ## version history
