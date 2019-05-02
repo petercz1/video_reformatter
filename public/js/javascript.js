@@ -1,4 +1,5 @@
 import './components/app-controlbutton.js';
+import './components/app-controlbutton.js';
 import './components/app-tablebase.js';
 import './data/fetchData.js';
 import './data/sendData.js';
