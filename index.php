@@ -2,15 +2,12 @@
 declare(strict_types=1);
 namespace chipbug\php_video_reformatter;
 
-//echo 'START' . '</br>';
-
 require_once('classes/autoloader.php');
 (new Autoloader)->init();
 
 (new Debug)->init();
 
 (new Router)->init();
-
 
 // simple debug helper
 function notice($txt)
