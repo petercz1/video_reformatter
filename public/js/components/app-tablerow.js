@@ -3,12 +3,14 @@ import PubSub from '../data/pubsub.js';
 
 
 export default class AppTableRow extends RootElement {
+  
   constructor(file) {
     super();
     this.pubsub = PubSub;
     this.file = file;
     this.renderData();
   }
+
   renderData() {
     this.setAttribute('class', 'trow');
     this.innerHTML = `
