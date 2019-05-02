@@ -56,7 +56,7 @@ this is built on a linux box (Ubuntu mate 18.04) with the following installed:
 * type `php -S localhost:4567`
 * type `localhost:4567` in your browser address bar
 * enter the folder containing your videos. The code will automatically check folders inside folders.
-* decide if you want the old files deleting. THIS IS IRREVERSIB
+* decide if you want the old files deleting. THIS IS IRREVERSIBLE
 * if the file container is already mp4 but changes have to be made inside, the new file will be called `yourfile.new.mp4`
 
 ## version history
